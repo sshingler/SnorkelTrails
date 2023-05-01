@@ -1,13 +1,11 @@
-package Models;
-
+package com.example.demo.Models;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="Beaches")
+@Table(name="beaches")
 public class Beach {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,19 +28,19 @@ public class Beach {
 
     @JsonIgnoreProperties({"beach"})
     @OneToMany(mappedBy = "beach", fetch = FetchType.LAZY)
-    private List<CreatureBeaches> creatureBeaches;
+    private List<CreatureBeach> creatureBeaches;
 
     @Column (name="amenities")
-    private ArrayList amenities;
+    private List<Integer> amenities;
 
-    public Beach(String name, String map_cords, String w3w, String nearestVillage, String description, ArrayList<Creature> creatures, ArrayList amenities) {
+    public Beach(String name, String map_cords, String w3w, String nearestVillage, String description) {
         this.name = name;
         this.map_cords = map_cords;
         this.w3w = w3w;
         this.nearestVillage = nearestVillage;
         this.description = description;
-        this.creatureBeaches = new ArrayList<CreatureBeach>();
-        this.amenities = amenities;
+        this.creatureBeaches = new ArrayList<>();
+        this.amenities = new ArrayList<>();
     }
 
     public Beach() {
@@ -96,19 +94,23 @@ public class Beach {
         this.description = description;
     }
 
-    public ArrayList<Creature> getCreatures() {
-        return creatures;
+    public List<CreatureBeach> getCreatureBeaches() {
+        return creatureBeaches;
     }
 
-    public void setCreatures(ArrayList<Creature> creatures) {
-        this.creatures = creatures;
+    public void setCreatureBeaches (List<CreatureBeach> creatureBeaches) {
+        this.creatureBeaches = creatureBeaches;
     }
 
-    public ArrayList getAmenities() {
+    public void addCreatureBeach (CreatureBeach creatureBeach) {
+        this.creatureBeaches.add(creatureBeach);
+    }
+
+    public List<Integer> getAmenities() {
         return amenities;
     }
 
-    public void setAmenities(ArrayList amenities) {
+    public void setAmenities(List<Integer> amenities) {
         this.amenities = amenities;
     }
 }

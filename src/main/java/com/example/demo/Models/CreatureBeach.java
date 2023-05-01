@@ -1,4 +1,5 @@
-package Models;
+package com.example.demo.Models;
+
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
@@ -12,12 +13,12 @@ public class CreatureBeach {
     private Long id;
 
     @ManyToOne
-    @JsonIgnoreProperties({creatureBeaches})
+    @JsonIgnoreProperties({"creatureBeaches"})
     @JoinColumn( name = "creature_id", nullable = false)
     private Creature creature;
 
     @ManyToOne
-    @JsonIgnoreProperties({creatureBeaches})
+    @JsonIgnoreProperties({"creatureBeaches"})
     @JoinColumn(name = "beach_id", nullable = false)
     private Beach beach;
 

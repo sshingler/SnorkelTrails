@@ -1,14 +1,13 @@
-package Models;
-
+package com.example.demo.Models;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="Creatures")
+@Table(name="creatures")
 public class Creature {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -35,7 +34,7 @@ public class Creature {
     @OneToMany(mappedBy = "creature", fetch = FetchType.LAZY)
     private List<CreatureBeach> creatureBeaches;
 
-    public Creature(String type, String name, String img, String size, String habitat, String notes, ArrayList<Beach> location) {
+    public Creature(String type, String name, String img, String size, String habitat, String notes) {
         this.type = type;
         this.name = name;
         this.img = img;
@@ -105,11 +104,17 @@ public class Creature {
         this.notes = notes;
     }
 
-    public ArrayList<Beach> getLocation() {
-        return location;
+    public List<CreatureBeach> getCreatureBeaches() {
+        return creatureBeaches;
     }
 
-    public void setLocation(ArrayList<Beach> location) {
-        this.location = location;
+    public void setCreatureBeaches(List<CreatureBeach> creatureBeaches) {
+        this.creatureBeaches = creatureBeaches;
     }
+
+    public void addCreatureBeach (CreatureBeach creatureBeach) {
+        this.creatureBeaches.add(creatureBeach);
+    }
+
+
 }
