@@ -46,7 +46,11 @@ class CapProjectApplicationTests {
 
 	@Test
 	public void canCreateCreatureBeach() {
-		CreatureBeach example1 = new CreatureBeach(0, 0);
+		Creature whelk = new Creature ("Snail", "Dogwhelk", "DogWhelk.jpeg", "3 - 6cm", "Found on the lower shore", "Common");
+		creatureRepository.save(whelk);
+		Beach beachTom = new Beach("Beach Tom", "-123.4, 567", "Tom, Is, Cool", "Tomvile", "The best beach in the world" );
+		beachRepository.save(beachTom);
+		CreatureBeach example1 = new CreatureBeach(whelk,beachTom);
 		creatureBeachRepository.save(example1);
 	}
 
