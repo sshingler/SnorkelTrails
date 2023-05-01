@@ -1,15 +1,39 @@
 package Models;
 
-import java.util.ArrayList;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jakarta.persistence.*;
 
-public abstract class Creature {
+import java.util.ArrayList;
+import java.util.List;
+
+@Entity
+@Table(name="Creatures")
+public class Creature {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "type")
     private String type;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "img")
     private String img;
+
+    @Column(name = "size")
     private String size;
+
+    @Column(name = "habitat")
     private String habitat;
+
+    @Column(name = "notes")
     private String notes;
-    private ArrayList<Beach> location;
+
+    @JsonIgnoreProperties({"creature"})
+    @OneToMany(mappedBy = "creature", fetch = FetchType.LAZY)
+    private List<CreatureBeach> creatureBeaches;
 
     public Creature(String type, String name, String img, String size, String habitat, String notes, ArrayList<Beach> location) {
         this.type = type;
@@ -18,7 +42,19 @@ public abstract class Creature {
         this.size = size;
         this.habitat = habitat;
         this.notes = notes;
-        this.location = location;
+        this.creatureBeaches = new ArrayList<CreatureBeach>();
+    }
+
+    public Creature() {
+
+    }
+
+    public Long getId(){
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getType() {
