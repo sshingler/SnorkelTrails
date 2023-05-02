@@ -265,6 +265,10 @@ public class DataLoader implements ApplicationRunner {
 
         //Arran - Clauchlands Farm - CreatureBeaches - Other
 
+
+
+
+
         //Arran - Lamlash - CreatureBeaches - Fish
 
         CreatureBeach LamlashBallanWrasse = new CreatureBeach(BallanWrasse, Lamlash);
@@ -278,6 +282,195 @@ public class DataLoader implements ApplicationRunner {
 
         CreatureBeach LamlashJuvenileCod = new CreatureBeach(JuvenileCod, Lamlash);
         creatureBeachRepository.save(LamlashJuvenileCod);
+
+        //Arran - Lamlash - CreatureBeaches - Crustaceans
+
+        CreatureBeach LamlashShoreCrab = new CreatureBeach(ShoreCrab, Lamlash);
+        creatureBeachRepository.save(LamlashShoreCrab);
+
+        CreatureBeach LamlashHarbourCrab = new CreatureBeach(HarbourCrab, Lamlash);
+        creatureBeachRepository.save(LamlashHarbourCrab);
+
+        CreatureBeach LamlashVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, Lamlash);
+        creatureBeachRepository.save(LamlashVelvetSwimmingCrab);
+
+        CreatureBeach LamlashHermitCrab = new CreatureBeach(HermitCrab, Lamlash);
+        creatureBeachRepository.save(LamlashHermitCrab);
+
+        //Arran - Lamlash - CreatureBeaches - Snails
+
+        CreatureBeach LamlashDogwhelk = new CreatureBeach(Dogwhelk, Lamlash);
+        creatureBeachRepository.save(LamlashDogwhelk);
+
+        CreatureBeach LamlashLimpet = new CreatureBeach(Limpet, Lamlash);
+        creatureBeachRepository.save(LamlashLimpet);
+
+        CreatureBeach LamlashPeriwinkle = new CreatureBeach(Periwinkle, Lamlash);
+        creatureBeachRepository.save(LamlashPeriwinkle);
+
+        CreatureBeach LamlashTopshell = new CreatureBeach(Topshell, Lamlash);
+        creatureBeachRepository.save(LamlashTopshell);
+
+        //Arran - Lamlash - CreatureBeaches - Other Invertebrtes
+
+        CreatureBeach LamlashPeacockWorm = new CreatureBeach(PeacockWorm, Lamlash);
+        creatureBeachRepository.save(LamlashPeacockWorm);
+
+        CreatureBeach LamlashBeadletAnemone = new CreatureBeach(BeadletAnemone, Lamlash);
+        creatureBeachRepository.save(LamlashBeadletAnemone);
+
+        CreatureBeach LamlashSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, Lamlash);
+        creatureBeachRepository.save(LamlashSnakelocksAnemone);
+
+        CreatureBeach LamlashBurrowingAnemone = new CreatureBeach(BurrowingAnemone, Lamlash);
+        creatureBeachRepository.save(LamlashBurrowingAnemone);
+
+        //Arran - Lamlash - CreatureBeaches - Jellyfish
+
+        CreatureBeach LamlashLionsMane = new CreatureBeach(LionsMane, Lamlash);
+        creatureBeachRepository.save(LamlashLionsMane);
+
+        CreatureBeach LamlashMoon = new CreatureBeach(Moon, Lamlash);
+        creatureBeachRepository.save(LamlashMoon);
+
+        CreatureBeach LamlashBarrel = new CreatureBeach(Barrel, Lamlash);
+        creatureBeachRepository.save(LamlashBarrel);
+
+        CreatureBeach LamlashComb = new CreatureBeach(Comb, Lamlash);
+        creatureBeachRepository.save(LamlashComb);
+
+        //Arran - Lamlash - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach LamlashCommonStarfish = new CreatureBeach(CommonStarfish, Lamlash);
+        creatureBeachRepository.save(LamlashCommonStarfish);
+
+        CreatureBeach LamlashSunstar = new CreatureBeach(Sunstar, Lamlash);
+        creatureBeachRepository.save(LamlashSunstar);
+
+        CreatureBeach LamlashCommonUrchin = new CreatureBeach(CommonUrchin, Lamlash);
+        creatureBeachRepository.save(LamlashCommonUrchin);
+
+        CreatureBeach LamlashSpinyStarfish = new CreatureBeach(SpinyStarfish, Lamlash);
+        creatureBeachRepository.save(LamlashSpinyStarfish);
+
+        //Arran - Lamlash - CreatureBeaches - Plants & Algae
+
+        CreatureBeach LamlashKelp = new CreatureBeach(Kelp, Lamlash);
+        creatureBeachRepository.save(LamlashKelp);
+
+        CreatureBeach LamlashSeagrass = new CreatureBeach(Seagrass, Lamlash);
+        creatureBeachRepository.save(LamlashSeagrass);
+
+        CreatureBeach LamlashBladderWrack = new CreatureBeach(BladderWrack, Lamlash);
+        creatureBeachRepository.save(LamlashBladderWrack);
+
+        CreatureBeach LamlashMaerl = new CreatureBeach(Maerl, Lamlash);
+        creatureBeachRepository.save(LamlashMaerl);
+
+        //Arran - Lamlash - CreatureBeaches - Other
+
+
+
+
+
+        //Arran - WhitingBay - CreatureBeaches - Fish
+
+        CreatureBeach WhitingBayBallanWrasse = new CreatureBeach(BallanWrasse, WhitingBay);
+        creatureBeachRepository.save(WhitingBayBallanWrasse);
+
+        CreatureBeach WhitingBayCommonBlenny = new CreatureBeach(CommonBlenny, WhitingBay);
+        creatureBeachRepository.save(WhitingBayCommonBlenny);
+
+        CreatureBeach WhitingBayTwoSpotGoby = new CreatureBeach(TwoSpotGoby, WhitingBay);
+        creatureBeachRepository.save(WhitingBayTwoSpotGoby);
+
+        CreatureBeach WhitingBayJuvenileCod = new CreatureBeach(JuvenileCod, WhitingBay);
+        creatureBeachRepository.save(WhitingBayJuvenileCod);
+
+        //Arran - WhitingBay - CreatureBeaches - Crustaceans
+
+        CreatureBeach WhitingBayShoreCrab = new CreatureBeach(ShoreCrab, WhitingBay);
+        creatureBeachRepository.save(WhitingBayShoreCrab);
+
+        CreatureBeach WhitingBayHarbourCrab = new CreatureBeach(HarbourCrab, WhitingBay);
+        creatureBeachRepository.save(WhitingBayHarbourCrab);
+
+        CreatureBeach WhitingBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, WhitingBay);
+        creatureBeachRepository.save(WhitingBayVelvetSwimmingCrab);
+
+        CreatureBeach WhitingBayHermitCrab = new CreatureBeach(HermitCrab, WhitingBay);
+        creatureBeachRepository.save(WhitingBayHermitCrab);
+
+        //Arran - WhitingBay - CreatureBeaches - Snails
+        CreatureBeach WhitingBayDogwhelk = new CreatureBeach(Dogwhelk, WhitingBay);
+        creatureBeachRepository.save(WhitingBayDogwhelk);
+
+        CreatureBeach WhitingBayLimpet = new CreatureBeach(Limpet, WhitingBay);
+        creatureBeachRepository.save(WhitingBayLimpet);
+
+        CreatureBeach WhitingBayPeriwinkle = new CreatureBeach(Periwinkle, WhitingBay);
+        creatureBeachRepository.save(WhitingBayPeriwinkle);
+
+        CreatureBeach WhitingBayTopshell = new CreatureBeach(Topshell, WhitingBay);
+        creatureBeachRepository.save(WhitingBayTopshell);
+
+        //Arran - WhitingBay - CreatureBeaches - Other Invertebrtes
+
+        CreatureBeach WhitingBayPeacockWorm = new CreatureBeach(PeacockWorm, WhitingBay);
+        creatureBeachRepository.save(WhitingBayPeacockWorm);
+
+        CreatureBeach WhitingBayBeadletAnemone = new CreatureBeach(BeadletAnemone, WhitingBay);
+        creatureBeachRepository.save(WhitingBayBeadletAnemone);
+
+        CreatureBeach WhitingBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, WhitingBay);
+        creatureBeachRepository.save(WhitingBaySnakelocksAnemone);
+
+        CreatureBeach WhitingBayBurrowingAnemone = new CreatureBeach(BurrowingAnemone, WhitingBay);
+        creatureBeachRepository.save(WhitingBayBurrowingAnemone);
+
+        //Arran - WhitingBay - CreatureBeaches - Jellyfish
+
+        CreatureBeach WhitingBayLionsMane = new CreatureBeach(LionsMane, WhitingBay);
+        creatureBeachRepository.save(WhitingBayLionsMane);
+
+        CreatureBeach WhitingBayMoon = new CreatureBeach(Moon, WhitingBay);
+        creatureBeachRepository.save(WhitingBayMoon);
+
+        CreatureBeach WhitingBayBarrel = new CreatureBeach(Barrel, WhitingBay);
+        creatureBeachRepository.save(WhitingBayBarrel);
+
+        CreatureBeach WhitingBayComb = new CreatureBeach(Comb, WhitingBay);
+        creatureBeachRepository.save(WhitingBayComb);
+
+        //Arran - WhitingBay - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach WhitingBayCommonStarfish = new CreatureBeach(CommonStarfish, WhitingBay);
+        creatureBeachRepository.save(WhitingBayCommonStarfish);
+
+        CreatureBeach WhitingBaySunstar = new CreatureBeach(Sunstar, WhitingBay);
+        creatureBeachRepository.save(WhitingBaySunstar);
+
+        CreatureBeach WhitingBayCommonUrchin = new CreatureBeach(CommonUrchin, WhitingBay);
+        creatureBeachRepository.save(LamlashCommonUrchin);
+
+        CreatureBeach WhitingBaySpinyStarfish = new CreatureBeach(SpinyStarfish, WhitingBay);
+        creatureBeachRepository.save(LamlashSpinyStarfish);
+
+        //Arran - WhitingBay - CreatureBeaches - Plants & Algae
+
+        CreatureBeach WhitingBayKelp = new CreatureBeach(Kelp, WhitingBay);
+        creatureBeachRepository.save(WhitingBayKelp);
+
+        CreatureBeach WhitingBaySeagrass = new CreatureBeach(Seagrass, WhitingBay);
+        creatureBeachRepository.save(WhitingBaySeagrass);
+
+        CreatureBeach WhitingBayBladderWrack = new CreatureBeach(BladderWrack, WhitingBay);
+        creatureBeachRepository.save(WhitingBayBladderWrack);
+
+        CreatureBeach WhitingBayMaerl = new CreatureBeach(Maerl, WhitingBay);
+        creatureBeachRepository.save(WhitingBayMaerl);
+
+        //Arran - WhitingBay - CreatureBeaches - Other
 
 
 
