@@ -110,6 +110,7 @@ public class DataLoader implements ApplicationRunner {
         Creature Comb = new Creature("Jellyfish","", "CombJellyfish.jpeg", "A few mm up to 1.5m long", "Actually made up of a group called 'Ctenophores', found in coastal and oceanic waters worldwide.","Common");
         creatureRepository.save(Comb);
 
+
         //Starfish & Urchins
 
         Creature CommonStarfish = new Creature("Starfish & Urchins","CommonStarfish", "CommonStarfish.jpeg", "10 - 30cm", "Highly common in UK seas and rock pools.","Common");
@@ -143,23 +144,23 @@ public class DataLoader implements ApplicationRunner {
 
         // Arran - Beaches
 
-        Beach ClauchlandsFarm = new Beach ("Arran", "Arran_ClauchlandsFarm.png", "Clauchlands Farm", "OS Explorer 361, NS048326", "///watched.violin.mammoths", "Lamlash (1.2 miles)", "This site, which is within the No Take Zone, offers the opportunity to see a marine habitat where no fishing has taken place since 2008. Look for juvenile fish and a wide variety of crabs and starfish amongst the seaweed. You may also find some patches of seagrass to explore by swimming along for a short 3 while with the coast on your right-hand side.");
+        Beach ClauchlandsFarm = new Beach ("Arran", "Arran_ClauchlandsFarm.png", "Clauchlands Farm", "OS Explorer 361, NS048326", "///watched.violin.mammoths", "Lamlash (1.2 miles)", "Look for juvenile fish and a wide variety of crabs and starfish amongst the seaweed. You may also find some patches of seagrass to explore by swimming along for a short 3 while with the coast on your right-hand side.");
         beachRepository.save(ClauchlandsFarm);
 
-        Beach Lamlash  = new Beach ("Arran", "Arran_Lamlash.png", "Lamlash", "OS Explorer 361, NS030314", "///myth.uplifting.flux", "Lamlash(0 miles)", "The beach below the Drift Inn offers carefully-footed access to this excellent site, where a myriad of marine life lives. More advanced snorkelers can head slightly further out towards the buoys to try and find small patches of seagrass. There is a working pier near this site, so keep a safe distance from the jetty and be careful of boat traffic.");
+        Beach Lamlash  = new Beach ("Arran", "Arran_Lamlash.png", "Lamlash", "OS Explorer 361, NS030314", "///myth.uplifting.flux", "Lamlash(0 miles)", "The beach below the Drift Inn offers carefully-footed access to this excellent site, where a myriad of marine life lives. More advanced snorkelers can head slightly further out towards the buoys to try and find small patches of seagrass.");
         beachRepository.save(Lamlash);
 
-        Beach WhitingBay = new Beach ("Arran", "Arran_WhitingBay.png", "Whiting Bay", " OS Explorer 361, NS045261", "///from.almost.overlooks", "Whiting Bay (0 miles)", "The old jetty at  Whiting Bay offers an ideal place for snorkeling; with easy access across a sandy beach there is lots to see making it a fantastic place for beginners and younger snorkelers. For the more experienced, head further out on a low tide towards the mooring buoys to find amazing seagrass habitat.");
-        beachRepository.save(WhitingBay);
+        //Beach WhitingBay = new Beach ("Arran", "Arran_WhitingBay.png", "Whiting Bay", " OS Explorer 361, NS045261", "///from.almost.overlooks", "Whiting Bay (0 miles)", "The old jetty at  Whiting Bay offers an ideal place for snorkeling; with easy access across a sandy beach there is lots to see making it a fantastic place for beginners and younger snorkelers. For the more experienced, head further out on a low tide towards the mooring buoys to find amazing seagrass habitat.");
+        //beachRepository.save(WhitingBay);
 
-        Beach Kildonan = new Beach ("Arran", "Arran_Kildonan.png", "Kildonan", " OS Explorer 361, NS021209", "///squirts.dined.faced", "Kildonan (0 miles)", "This sheltered beach at the southern end of Arran is easily accessed from in front of the village hall. The geology offers impressive rocky outcrops, providing great habitat for fish and crustaceans. Seabirds, seals and otters are commonly seen here. The small beach at the front of the hall is great for beginners, more experienced may choose to explore the rocky outcrops.");
-        beachRepository.save(Kildonan);
+        //Beach Kildonan = new Beach ("Arran", "Arran_Kildonan.png", "Kildonan", " OS Explorer 361, NS021209", "///squirts.dined.faced", "Kildonan (0 miles)", "This sheltered beach at the southern end of Arran is easily accessed from in front of the village hall. The geology offers impressive rocky outcrops, providing great habitat for fish and crustaceans. Seabirds, seals and otters are commonly seen here. The small beach at the front of the hall is great for beginners, more experienced may choose to explore the rocky outcrops.");
+        //beachRepository.save(Kildonan);
 
-        Beach Imachar = new Beach ("Arran", "Arran_Imachar.png", "Imachar", "OS Explorer 361, NR865401", "///loans.describes.starred", "Pinmill (2.6 miles)", "This rocky outcrop is surrounded by beautifully clear waters, providing an excellent opportunity to see a variety of fish, crabs, starfish and many other species. Entry is safest directly off the pebble beach either side of the outcrop. Snorkeling this site an hour either side of high tide is recommended, and advanced snorkelers may benefit from taking a torch to explore between the rocks.");
-        beachRepository.save(Imachar);
+        //Beach Imachar = new Beach ("Arran", "Arran_Imachar.png", "Imachar", "OS Explorer 361, NR865401", "///loans.describes.starred", "Pinmill (2.6 miles)", "This rocky outcrop is surrounded by beautifully clear waters, providing an excellent opportunity to see a variety of fish, crabs, starfish and many other species. Entry is safest directly off the pebble beach either side of the outcrop. Snorkeling this site an hour either side of high tide is recommended, and advanced snorkelers may benefit from taking a torch to explore between the rocks.");
+        //beachRepository.save(Imachar);
 
-        Beach Lochranza = new Beach ("Arran", "Arran_Lochranza.png", "Lochranza", "OS Explorer 361, NR925509", "///hilltop.processor.touchy", "Lochranza (0 miles)", "To the west of the ferry pier, this sheltered beach offers an easily accessible site to snorkel whilst waiting for the ferry. Crabs, juvenile fish, starfish and a variety of sea snails can often be found hiding amongst the seaweed. Please ensure you stay close to the coast and remain well away from the working ferry pier.");
-        beachRepository.save(Lochranza);
+        //Beach Lochranza = new Beach ("Arran", "Arran_Lochranza.png", "Lochranza", "OS Explorer 361, NR925509", "///hilltop.processor.touchy", "Lochranza (0 miles)", "To the west of the ferry pier, this sheltered beach offers an easily accessible site to snorkel whilst waiting for the ferry. Crabs, juvenile fish, starfish and a variety of sea snails can often be found hiding amongst the seaweed. Please ensure you stay close to the coast and remain well away from the working ferry pier.");
+        //beachRepository.save(Lochranza);
 
 
 
