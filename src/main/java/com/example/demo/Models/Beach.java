@@ -11,6 +11,12 @@ public class Beach {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column (name = "Location")
+    private String location;
+
+    @Column ( name= "image")
+    private String image;
+
     @Column(name = "name")
     private String name;
 
@@ -33,7 +39,9 @@ public class Beach {
     @Column (name="amenities")
     private List<Integer> amenities;
 
-    public Beach(String name, String map_cords, String w3w, String nearestVillage, String description) {
+    public Beach(String location, String image, String name, String map_cords, String w3w, String nearestVillage, String description) {
+        this.location = location;
+        this.image = image;
         this.name = name;
         this.map_cords = map_cords;
         this.w3w = w3w;
@@ -44,6 +52,22 @@ public class Beach {
     }
 
     public Beach() {
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public Long getId(){
