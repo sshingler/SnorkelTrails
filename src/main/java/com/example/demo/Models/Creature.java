@@ -24,7 +24,7 @@ public class Creature {
     @Column(name = "size")
     private String size;
 
-    @Column(name = "habitat")
+    @Column(name = "habitat", columnDefinition="LONGTEXT")
     private String habitat;
 
     @Column(name = "notes")

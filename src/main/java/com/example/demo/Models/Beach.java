@@ -31,7 +31,7 @@ public class Beach {
     @Column (name= "nearest_village")
     private String nearestVillage;
 
-    @Column (name = "description")
+    @Column (name = "description", columnDefinition="LONGTEXT")
     private String description;
 
     @JsonIgnoreProperties({"beach"})
