@@ -163,15 +163,34 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Arran - Clauchlands Farm - CreatureBeaches - Fish
 
-//        Creature[] creatures = { creature1, creature2};
-//        List<Creature> creatureList = Arrays.asList(creatures);
-//
-        CreatureBeach creatureBeach1 = new CreatureBeach(creature1, beach1);
-        creatureBeachRepository.save(creatureBeach1);
+        CreatureBeach ClauchlandsFarmBallanWrasse = new CreatureBeach(BallanWrasse, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmBallanWrasse);
 
-        CreatureBeach creatureBeach2 = new CreatureBeach(creature2, beach1);
-        creatureBeachRepository.save(creatureBeach2);
+        CreatureBeach ClauchlandsFarmCommonBlenny = new CreatureBeach(CommonBlenny, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmCommonBlenny);
+
+        CreatureBeach ClauchlandsFarmTwoSpotGoby = new CreatureBeach(TwoSpotGoby, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmTwoSpotGoby);
+
+        CreatureBeach ClauchlandsFarmJuvenileCod = new CreatureBeach(JuvenileCod, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmJuvenileCod);
+
+
+        //Arran - Clauchlands Farm - CreatureBeaches - Crustaceans
+
+        CreatureBeach ClauchlandsFarmShoreCrab = new CreatureBeach(ShoreCrab, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmShoreCrab);
+
+        CreatureBeach ClauchlandsFarmHarbourCrab = new CreatureBeach(HarbourCrab, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmHarbourCrab);
+
+        CreatureBeach ClauchlandsFarmVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmVelvetSwimmingCrab);
+
+        CreatureBeach ClauchlandsFarmHermitCrab = new CreatureBeach(HermitCrab, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmHermitCrab);
 
 
     }
