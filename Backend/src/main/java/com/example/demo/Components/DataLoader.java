@@ -193,6 +193,95 @@ public class DataLoader implements ApplicationRunner {
         CreatureBeach ClauchlandsFarmHermitCrab = new CreatureBeach(HermitCrab, ClauchlandsFarm);
         creatureBeachRepository.save(ClauchlandsFarmHermitCrab);
 
+        //Arran - Clauchlands Farm - CreatureBeaches - Snails
+
+        CreatureBeach ClauchlandsFarmDogwhelk = new CreatureBeach(Dogwhelk, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmDogwhelk);
+
+        CreatureBeach ClauchlandsFarmLimpet = new CreatureBeach(Limpet, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmLimpet);
+
+        CreatureBeach ClauchlandsFarmPeriwinkle = new CreatureBeach(Periwinkle, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmPeriwinkle);
+
+        CreatureBeach ClauchlandsFarmTopshell = new CreatureBeach(Topshell, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmTopshell);
+
+        //Arran - Clauchlands Farm - CreatureBeaches - Other Invertebrtes
+
+        CreatureBeach ClauchlandsFarmPeacockWorm = new CreatureBeach(PeacockWorm, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmPeacockWorm);
+
+        CreatureBeach ClauchlandsFarmBeadletAnemone = new CreatureBeach(BeadletAnemone, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmBeadletAnemone);
+
+        CreatureBeach ClauchlandsFarmSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmSnakelocksAnemone);
+
+        CreatureBeach ClauchlandsFarmBurrowingAnemone = new CreatureBeach(BurrowingAnemone, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmBurrowingAnemone);
+
+        //Arran - Clauchlands Farm - CreatureBeaches - Jellyfish
+
+        CreatureBeach ClauchlandsFarmLionsMane = new CreatureBeach(LionsMane, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmLionsMane);
+
+        CreatureBeach ClauchlandsFarmMoon = new CreatureBeach(Moon, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmMoon);
+
+        CreatureBeach ClauchlandsFarmBarrel = new CreatureBeach(Barrel, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmBarrel);
+
+        CreatureBeach ClauchlandsFarmComb = new CreatureBeach(Comb, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmComb);
+
+        //Arran - Clauchlands Farm - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach ClauchlandsFarmCommonStarfish = new CreatureBeach(CommonStarfish, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmCommonStarfish);
+
+        CreatureBeach ClauchlandsFarmSunstar = new CreatureBeach(Sunstar, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmSunstar);
+
+        CreatureBeach ClauchlandsFarmCommonUrchin = new CreatureBeach(CommonUrchin, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmCommonUrchin);
+
+        CreatureBeach ClauchlandsFarmSpinyStarfish = new CreatureBeach(SpinyStarfish, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmSpinyStarfish);
+
+        //Arran - Clauchlands Farm - CreatureBeaches - Plants & Algae
+
+        CreatureBeach ClauchlandsFarmKelp = new CreatureBeach(Kelp, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmKelp);
+
+        CreatureBeach ClauchlandsFarmSeagrass = new CreatureBeach(Seagrass, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmSeagrass);
+
+        CreatureBeach ClauchlandsFarmBladderWrack = new CreatureBeach(BladderWrack, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmBladderWrack);
+
+        CreatureBeach ClauchlandsFarmMaerl = new CreatureBeach(Maerl, ClauchlandsFarm);
+        creatureBeachRepository.save(ClauchlandsFarmMaerl);
+
+        //Arran - Clauchlands Farm - CreatureBeaches - Other
+
+        //Arran - Lamlash - CreatureBeaches - Fish
+
+        CreatureBeach LamlashBallanWrasse = new CreatureBeach(BallanWrasse, Lamlash);
+        creatureBeachRepository.save(LamlashBallanWrasse);
+
+        CreatureBeach LamlashCommonBlenny = new CreatureBeach(CommonBlenny, Lamlash);
+        creatureBeachRepository.save(LamlashCommonBlenny);
+
+        CreatureBeach LamlashTwoSpotGoby = new CreatureBeach(TwoSpotGoby, Lamlash);
+        creatureBeachRepository.save(LamlashTwoSpotGoby);
+
+        CreatureBeach LamlashJuvenileCod = new CreatureBeach(JuvenileCod, Lamlash);
+        creatureBeachRepository.save(LamlashJuvenileCod);
+
+
+
+
 
     }
 }
