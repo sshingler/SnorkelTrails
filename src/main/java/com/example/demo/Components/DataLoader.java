@@ -48,7 +48,12 @@ public class DataLoader implements ApplicationRunner {
 //        Creature[] creatures = { creature1, creature2};
 //        List<Creature> creatureList = Arrays.asList(creatures);
 //
-//        CreatureBeach creatureBeach1 = new CreatureBeach(creatureList, beach1);
-//        creatureBeachRepository.save(creatureBeach1);
+        CreatureBeach creatureBeach1 = new CreatureBeach(creature1, beach1);
+        creatureBeachRepository.save(creatureBeach1);
+
+        CreatureBeach creatureBeach2 = new CreatureBeach(creature2, beach1);
+        creatureBeachRepository.save(creatureBeach2);
+
+
     }
 }

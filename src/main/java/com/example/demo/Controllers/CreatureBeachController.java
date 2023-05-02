@@ -1,4 +1,5 @@
 package com.example.demo.Controllers;
+import com.example.demo.Models.Beach;
 import com.example.demo.Models.Creature;
 import com.example.demo.Models.CreatureBeach;
 import com.example.demo.Repositories.BeachRepository;
@@ -33,6 +34,17 @@ public class CreatureBeachController {
     public Optional<CreatureBeach> getCreatureBeach(@PathVariable Long id){
         return creatureBeachRepository.findById(id);
     }
+
+    @GetMapping(value = "/creaturebeaches/{id}/creatures")
+    public List<Creature> getCreaturesOnBeach(@PathVariable Long id){
+        return creatureRepository.findAllByCreatureBeachesBeachId(id);
+    }
+
+    @GetMapping(value = "/creaturebeaches/{id}/beaches")
+    public List<Beach> getBeachWithCreatures(@PathVariable Long id){
+        return beachRepository.findAllByCreatureBeachesCreatureId(id);
+    }
+
 
 
 

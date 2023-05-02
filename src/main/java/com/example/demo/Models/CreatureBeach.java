@@ -34,6 +34,7 @@ public class CreatureBeach {
 
     }
 
+
     public Long getId() {
         return id;
     }
