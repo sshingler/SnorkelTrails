@@ -4,6 +4,9 @@ package com.example.demo.Models;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "creatureBeaches")
 public class CreatureBeach {
@@ -40,11 +43,11 @@ public class CreatureBeach {
     }
 
     public Creature getCreature() {
-        return creature;
+        return (Creature) creature;
     }
 
     public void setCreature(Creature creature) {
-        this.creature = creature;
+        this.creature = CreatureBeach.this.creature;
     }
 
     public Beach getBeach() {
@@ -54,4 +57,6 @@ public class CreatureBeach {
     public void setBeach(Beach beach) {
         this.beach = beach;
     }
+
+
 }
