@@ -1,0 +1,8 @@
+.navbar-wrapper {
+    background-color: blue;
+    height: 10vh;
+    width: 100vw;
+    color: red;
+    display: flex;
+    position: fixed;
+}

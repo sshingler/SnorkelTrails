@@ -1,0 +1,8 @@
+.footer-wrapper {
+    background-color: red;
+    color: blue;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
