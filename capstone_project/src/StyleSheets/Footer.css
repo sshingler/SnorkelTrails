@@ -1,7 +1,10 @@
 .footer-wrapper {
-    background-color: red;
+    background-color: rgb(15, 69, 15);
     color: blue;
-    height: 10vh;
-    width: 100vw;
-    margin-top: auto
+    /* height: 10vh;
+    width: 100vw; */
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
 }
+

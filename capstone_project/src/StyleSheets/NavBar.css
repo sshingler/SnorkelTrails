@@ -1,15 +1,17 @@
 .navbar-wrapper {
     background-color: blue;
-    height: 10vh;
-    width: 100vw;
-    color: red;
-    display: flex;
-    position: fixed;
+    /* height: 10vh;
+    width: 100vw; */
+    /* display: flex;
+    position: fixed; */
+    overflow:hidden
+}
+
+.no-decoration{
+  list-style-type: none;
 }
 
 .navbar-wrapper a{
-
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -23,7 +25,14 @@
     color: black;
   }
 
-  .navbar-wrapper a.active {
+  /* .navbar-wrapper a.active {
     background-color: #04AA6D;
     color: white;
+  } */
+
+  .navbar-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
   }

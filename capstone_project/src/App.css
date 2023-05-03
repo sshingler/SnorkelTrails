@@ -1,11 +1,12 @@
-.App {
+/* .App {
   text-align: center;
   padding: 0;
   margin: 0;
-  background-color: black;
+  background-color: black; 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  justify-content: space-between;
 }
 
 .padding-top {
@@ -53,4 +54,4 @@
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-}
+}   */
