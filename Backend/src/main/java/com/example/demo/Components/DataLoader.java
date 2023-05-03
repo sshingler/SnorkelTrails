@@ -174,8 +174,13 @@ public class DataLoader implements ApplicationRunner {
         Creature SeaLettuce = new Creature("Plants & Algae","Sea Lettuce","SeaLettuce.jpeg","Up to 20cm length","Unmistakable and found on all UK coasts - most often bright green and always translucent.","Common");
         creatureRepository.save(SeaLettuce);
 
+        //Other
 
 
+
+
+
+        //Beaches
 
         // Arran - Beaches
 
@@ -213,6 +218,17 @@ public class DataLoader implements ApplicationRunner {
 
         Beach EyemouthBeach = new Beach("Berwickshire","Berwickshire_EyemouthBeach.png","Eyemouth Beach","OS Landranger 67, NT943645","///marbles.enjoys.professes","55.873639,-2.092681","Eyemouth (0 miles)","Eyemouth’s easily accessible beach is perfect for first-time snorkelers, with a gradual walk into the sea to spot your first fish. Rockier outcrops to the north offer advanced snorkelers the chance to spot crabs and squat lobsters in the submerged rock pools, and seaweed gives shelter for many fish species. The Eyemouth Leisure Centre provides changing and showering facilities for a small fee.");
         beachRepository.save(EyemouthBeach);
+
+        //East-Lothian - Beaches
+
+
+
+
+
+
+
+
+
 
 
 
@@ -838,6 +854,12 @@ public class DataLoader implements ApplicationRunner {
         creatureBeachRepository.save(LochranzaMaerl);
 
         //Arran - Lochranza - CreatureBeaches - Other
+
+
+
+
+
+
 
 
         //Berwickshire - Starney Bay - CreatureBeaches - Fish
