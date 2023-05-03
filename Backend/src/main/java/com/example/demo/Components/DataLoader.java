@@ -945,5 +945,115 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Fish
+
+        CreatureBeach ColdinghamBayBallanWrasse = new CreatureBeach(BallanWrasse, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayBallanWrasse);
+
+        CreatureBeach ColdinghamBayButterfish = new CreatureBeach(Butterfish, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayButterfish);
+
+        CreatureBeach ColdinghamBayScorpionfish = new CreatureBeach(Scorpionfish, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayScorpionfish);
+
+        CreatureBeach ColdinghamBayLeopardSpottedGoby = new CreatureBeach(LeopardSpottedGoby, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayLeopardSpottedGoby);
+
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Crustaceans
+
+        CreatureBeach ColdinghamBayShoreCrab = new CreatureBeach(ShoreCrab, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayShoreCrab);
+
+        CreatureBeach ColdinghamBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayVelvetSwimmingCrab);
+
+        CreatureBeach ColdinghamBayEdibleCrab = new CreatureBeach(EdibleCrab, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayEdibleCrab);
+
+        CreatureBeach ColdinghamBaySquatLobster = new CreatureBeach(SquatLobster, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBaySquatLobster);
+
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Snails
+
+        CreatureBeach ColdinghamBayTopshell = new CreatureBeach(Topshell, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayTopshell);
+
+        CreatureBeach ColdinghamBayDogwhelk = new CreatureBeach(Dogwhelk, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayDogwhelk);
+
+        CreatureBeach ColdinghamBayPeriwinkle = new CreatureBeach(Periwinkle, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayPeriwinkle);
+
+        CreatureBeach ColdinghamBayLimpet = new CreatureBeach(Limpet, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayLimpet);
+
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach ColdinghamBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBaySnakelocksAnemone);
+
+        CreatureBeach ColdinghamBayCuttlefish = new CreatureBeach(Cuttlefish, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayCuttlefish);
+
+        CreatureBeach ColdinghamBaySeaHare = new CreatureBeach(SeaHare, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBaySeaHare);
+
+        CreatureBeach ColdinghamBayDeadMansFingers = new CreatureBeach(DeadMansFingers, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayDeadMansFingers);
+
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Jellyfish
+
+        CreatureBeach ColdinghamBayLionsMane = new CreatureBeach(LionsMane, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayLionsMane);
+
+        CreatureBeach ColdinghamBayMoon = new CreatureBeach(Moon, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayMoon);
+
+        CreatureBeach ColdinghamBayBarrel = new CreatureBeach(Barrel, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayBarrel);
+
+        CreatureBeach ColdinghamBayComb = new CreatureBeach(Comb, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayComb);
+
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach ColdinghamBayCommonStarfish = new CreatureBeach(CommonStarfish, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayCommonStarfish);
+
+        CreatureBeach ColdinghamBayBrittlestar = new CreatureBeach(Brittlestar, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayBrittlestar);
+
+        CreatureBeach ColdinghamBaySunstar = new CreatureBeach(Sunstar, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBaySunstar);
+
+        CreatureBeach ColdinghamBayCommonUrchin = new CreatureBeach(CommonUrchin, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayCommonUrchin);
+
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Plants & Algae
+
+        CreatureBeach ColdinghamBayKelp = new CreatureBeach(Kelp, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayKelp);
+
+        CreatureBeach ColdinghamBayBladderWrack = new CreatureBeach(BladderWrack, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayBladderWrack);
+
+        CreatureBeach ColdinghamBaySeaLettuce = new CreatureBeach(SeaLettuce, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBaySeaLettuce);
+
+        CreatureBeach ColdinghamBayChannelWrack = new CreatureBeach(ChannelWrack, ColdinghamBay);
+        creatureBeachRepository.save(ColdinghamBayChannelWrack);
+
+        //Berwickshire - Coldingham Bay - CreatureBeaches - Others
+
+
+
+
+
+
+
+
+
+
+
     }
 }
