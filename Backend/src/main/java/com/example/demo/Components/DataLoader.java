@@ -133,7 +133,7 @@ public class DataLoader implements ApplicationRunner {
         Creature Seagrass = new Creature("Plants & Algae", "Seagrass","Seagrass.jpeg", "Varies - can form large 'sea meadows'.", "Found around the UK coast in sheltered areas such as harbours, estuaries, lagoons and bays.","Threatened");
         creatureRepository.save(Seagrass);
 
-        Creature BladderWrack = new Creature("Plants & Algae", "Bladder Wrack","BladderWrack.jpeg", "", "","");
+        Creature BladderWrack = new Creature("Plants & Algae", "Bladder Wrack","BladderWrack.jpeg", "15-100cm length", "The seaweed most associated with the sea shore! Grows between high and low water marks on rocky shores.","Common");
         creatureRepository.save(BladderWrack);
 
         Creature Maerl = new Creature("Plants & Algae", "Maerl","Maerl.jpeg", "7cm diameter", "Abundant on Scotland's west coast, found in sand, mud or gravel where sheltered from waves. Depths of 1 - 30m.","Common");
@@ -161,6 +161,10 @@ public class DataLoader implements ApplicationRunner {
 
         Beach Lochranza = new Beach ("Arran", "Arran_Lochranza.png", "Lochranza", "OS Explorer 361, NR925509", "///hilltop.processor.touchy", "Lochranza (0 miles)", "To the west of the ferry pier, this sheltered beach offers an easily accessible site to snorkel whilst waiting for the ferry. Crabs, juvenile fish, starfish and a variety of sea snails can often be found hiding amongst the seaweed. Please ensure you stay close to the coast and remain well away from the working ferry pier.");
         beachRepository.save(Lochranza);
+
+        //Berwickshire - Beaches
+
+
 
 
 
