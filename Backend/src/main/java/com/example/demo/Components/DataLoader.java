@@ -50,6 +50,17 @@ public class DataLoader implements ApplicationRunner {
         Creature JuvenileCod = new Creature("Fish", "Juvenile Cod", "JuvenileCod.jpeg","A few cm, reaching over 1.5m when adult","Usually found sheltered close to the seabed, venturing into deeper waters as size increases.","Vulnerable, due to heavy fishing.");
         creatureRepository.save(JuvenileCod);
 
+        Creature Butterfish = new Creature("Fish","Butterfish","Butterfish.jpeg","Up to 25cm","A common sight in rockpools all around the UK throughout the year.","Common");
+        creatureRepository.save(Butterfish);
+
+        Creature LeopardSpottedGoby = new Creature("Fish","Leopard-Spotted Goby","LesserSpottedGoby.jpeg","About 12cm long","Widespread around UK coasts, sheltered estuaries and sea lochs. Usually found close to steep rock faces.","Common");
+        creatureRepository.save(LeopardSpottedGoby);
+
+        Creature Scorpionfish = new Creature("Fish","Scorpionfish","Scorpionfish.jpeg","Up to 20cm","Inhabits shallow coastal waters, bottom dwelling. It is capable of mimicking the colours of its surrounding environment which can make it difficult to spot.","Common");
+        creatureRepository.save(Scorpionfish);
+
+
+
 
         //Crustacean
         Creature ShoreCrab = new Creature("Crustacean", "Shore Crab", "ShoreCrab.jpeg", "Up to 9cm shell width", "Easily found in rock pools and shallow waters throughout the year.", "Common");
@@ -63,6 +74,12 @@ public class DataLoader implements ApplicationRunner {
 
         Creature HermitCrab = new Creature("Crustacean", "Hermit Crab", "HermitCrab.jpeg", "Up to 3.5cm length", "These crabs live in empty seashells, found on rocky shores throughout the year.", "Common");
         creatureRepository.save(HermitCrab);
+
+        Creature EdibleCrab = new Creature("Crustacean","Edible Crab","EdibleCrab.jpeg","Width between 10 - 20cm ","Found on the lower shore and out to sea to about 100m. Often hidden under boulders. They can be seen throughout the year.","Common");
+        creatureRepository.save(EdibleCrab);
+
+        Creature SquatLobster = new Creature("Crustacean","Squat Lobster","SquatLobster.jpeg","Up to 6cm long","Usually seen April - October, the 'Houdinis' of the rocky shore, darting off as soon as disturbed.","Common");
+        creatureRepository.save(SquatLobster);
 
 
         //Snails
@@ -93,6 +110,15 @@ public class DataLoader implements ApplicationRunner {
 
         Creature BurrowingAnemone = new Creature("Other Invertebrate","Burrowing Anemone","BurrowingAnemone.jpeg","Up to 5cm","Found in sandy substrates throughout the year.","Common");
         creatureRepository.save(BurrowingAnemone);
+
+        Creature Cuttlefish = new Creature("Other Invertebrate","Cuttlefish","Cuttlefish.jpeg","Up to 45cm","Fierce predators, they live in water up to 200m deep, but come to shallow waters to breed in spring.","Common");
+        creatureRepository.save(Cuttlefish);
+
+        Creature SeaHare = new Creature("Other Invertebrate","Sea Hare","SeaHare.jpeg","Length 7 - 20cm","Found in shallow water and occasionally in rockpools on the low shore through the year.","Common");
+        creatureRepository.save(SeaHare);
+
+        Creature DeadMansFingers = new Creature("Other Invertebrate","Dead Man's Fingers","DeadMansFingers.jpeg","Up to 20cm height","A type of soft coral, growing on hard surfaces beneath the sea down to about 50m. They can cover large areas of rocky outcrops and gullies.","Common");
+        creatureRepository.save(DeadMansFingers);
 
 
 
@@ -125,6 +151,9 @@ public class DataLoader implements ApplicationRunner {
         Creature SpinyStarfish = new Creature("Starfish & Urchins","Spiny Starfish", "SpinyStarfish.jpeg", "Up to 70cm diameter", "The UK's largest starfish! Shallow waters close to the shore, and depths of up to 200m.","Common");
         creatureRepository.save(SpinyStarfish);
 
+        Creature Brittlestar = new Creature("Starfish & Urchins","Brittlestar","Brittlestar.jpeg","Up to 2cm","Found in rockpools around much of the UK throughout the year. Be gentle - its arms are very brittle and will break off if disturbed.","Common");
+        creatureRepository.save(Brittlestar);
+
         //Plants & Algae
 
         Creature Kelp = new Creature("Plants & Algae", "Kelp","Kelp.jpeg", "Up to 5m length", "Grows attached to rocky seabeds.","Common");
@@ -138,6 +167,12 @@ public class DataLoader implements ApplicationRunner {
 
         Creature Maerl = new Creature("Plants & Algae", "Maerl","Maerl.jpeg", "7cm diameter", "Abundant on Scotland's west coast, found in sand, mud or gravel where sheltered from waves. Depths of 1 - 30m.","Common");
         creatureRepository.save(Maerl);
+
+        Creature ChannelWrack = new Creature("Plants & Algae","Channel Wrack","ChannelWrack.jpeg","5 - 15cm length","A very common seaweed growing around the high water mark on sheltered, rocky shores.","Common");
+        creatureRepository.save(ChannelWrack);
+
+        Creature SeaLettuce = new Creature("Plants & Algae","Sea Lettuce","SeaLettuce.jpeg","Up to 20cm length","Unmistakable and found on all UK coasts - most often bright green and always translucent.","Common");
+        creatureRepository.save(SeaLettuce);
 
 
 
@@ -163,6 +198,21 @@ public class DataLoader implements ApplicationRunner {
         beachRepository.save(Lochranza);
 
         //Berwickshire - Beaches
+
+        Beach StarneyBay  = new Beach("Berwickshire","Berwickshire_StarneyBay.png","Starney Bay","OS Landranger 67, NT916677","///unfocused.shed.unpacked","55.902342,-2.135898","St Abbs (0.4 miles)","Part of National Trust for Scotland’s St Abbs Head Nature Reserve, this beautiful beach is accessed by the steps down from the coastal path. Rich kelp beds and rocky reefs in the bay are home to colourful ballan wrasse, leopard-spotted gobies and an array of anemone species. The easier central section is perfect for beginners, whilst the rocky outcrops offer more advanced snorkeling");
+        beachRepository.save(StarneyBay);
+
+        Beach ColdinghamBay = new Beach("Berwickshire","Berwickshire_ColdinghamBay.png","Coldingham Bay","OS Landranger 67, NT917665","///exotic.voting.spend","55.891562,-2.134262","Coldingham (0.9 miles)","An easily accessible beach perfect for a family day out. The central sandy section is a great spot for first time snorkeling. For more experienced snorkelers, the rocky shores fringing the bay team with life, from seaweed, anemones and urchins to butterfish, gobies and scorpionfish");
+        beachRepository.save(ColdinghamBay);
+
+        Beach MilldownBay = new Beach("Berwickshire","Berwickshire_MilldownBay.png","Milldown Bay","OS Landranger 67, NT919662","///asked.bloomers.push","55.888866,-2.131086","Coldingham (0.9 miles)","To the south of Coldingham Bay, this smaller and more secluded shingle bay is accessed along the coastal path and offers more fantastic snorkeling opportunities. Cracks and crevices in the rocks provide homes for urchins, anemones and edible crabs, whilst kelp beds provide shelter for juvenile fish including saithe, butterfish and scorpionfish. An advanced site due to its relative remoteness");
+        beachRepository.save(MilldownBay);
+
+        Beach WeaselLoch = new Beach("Berwickshire","Berwickshire_WeaselLoch.png","Weasel Loch","OS Landranger 67, NT939650","///washroom.traders.cookers","55.878113,-2.099091","Eyemouth (0.3 miles)","This sheltered bay offers advanced snorkelers the chance to explore a range of habitats. Velvet swimming crabs and two-spotted gobies frequent the kelp forests, sea hares feed amongst the red seaweed, and cuttlefish hover above the sandy bottom. Access is via the steep wooden steps that descend from the car park of the Eyemouth Holiday Park. Please note that a parking charge applies.");
+        beachRepository.save(WeaselLoch);
+
+        Beach EyemouthBeach = new Beach("Berwickshire","Berwickshire_EyemouthBeach.png","Eyemouth Beach","OS Landranger 67, NT943645","///marbles.enjoys.professes","55.873639,-2.092681","Eyemouth (0 miles)","Eyemouth’s easily accessible beach is perfect for first-time snorkelers, with a gradual walk into the sea to spot your first fish. Rockier outcrops to the north offer advanced snorkelers the chance to spot crabs and squat lobsters in the submerged rock pools, and seaweed gives shelter for many fish species. The Eyemouth Leisure Centre provides changing and showering facilities for a small fee.");
+        beachRepository.save(EyemouthBeach);
 
 
 
@@ -788,6 +838,108 @@ public class DataLoader implements ApplicationRunner {
         creatureBeachRepository.save(LochranzaMaerl);
 
         //Arran - Lochranza - CreatureBeaches - Other
+
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Fish
+
+        CreatureBeach StarneyBayBallanWrasse = new CreatureBeach(BallanWrasse, StarneyBay);
+        creatureBeachRepository.save(StarneyBayBallanWrasse);
+
+        CreatureBeach StarneyBayButterfish = new CreatureBeach(Butterfish, StarneyBay);
+        creatureBeachRepository.save(StarneyBayButterfish);
+
+        CreatureBeach StarneyBayScorpionfish = new CreatureBeach(Scorpionfish, StarneyBay);
+        creatureBeachRepository.save(StarneyBayScorpionfish);
+
+        CreatureBeach StarneyBayLeopardSpottedGoby = new CreatureBeach(LeopardSpottedGoby, StarneyBay);
+        creatureBeachRepository.save(StarneyBayLeopardSpottedGoby);
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Crustaceans
+
+        CreatureBeach StarneyBayShoreCrab = new CreatureBeach(ShoreCrab, StarneyBay);
+        creatureBeachRepository.save(StarneyBayShoreCrab);
+
+        CreatureBeach StarneyBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, StarneyBay);
+        creatureBeachRepository.save(StarneyBayVelvetSwimmingCrab);
+
+        CreatureBeach StarneyBayEdibleCrab = new CreatureBeach(EdibleCrab, StarneyBay);
+        creatureBeachRepository.save(StarneyBayEdibleCrab);
+
+        CreatureBeach StarneyBaySquatLobster = new CreatureBeach(SquatLobster, StarneyBay);
+        creatureBeachRepository.save(StarneyBaySquatLobster);
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Snails
+
+        CreatureBeach StarneyBayTopshell = new CreatureBeach(Topshell, StarneyBay);
+        creatureBeachRepository.save(StarneyBayTopshell);
+
+        CreatureBeach StarneyBayDogwhelk = new CreatureBeach(Dogwhelk, StarneyBay);
+        creatureBeachRepository.save(StarneyBayDogwhelk);
+
+        CreatureBeach StarneyBayPeriwinkle = new CreatureBeach(Periwinkle, StarneyBay);
+        creatureBeachRepository.save(StarneyBayPeriwinkle);
+
+        CreatureBeach StarneyBayLimpet = new CreatureBeach(Limpet, StarneyBay);
+        creatureBeachRepository.save(StarneyBayLimpet);
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach StarneyBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, StarneyBay);
+        creatureBeachRepository.save(StarneyBaySnakelocksAnemone);
+
+        CreatureBeach StarneyBayCuttlefish = new CreatureBeach(Cuttlefish, StarneyBay);
+        creatureBeachRepository.save(StarneyBayCuttlefish);
+
+        CreatureBeach StarneyBaySeaHare = new CreatureBeach(SeaHare, StarneyBay);
+        creatureBeachRepository.save(StarneyBaySeaHare);
+
+        CreatureBeach StarneyBayDeadMansFingers = new CreatureBeach(DeadMansFingers, StarneyBay);
+        creatureBeachRepository.save(StarneyBayDeadMansFingers);
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Jellyfish
+
+        CreatureBeach StarneyBayLionsMane = new CreatureBeach(LionsMane, StarneyBay);
+        creatureBeachRepository.save(StarneyBayLionsMane);
+
+        CreatureBeach StarneyBayMoon = new CreatureBeach(Moon, StarneyBay);
+        creatureBeachRepository.save(StarneyBayMoon);
+
+        CreatureBeach StarneyBayBarrel = new CreatureBeach(Barrel, StarneyBay);
+        creatureBeachRepository.save(StarneyBayBarrel);
+
+        CreatureBeach StarneyBayComb = new CreatureBeach(Comb, StarneyBay);
+        creatureBeachRepository.save(StarneyBayComb);
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach StarneyBayCommonStarfish = new CreatureBeach(CommonStarfish, StarneyBay);
+        creatureBeachRepository.save(StarneyBayCommonStarfish);
+
+        CreatureBeach StarneyBayBrittlestar = new CreatureBeach(Brittlestar, StarneyBay);
+        creatureBeachRepository.save(StarneyBayBrittlestar);
+
+        CreatureBeach StarneyBaySunstar = new CreatureBeach(Sunstar, StarneyBay);
+        creatureBeachRepository.save(StarneyBaySunstar);
+
+        CreatureBeach StarneyBayCommonUrchin = new CreatureBeach(CommonUrchin, StarneyBay);
+        creatureBeachRepository.save(StarneyBayCommonUrchin);
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Plants & Algae
+
+        CreatureBeach StarneyBayKelp = new CreatureBeach(Kelp, StarneyBay);
+        creatureBeachRepository.save(StarneyBayKelp);
+
+        CreatureBeach StarneyBayBladderWrack = new CreatureBeach(BladderWrack, StarneyBay);
+        creatureBeachRepository.save(StarneyBayBladderWrack);
+
+        CreatureBeach StarneyBaySeaLettuce = new CreatureBeach(SeaLettuce, StarneyBay);
+        creatureBeachRepository.save(StarneyBaySeaLettuce);
+
+        CreatureBeach StarneyBayChannelWrack = new CreatureBeach(ChannelWrack, StarneyBay);
+        creatureBeachRepository.save(StarneyBayChannelWrack);
+
+        //Berwickshire - Starney Bay - CreatureBeaches - Others
+
 
 
 
