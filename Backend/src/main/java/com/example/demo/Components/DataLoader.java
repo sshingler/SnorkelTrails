@@ -1154,6 +1154,113 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Berwickshire - Weasel Loch - CreatureBeaches - Fish
+
+        CreatureBeach WeaselLochBallanWrasse = new CreatureBeach(BallanWrasse, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochBallanWrasse);
+
+        CreatureBeach WeaselLochButterfish = new CreatureBeach(Butterfish, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochButterfish);
+
+        CreatureBeach WeaselLochScorpionfish = new CreatureBeach(Scorpionfish, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochScorpionfish);
+
+        CreatureBeach WeaselLochLeopardSpottedGoby = new CreatureBeach(LeopardSpottedGoby, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochLeopardSpottedGoby);
+
+        //Berwickshire - Weasel Loch - CreatureBeaches - Crustaceans
+
+        CreatureBeach WeaselLochShoreCrab = new CreatureBeach(ShoreCrab, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochShoreCrab);
+
+        CreatureBeach WeaselLochVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochVelvetSwimmingCrab);
+
+        CreatureBeach WeaselLochEdibleCrab = new CreatureBeach(EdibleCrab, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochEdibleCrab);
+
+        CreatureBeach WeaselLochSquatLobster = new CreatureBeach(SquatLobster, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochSquatLobster);
+
+        //Berwickshire - Weasel Loch - CreatureBeaches - Snails
+
+        CreatureBeach WeaselLochTopshell = new CreatureBeach(Topshell, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochTopshell);
+
+        CreatureBeach WeaselLochDogwhelk = new CreatureBeach(Dogwhelk, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochDogwhelk);
+
+        CreatureBeach WeaselLochPeriwinkle = new CreatureBeach(Periwinkle, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochPeriwinkle);
+
+        CreatureBeach WeaselLochLimpet = new CreatureBeach(Limpet, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochLimpet);
+
+        //Berwickshire - Weasel Loch - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach WeaselLochSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochSnakelocksAnemone);
+
+        CreatureBeach WeaselLochCuttlefish = new CreatureBeach(Cuttlefish, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochCuttlefish);
+
+        CreatureBeach WeaselLochSeaHare = new CreatureBeach(SeaHare, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochSeaHare);
+
+        CreatureBeach WeaselLochDeadMansFingers = new CreatureBeach(DeadMansFingers, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochDeadMansFingers);
+
+        //Berwickshire - Weasel Loch - CreatureBeaches - Jellyfish
+
+        CreatureBeach WeaselLochLionsMane = new CreatureBeach(LionsMane, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochLionsMane);
+
+        CreatureBeach WeaselLochMoon = new CreatureBeach(Moon, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochMoon);
+
+        CreatureBeach WeaselLochBarrel = new CreatureBeach(Barrel, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochBarrel);
+
+        CreatureBeach WeaselLochComb = new CreatureBeach(Comb, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochComb);
+
+        //Berwickshire - Weasel Loch - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach WeaselLochCommonStarfish = new CreatureBeach(CommonStarfish, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochCommonStarfish);
+
+        CreatureBeach WeaselLochBrittlestar = new CreatureBeach(Brittlestar, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochBrittlestar);
+
+        CreatureBeach WeaselLochSunstar = new CreatureBeach(Sunstar, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochSunstar);
+
+        CreatureBeach WeaselLochCommonUrchin = new CreatureBeach(CommonUrchin, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochCommonUrchin);
+
+        //Berwickshire - Weasel Loch - CreatureBeaches - Plants & Algae
+
+        CreatureBeach WeaselLochKelp = new CreatureBeach(Kelp, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochKelp);
+
+        CreatureBeach WeaselLochBladderWrack = new CreatureBeach(BladderWrack, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochBladderWrack);
+
+        CreatureBeach WeaselLochSeaLettuce = new CreatureBeach(SeaLettuce, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochSeaLettuce);
+
+        CreatureBeach WeaselLochChannelWrack = new CreatureBeach(ChannelWrack, WeaselLoch);
+        creatureBeachRepository.save(WeaselLochChannelWrack);
+
+        //Berwickshire - Weasel Loch - CreatureBeaches - Others
+
+
+
+
+
+
+
+
 
 
 
