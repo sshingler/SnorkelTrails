@@ -1,8 +1,15 @@
 import { Icon } from "leaflet";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
+import { Link } from "react-router-dom";
 
 const BeachMarker = ({ beach }) => {
+
+    const [selectedBeach, setSelectedBeach] = useState();
+
+    useEffect(() => {
+        setSelectedBeach(beach);
+    }, [])
 
     const customIcon = new Icon({
         iconUrl: require("../../Images/MapIcons/redIcon.png"),
@@ -16,7 +23,11 @@ const BeachMarker = ({ beach }) => {
             <Marker position={[beachLong[0], beachLong[1]]} icon={customIcon}>
                 <Popup >
                     {beach.name} <br />
-                    <a href="/sealife">sealife</a>
+                    <ul>
+                        <li>
+                            <Link to='/BeachContainer' state={beach} > {beach.name} </Link>
+                        </li>
+                    </ul>
                 </Popup>
             </Marker>
         </>

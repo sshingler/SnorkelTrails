@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-const BeachContainer = ({ beach }) => {
+const BeachContainer = () => {
 
-
-
-
+    const location = useLocation();
+    const beach = location.state;
 
     return (
         <>
-            {Beach.name}
+        <h1>
+            {beach.name}
+        </h1>
         </>
     );
 };
