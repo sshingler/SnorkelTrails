@@ -28,6 +28,9 @@ public class Beach {
     @Column (name = "w3w")
     private String w3w;
 
+    @Column (name = "LongLat")
+    private String longLat;
+
     @Column (name= "nearest_village")
     private String nearestVillage;
 
@@ -41,12 +44,13 @@ public class Beach {
     @Column (name="amenities")
     private List<Integer> amenities;
 
-    public Beach(String location, String image, String name, String map_cords, String w3w, String nearestVillage, String description) {
+    public Beach(String location, String image, String name, String map_cords, String w3w, String longLat, String nearestVillage, String description) {
         this.location = location;
         this.image = image;
         this.name = name;
         this.map_cords = map_cords;
         this.w3w = w3w;
+        this.longLat = longLat;
         this.nearestVillage = nearestVillage;
         this.description = description;
         this.creatureBeaches = new ArrayList<>();
