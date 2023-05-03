@@ -4,7 +4,7 @@ import '../StyleSheets/SeaLife/SeaLifePage.css'
 import '../StyleSheets/Constants.css'
 import SeaLifeCard from "../Components/SeaLife/SeaLifeCard";
 
-const SeaLife = () => {
+const SeaLifeContainer = () => {
     const [seaLife, setSeaLife] = useState([]);
 
     async function fetchSeaLife() {
@@ -34,4 +34,4 @@ const SeaLife = () => {
     );
 };
 
-export default SeaLife;
+export default SeaLifeContainer;
