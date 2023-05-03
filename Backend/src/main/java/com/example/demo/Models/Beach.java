@@ -108,6 +108,14 @@ public class Beach {
         this.w3w = w3w;
     }
 
+    public String getLongLat() {
+        return longLat;
+    }
+
+    public void setLongLat(String longLat) {
+        this.longLat = longLat;
+    }
+
     public String getNearestVillage() {
         return nearestVillage;
     }
