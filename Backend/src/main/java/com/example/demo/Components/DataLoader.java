@@ -1050,6 +1050,117 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Berwickshire - Milldown Bay - CreatureBeaches - Fish
+
+        CreatureBeach MilldownBayBallanWrasse = new CreatureBeach(BallanWrasse, MilldownBay);
+        creatureBeachRepository.save(MilldownBayBallanWrasse);
+
+        CreatureBeach MilldownBayButterfish = new CreatureBeach(Butterfish, MilldownBay);
+        creatureBeachRepository.save(MilldownBayButterfish);
+
+        CreatureBeach MilldownBayScorpionfish = new CreatureBeach(Scorpionfish, MilldownBay);
+        creatureBeachRepository.save(MilldownBayScorpionfish);
+
+        CreatureBeach MilldownBayLeopardSpottedGoby = new CreatureBeach(LeopardSpottedGoby, MilldownBay);
+        creatureBeachRepository.save(MilldownBayLeopardSpottedGoby);
+
+        //Berwickshire - Milldown Bay - CreatureBeaches - Crustaceans
+
+        CreatureBeach MilldownBayShoreCrab = new CreatureBeach(ShoreCrab, MilldownBay);
+        creatureBeachRepository.save(MilldownBayShoreCrab);
+
+        CreatureBeach MilldownBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, MilldownBay);
+        creatureBeachRepository.save(MilldownBayVelvetSwimmingCrab);
+
+        CreatureBeach MilldownBayEdibleCrab = new CreatureBeach(EdibleCrab, MilldownBay);
+        creatureBeachRepository.save(MilldownBayEdibleCrab);
+
+        CreatureBeach MilldownBaySquatLobster = new CreatureBeach(SquatLobster, MilldownBay);
+        creatureBeachRepository.save(MilldownBaySquatLobster);
+
+        //Berwickshire - Milldown Bay - CreatureBeaches - Snails
+
+        CreatureBeach MilldownBayTopshell = new CreatureBeach(Topshell, MilldownBay);
+        creatureBeachRepository.save(MilldownBayTopshell);
+
+        CreatureBeach MilldownBayDogwhelk = new CreatureBeach(Dogwhelk, MilldownBay);
+        creatureBeachRepository.save(MilldownBayDogwhelk);
+
+        CreatureBeach MilldownBayPeriwinkle = new CreatureBeach(Periwinkle, MilldownBay);
+        creatureBeachRepository.save(MilldownBayPeriwinkle);
+
+        CreatureBeach MilldownBayLimpet = new CreatureBeach(Limpet, MilldownBay);
+        creatureBeachRepository.save(MilldownBayLimpet);
+
+        //Berwickshire - Milldown Bay - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach MilldownBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, MilldownBay);
+        creatureBeachRepository.save(MilldownBaySnakelocksAnemone);
+
+        CreatureBeach MilldownBayCuttlefish = new CreatureBeach(Cuttlefish, MilldownBay);
+        creatureBeachRepository.save(MilldownBayCuttlefish);
+
+        CreatureBeach MilldownBaySeaHare = new CreatureBeach(SeaHare, MilldownBay);
+        creatureBeachRepository.save(MilldownBaySeaHare);
+
+        CreatureBeach MilldownBayDeadMansFingers = new CreatureBeach(DeadMansFingers, MilldownBay);
+        creatureBeachRepository.save(MilldownBayDeadMansFingers);
+
+        //Berwickshire - Milldown Bay - CreatureBeaches - Jellyfish
+
+        CreatureBeach MilldownBayLionsMane = new CreatureBeach(LionsMane, MilldownBay);
+        creatureBeachRepository.save(MilldownBayLionsMane);
+
+        CreatureBeach MilldownBayMoon = new CreatureBeach(Moon, MilldownBay);
+        creatureBeachRepository.save(MilldownBayMoon);
+
+        CreatureBeach MilldownBayBarrel = new CreatureBeach(Barrel, MilldownBay);
+        creatureBeachRepository.save(MilldownBayBarrel);
+
+        CreatureBeach MilldownBayComb = new CreatureBeach(Comb, MilldownBay);
+        creatureBeachRepository.save(MilldownBayComb);
+
+        //Berwickshire - Milldown Bay - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach MilldownBayCommonStarfish = new CreatureBeach(CommonStarfish, MilldownBay);
+        creatureBeachRepository.save(MilldownBayCommonStarfish);
+
+        CreatureBeach MilldownBayBrittlestar = new CreatureBeach(Brittlestar, MilldownBay);
+        creatureBeachRepository.save(MilldownBayBrittlestar);
+
+        CreatureBeach MilldownBaySunstar = new CreatureBeach(Sunstar, MilldownBay);
+        creatureBeachRepository.save(MilldownBaySunstar);
+
+        CreatureBeach MilldownBayCommonUrchin = new CreatureBeach(CommonUrchin, MilldownBay);
+        creatureBeachRepository.save(MilldownBayCommonUrchin);
+
+        //Berwickshire - Milldown Bay - CreatureBeaches - Plants & Algae
+
+        CreatureBeach MilldownBayKelp = new CreatureBeach(Kelp, MilldownBay);
+        creatureBeachRepository.save(MilldownBayKelp);
+
+        CreatureBeach MilldownBayBladderWrack = new CreatureBeach(BladderWrack, MilldownBay);
+        creatureBeachRepository.save(MilldownBayBladderWrack);
+
+        CreatureBeach MilldownBaySeaLettuce = new CreatureBeach(SeaLettuce, MilldownBay);
+        creatureBeachRepository.save(MilldownBaySeaLettuce);
+
+        CreatureBeach MilldownBayChannelWrack = new CreatureBeach(ChannelWrack, MilldownBay);
+        creatureBeachRepository.save(MilldownBayChannelWrack);
+
+        //Berwickshire - Milldown Bay - CreatureBeaches - Others
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
