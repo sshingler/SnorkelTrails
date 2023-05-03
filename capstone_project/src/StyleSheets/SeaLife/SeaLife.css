@@ -1,3 +1,12 @@
 .div {
     padding-top: 200px;
 }
+
+.img-size {
+    height: 350px;
+    width: 380px;
+}
+
+.sea-life-card {
+    border: 1px solid black;
+}

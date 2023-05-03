@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import '../StyleSheets/SeaLife/SeaLife.css'
+import '../StyleSheets/SeaLife/SeaLifePage.css'
+import '../StyleSheets/Constants.css'
 import SeaLifeCard from "../Components/SeaLife/SeaLifeCard";
 
 const SeaLife = () => {
@@ -26,7 +27,7 @@ const SeaLife = () => {
 
     return (
         <>
-        <div>
+        <div className="container">
             {entityNodes}
         </div>
         </>
