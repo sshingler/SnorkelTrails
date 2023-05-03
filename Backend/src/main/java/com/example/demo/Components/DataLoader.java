@@ -1259,6 +1259,111 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Fish
+
+        CreatureBeach EyemouthBeachBallanWrasse = new CreatureBeach(BallanWrasse, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachBallanWrasse);
+
+        CreatureBeach EyemouthBeachButterfish = new CreatureBeach(Butterfish, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachButterfish);
+
+        CreatureBeach EyemouthBeachScorpionfish = new CreatureBeach(Scorpionfish, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachScorpionfish);
+
+        CreatureBeach EyemouthBeachLeopardSpottedGoby = new CreatureBeach(LeopardSpottedGoby, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachLeopardSpottedGoby);
+
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Crustaceans
+
+        CreatureBeach EyemouthBeachShoreCrab = new CreatureBeach(ShoreCrab, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachShoreCrab);
+
+        CreatureBeach EyemouthBeachVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachVelvetSwimmingCrab);
+
+        CreatureBeach EyemouthBeachEdibleCrab = new CreatureBeach(EdibleCrab, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachEdibleCrab);
+
+        CreatureBeach EyemouthBeachSquatLobster = new CreatureBeach(SquatLobster, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachSquatLobster);
+
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Snails
+
+        CreatureBeach EyemouthBeachTopshell = new CreatureBeach(Topshell, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachTopshell);
+
+        CreatureBeach EyemouthBeachDogwhelk = new CreatureBeach(Dogwhelk, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachDogwhelk);
+
+        CreatureBeach EyemouthBeachPeriwinkle = new CreatureBeach(Periwinkle, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachPeriwinkle);
+
+        CreatureBeach EyemouthBeachLimpet = new CreatureBeach(Limpet, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachLimpet);
+
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach EyemouthBeachSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachSnakelocksAnemone);
+
+        CreatureBeach EyemouthBeachCuttlefish = new CreatureBeach(Cuttlefish, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachCuttlefish);
+
+        CreatureBeach EyemouthBeachSeaHare = new CreatureBeach(SeaHare, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachSeaHare);
+
+        CreatureBeach EyemouthBeachDeadMansFingers = new CreatureBeach(DeadMansFingers, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachDeadMansFingers);
+
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Jellyfish
+
+        CreatureBeach EyemouthBeachLionsMane = new CreatureBeach(LionsMane, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachLionsMane);
+
+        CreatureBeach EyemouthBeachMoon = new CreatureBeach(Moon, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachMoon);
+
+        CreatureBeach EyemouthBeachBarrel = new CreatureBeach(Barrel, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachBarrel);
+
+        CreatureBeach EyemouthBeachComb = new CreatureBeach(Comb, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachComb);
+
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach EyemouthBeachCommonStarfish = new CreatureBeach(CommonStarfish, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachCommonStarfish);
+
+        CreatureBeach EyemouthBeachBrittlestar = new CreatureBeach(Brittlestar, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachBrittlestar);
+
+        CreatureBeach EyemouthBeachSunstar = new CreatureBeach(Sunstar, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachSunstar);
+
+        CreatureBeach EyemouthBeachCommonUrchin = new CreatureBeach(CommonUrchin, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachCommonUrchin);
+
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Plants & Algae
+
+        CreatureBeach EyemouthBeachKelp = new CreatureBeach(Kelp, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachKelp);
+
+        CreatureBeach EyemouthBeachBladderWrack = new CreatureBeach(BladderWrack, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachBladderWrack);
+
+        CreatureBeach EyemouthBeachSeaLettuce = new CreatureBeach(SeaLettuce, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachSeaLettuce);
+
+        CreatureBeach EyemouthBeachChannelWrack = new CreatureBeach(ChannelWrack, EyemouthBeach);
+        creatureBeachRepository.save(EyemouthBeachChannelWrack);
+
+        //Berwickshire - Eyemouth Beach - CreatureBeaches - Others
+
+
+
+
+
+
 
 
 
