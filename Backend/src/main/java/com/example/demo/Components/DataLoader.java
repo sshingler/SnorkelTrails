@@ -1647,7 +1647,7 @@ public class DataLoader implements ApplicationRunner {
 
 
 
-        //East-Lothian - Scottish Seabird Centre - CreatureBeaches - Fish
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Fish
 
         CreatureBeach ScottishSeabirdCentreBallanWrasse = new CreatureBeach(BallanWrasse, ScottishSeabirdCentre);
         creatureBeachRepository.save(ScottishSeabirdCentreBallanWrasse);
@@ -1749,6 +1749,109 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+
+
+
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Fish
+
+        CreatureBeach MilseyBayBallanWrasse = new CreatureBeach(BallanWrasse, MilseyBay);
+        creatureBeachRepository.save(MilseyBayBallanWrasse);
+
+        CreatureBeach MilseyBayButterfish = new CreatureBeach(Butterfish, MilseyBay);
+        creatureBeachRepository.save(MilseyBayButterfish);
+
+        CreatureBeach MilseyBayScorpionfish = new CreatureBeach(Scorpionfish, MilseyBay);
+        creatureBeachRepository.save(MilseyBayScorpionfish);
+
+        CreatureBeach MilseyBayWeaverFish = new CreatureBeach(WeaverFish, MilseyBay);
+        creatureBeachRepository.save(MilseyBayWeaverFish);
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Crustaceans
+
+        CreatureBeach MilseyBayShoreCrab = new CreatureBeach(ShoreCrab, MilseyBay);
+        creatureBeachRepository.save(MilseyBayShoreCrab);
+
+        CreatureBeach MilseyBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, MilseyBay);
+        creatureBeachRepository.save(MilseyBayVelvetSwimmingCrab);
+
+        CreatureBeach MilseyBayEdibleCrab = new CreatureBeach(EdibleCrab, MilseyBay);
+        creatureBeachRepository.save(MilseyBayEdibleCrab);
+
+        CreatureBeach MilseyBayHermitCrab = new CreatureBeach(HermitCrab, MilseyBay);
+        creatureBeachRepository.save(MilseyBayHermitCrab);
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Snails
+
+        CreatureBeach MilseyBayTopshell = new CreatureBeach(Topshell, MilseyBay);
+        creatureBeachRepository.save(MilseyBayTopshell);
+
+        CreatureBeach MilseyBayDogwhelk = new CreatureBeach(Dogwhelk, MilseyBay);
+        creatureBeachRepository.save(MilseyBayDogwhelk);
+
+        CreatureBeach MilseyBayPeriwinkle = new CreatureBeach(Periwinkle, MilseyBay);
+        creatureBeachRepository.save(MilseyBayPeriwinkle);
+
+        CreatureBeach MilseyBayLimpet = new CreatureBeach(Limpet, MilseyBay);
+        creatureBeachRepository.save(MilseyBayLimpet);
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach MilseyBayCommonStarfish = new CreatureBeach(CommonStarfish, MilseyBay);
+        creatureBeachRepository.save(MilseyBayCommonStarfish);
+
+        CreatureBeach MilseyBayBrittlestar = new CreatureBeach(Brittlestar, MilseyBay);
+        creatureBeachRepository.save(MilseyBayBrittlestar);
+
+        CreatureBeach MilseyBayBloodyHenryStarfish = new CreatureBeach(BloodyHenryStarfish, MilseyBay);
+        creatureBeachRepository.save(MilseyBayBloodyHenryStarfish);
+
+        CreatureBeach MilseyBayDeadMansFingers = new CreatureBeach(DeadMansFingers, MilseyBay);
+        creatureBeachRepository.save(MilseyBayDeadMansFingers);
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Seabirds
+
+        CreatureBeach MilseyBayEider = new CreatureBeach(Eider, MilseyBay);
+        creatureBeachRepository.save(MilseyBayEider);
+
+        CreatureBeach MilseyBayArcticTern = new CreatureBeach(ArcticTern, MilseyBay);
+        creatureBeachRepository.save(MilseyBayArcticTern);
+
+        CreatureBeach MilseyBayGannet = new CreatureBeach(Gannet, MilseyBay);
+        creatureBeachRepository.save(MilseyBayGannet);
+
+        CreatureBeach MilseyBayShag = new CreatureBeach(Shag, MilseyBay);
+        creatureBeachRepository.save(MilseyBayShag);
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Jellyfish
+
+        CreatureBeach MilseyBayLionsMane = new CreatureBeach(LionsMane, MilseyBay);
+        creatureBeachRepository.save(MilseyBayLionsMane);
+
+        CreatureBeach MilseyBayMoon = new CreatureBeach(Moon, MilseyBay);
+        creatureBeachRepository.save(MilseyBayMoon);
+
+        CreatureBeach MilseyBayBarrel = new CreatureBeach(Barrel, MilseyBay);
+        creatureBeachRepository.save(MilseyBayBarrel);
+
+        CreatureBeach MilseyBayComb = new CreatureBeach(Comb, MilseyBay);
+        creatureBeachRepository.save(MilseyBayComb);
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Algae
+
+        CreatureBeach MilseyBayBladderWrack = new CreatureBeach(BladderWrack, MilseyBay);
+        creatureBeachRepository.save(MilseyBayBladderWrack);
+
+        CreatureBeach MilseyBayKelp = new CreatureBeach(Kelp, MilseyBay);
+        creatureBeachRepository.save(MilseyBayKelp);
+
+        CreatureBeach MilseyBaySeaLettuce = new CreatureBeach(SeaLettuce, MilseyBay);
+        creatureBeachRepository.save(MilseyBaySeaLettuce);
+
+        CreatureBeach MilseyBayChannelWrack = new CreatureBeach(ChannelWrack, MilseyBay);
+        creatureBeachRepository.save(MilseyBayChannelWrack);
+
+        //East-Lothian - MilseyBay - CreatureBeaches - Others
 
 
 
