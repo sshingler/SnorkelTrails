@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 
 import '../../StyleSheets/HomePage/HomeMap.css'
@@ -6,13 +6,33 @@ import 'leaflet/dist/leaflet.css'
 import { Icon } from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 
+import BeachMarker from "./BeachMarker";
+
 const HomeMap = () => {
+    const [beaches, setBeaches] = useState([])
+
+    async function fetchBeaches() {
+        const res = await fetch('http://localhost:8080/beaches');
+        const beaches = await res.json();
+        setBeaches(beaches);
+    }
+
+    useEffect(() => {
+        fetchBeaches();
+    }, [])
+
+    if (!beaches.length){
+        return "Loading"
+    }
 
     const customIcon = new Icon({
         iconUrl: require("../../Images/MapIcons/redIcon.png"),
         iconSize: [38, 38]
     })
 
+    const beachNodes = beaches.map((beach) => {
+        return <BeachMarker key={beach.id} beach = {beach}/>
+    })
 
     return (
         <>
@@ -23,34 +43,8 @@ const HomeMap = () => {
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
                     <MarkerClusterGroup>
-                        <Marker position={[55.547933,-5.0958]} icon={customIcon}>
-                            <Popup>
-                                Arran - Clauchlands Farm <br />
-                                <a href="/sealife">sealife</a>
-                            </Popup>
-                        </Marker>
-
-                        <Marker position={[55.536425,-5.123452]} icon={customIcon}>
-                            <Popup>
-                                Arran - Lamlash <br />
-                                <a href="/sealife">sealife</a>
-                            </Popup>
-                        </Marker>
-
-                        <Marker position={[55.489476,-5.095962]} icon={customIcon}>
-                            <Popup>
-                                Arran - Whiting Bay <br />
-                                <a href="/sealife">sealife</a>
-                            </Popup>
-                        </Marker>
-
-                        <Marker position={[55.441853,-5.130202]} icon={customIcon}>
-                            <Popup>
-                                Arran - Kildonan <br />
-                                <a href="/sealife">sealife</a>
-                            </Popup>
-                        </Marker>
-                        </MarkerClusterGroup>
+                        {beachNodes}
+                    </MarkerClusterGroup>
                 </MapContainer>
             </div>
 
