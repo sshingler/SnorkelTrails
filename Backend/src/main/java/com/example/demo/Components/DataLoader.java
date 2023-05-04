@@ -1858,6 +1858,114 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //East-Lothian - Dunbar - CreatureBeaches - Fish
+
+        CreatureBeach DunbarBallanWrasse = new CreatureBeach(BallanWrasse, Dunbar);
+        creatureBeachRepository.save(DunbarBallanWrasse);
+
+        CreatureBeach DunbarButterfish = new CreatureBeach(Butterfish, Dunbar);
+        creatureBeachRepository.save(DunbarButterfish);
+
+        CreatureBeach DunbarScorpionfish = new CreatureBeach(Scorpionfish, Dunbar);
+        creatureBeachRepository.save(DunbarScorpionfish);
+
+        CreatureBeach DunbarWeaverFish = new CreatureBeach(WeaverFish, Dunbar);
+        creatureBeachRepository.save(DunbarWeaverFish);
+
+        //East-Lothian - Dunbar - CreatureBeaches - Crustaceans
+
+        CreatureBeach DunbarShoreCrab = new CreatureBeach(ShoreCrab, Dunbar);
+        creatureBeachRepository.save(DunbarShoreCrab);
+
+        CreatureBeach DunbarVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, Dunbar);
+        creatureBeachRepository.save(DunbarVelvetSwimmingCrab);
+
+        CreatureBeach DunbarEdibleCrab = new CreatureBeach(EdibleCrab, Dunbar);
+        creatureBeachRepository.save(DunbarEdibleCrab);
+
+        CreatureBeach DunbarHermitCrab = new CreatureBeach(HermitCrab, Dunbar);
+        creatureBeachRepository.save(DunbarHermitCrab);
+
+        //East-Lothian - Dunbar - CreatureBeaches - Snails
+
+        CreatureBeach DunbarTopshell = new CreatureBeach(Topshell, Dunbar);
+        creatureBeachRepository.save(DunbarTopshell);
+
+        CreatureBeach DunbarDogwhelk = new CreatureBeach(Dogwhelk, Dunbar);
+        creatureBeachRepository.save(DunbarDogwhelk);
+
+        CreatureBeach DunbarPeriwinkle = new CreatureBeach(Periwinkle, Dunbar);
+        creatureBeachRepository.save(DunbarPeriwinkle);
+
+        CreatureBeach DunbarLimpet = new CreatureBeach(Limpet, Dunbar);
+        creatureBeachRepository.save(DunbarLimpet);
+
+        //East-Lothian - Dunbar - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach DunbarCommonStarfish = new CreatureBeach(CommonStarfish, Dunbar);
+        creatureBeachRepository.save(DunbarCommonStarfish);
+
+        CreatureBeach DunbarBrittlestar = new CreatureBeach(Brittlestar, Dunbar);
+        creatureBeachRepository.save(DunbarBrittlestar);
+
+        CreatureBeach DunbarBloodyHenryStarfish = new CreatureBeach(BloodyHenryStarfish, Dunbar);
+        creatureBeachRepository.save(DunbarBloodyHenryStarfish);
+
+        CreatureBeach DunbarDeadMansFingers = new CreatureBeach(DeadMansFingers, Dunbar);
+        creatureBeachRepository.save(DunbarDeadMansFingers);
+
+        //East-Lothian - Dunbar - CreatureBeaches - Seabirds
+
+        CreatureBeach DunbarEider = new CreatureBeach(Eider, Dunbar);
+        creatureBeachRepository.save(DunbarEider);
+
+        CreatureBeach DunbarArcticTern = new CreatureBeach(ArcticTern, Dunbar);
+        creatureBeachRepository.save(DunbarArcticTern);
+
+        CreatureBeach DunbarGannet = new CreatureBeach(Gannet, Dunbar);
+        creatureBeachRepository.save(DunbarGannet);
+
+        CreatureBeach DunbarShag = new CreatureBeach(Shag, Dunbar);
+        creatureBeachRepository.save(DunbarShag);
+
+        //East-Lothian - Dunbar - CreatureBeaches - Jellyfish
+
+        CreatureBeach DunbarLionsMane = new CreatureBeach(LionsMane, Dunbar);
+        creatureBeachRepository.save(DunbarLionsMane);
+
+        CreatureBeach DunbarMoon = new CreatureBeach(Moon, Dunbar);
+        creatureBeachRepository.save(DunbarMoon);
+
+        CreatureBeach DunbarBarrel = new CreatureBeach(Barrel, Dunbar);
+        creatureBeachRepository.save(DunbarBarrel);
+
+        CreatureBeach DunbarComb = new CreatureBeach(Comb, Dunbar);
+        creatureBeachRepository.save(DunbarComb);
+
+        //East-Lothian - Dunbar - CreatureBeaches - Algae
+
+        CreatureBeach DunbarBladderWrack = new CreatureBeach(BladderWrack, Dunbar);
+        creatureBeachRepository.save(DunbarBladderWrack);
+
+        CreatureBeach DunbarKelp = new CreatureBeach(Kelp, Dunbar);
+        creatureBeachRepository.save(DunbarKelp);
+
+        CreatureBeach DunbarSeaLettuce = new CreatureBeach(SeaLettuce, Dunbar);
+        creatureBeachRepository.save(DunbarSeaLettuce);
+
+        CreatureBeach DunbarChannelWrack = new CreatureBeach(ChannelWrack, Dunbar);
+        creatureBeachRepository.save(DunbarChannelWrack);
+
+        //East-Lothian - Dunbar - CreatureBeaches - Others
+
+
+
+
+
+
+
+
+
 
 
 
