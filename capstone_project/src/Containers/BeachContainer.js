@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import '../StyleSheets/BeachPage/BeachContainer.css'
 
 const BeachContainer = () => {
     const [weather, setWeather] = useState(false);
@@ -28,12 +29,16 @@ const BeachContainer = () => {
 
     return (
         <>
-        <h1>
-            {beach.name}
-            {weather.daily.temperature_2m_min}
-            {weather.latitude}
-            {weather.longitude}
-        </h1>
+            <div className="beach-card">
+                <p>Location: {beach.location}</p>
+                <p>Name: {beach.name}</p>
+                <img src={require("../Images/Beaches/" + beach.image)}></img>
+                <p>Minimum temperature: {weather.daily.temperature_2m_min}'C</p>
+                <p>What Three Words: {beach.w3w}</p>
+                <p>Co-ordinates: {beach.map_cords}</p>
+                <p>Nearest village: {beach.nearestVillage}</p>
+                <p>Description: {beach.description}</p>
+            </div>
         </>
     );
 };
