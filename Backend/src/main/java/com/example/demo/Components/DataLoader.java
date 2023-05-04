@@ -136,7 +136,7 @@ public class DataLoader implements ApplicationRunner {
         Creature Barrel = new Creature("Jellyfish","Barrel", "BarrelJellyfish.jpeg", "Up to 90cm across", "Best seen May to October in warmer coastal waters, sometimes in their hundreds.","Common, their sting is not usually harmful to humans.");
         creatureRepository.save(Barrel);
 
-        Creature Comb = new Creature("Jellyfish","", "CombJellyfish.jpeg", "A few mm up to 1.5m long", "Actually made up of a group called 'Ctenophores', found in coastal and oceanic waters worldwide.","Common");
+        Creature Comb = new Creature("Jellyfish","Comb", "CombJellyfish.jpeg", "A few mm up to 1.5m long", "Actually made up of a group called 'Ctenophores', found in coastal and oceanic waters worldwide.","Common");
         creatureRepository.save(Comb);
 
 
