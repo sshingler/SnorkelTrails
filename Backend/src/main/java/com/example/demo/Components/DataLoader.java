@@ -59,7 +59,7 @@ public class DataLoader implements ApplicationRunner {
         Creature Scorpionfish = new Creature("Fish","Scorpionfish","Scorpionfish.jpeg","Up to 20cm","Inhabits shallow coastal waters, bottom dwelling. It is capable of mimicking the colours of its surrounding environment which can make it difficult to spot.","Common");
         creatureRepository.save(Scorpionfish);
 
-        Creature WeaverFish = new Creature( "Fish","Weaver Fish","WeaverFish.jpeg","Up to 15cm long","Some of the only venomous fish in UK waters, they spend most of their lives buried in the sand but are often seen from June - October.","Common");
+        Creature WeaverFish = new Creature( "Fish","Weever Fish","WeaverFish.jpeg","Up to 15cm long","Some of the only venomous fish in UK waters, they spend most of their lives buried in the sand but are often seen from June - October.","Common");
         creatureRepository.save(WeaverFish);
 
 
@@ -1432,6 +1432,110 @@ public class DataLoader implements ApplicationRunner {
 
         //Berwickshire - Eyemouth Beach - CreatureBeaches - Others
 
+
+
+
+
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Fish
+
+        CreatureBeach GullaneBentsBallanWrasse = new CreatureBeach(BallanWrasse, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsBallanWrasse);
+
+        CreatureBeach GullaneBentsButterfish = new CreatureBeach(Butterfish, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsButterfish);
+
+        CreatureBeach GullaneBentsScorpionfish = new CreatureBeach(Scorpionfish, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsScorpionfish);
+
+        CreatureBeach GullaneBentsWeaverFish = new CreatureBeach(WeaverFish, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsWeaverFish);
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Crustaceans
+
+        CreatureBeach GullaneBentsShoreCrab = new CreatureBeach(ShoreCrab, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsShoreCrab);
+
+        CreatureBeach GullaneBentsVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsVelvetSwimmingCrab);
+
+        CreatureBeach GullaneBentsEdibleCrab = new CreatureBeach(EdibleCrab, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsEdibleCrab);
+
+        CreatureBeach GullaneBentsHermitCrab = new CreatureBeach(HermitCrab, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsHermitCrab);
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Snails
+
+        CreatureBeach GullaneBentsTopshell = new CreatureBeach(Topshell, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsTopshell);
+
+        CreatureBeach GullaneBentsDogwhelk = new CreatureBeach(Dogwhelk, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsDogwhelk);
+
+        CreatureBeach GullaneBentsPeriwinkle = new CreatureBeach(Periwinkle, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsPeriwinkle);
+
+        CreatureBeach GullaneBentsLimpet = new CreatureBeach(Limpet, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsLimpet);
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach GullaneBentsCommonStarfish = new CreatureBeach(CommonStarfish, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsCommonStarfish);
+
+        CreatureBeach GullaneBentsBrittlestar = new CreatureBeach(Brittlestar, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsBrittlestar);
+
+        CreatureBeach GullaneBentsBloodyHenryStarfish = new CreatureBeach(BloodyHenryStarfish, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsBloodyHenryStarfish);
+
+        CreatureBeach GullaneBentsDeadMansFingers = new CreatureBeach(DeadMansFingers, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsDeadMansFingers);
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Seabirds
+
+        CreatureBeach GullaneBentsEider = new CreatureBeach(Eider, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsEider);
+
+        CreatureBeach GullaneBentsArcticTern = new CreatureBeach(ArcticTern, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsArcticTern);
+
+        CreatureBeach GullaneBentsGannet = new CreatureBeach(Gannet, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsGannet);
+
+        CreatureBeach GullaneBentsShag = new CreatureBeach(Shag, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsShag);
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Jellyfish
+
+        CreatureBeach GullaneBentsLionsMane = new CreatureBeach(LionsMane, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsLionsMane);
+
+        CreatureBeach GullaneBentsMoon = new CreatureBeach(Moon, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsMoon);
+
+        CreatureBeach GullaneBentsBarrel = new CreatureBeach(Barrel, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsBarrel);
+
+        CreatureBeach GullaneBentsComb = new CreatureBeach(Comb, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsComb);
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Algae
+
+        CreatureBeach GullaneBentsBladderWrack = new CreatureBeach(BladderWrack, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsBladderWrack);
+
+        CreatureBeach GullaneBentsKelp = new CreatureBeach(Kelp, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsKelp);
+
+        CreatureBeach GullaneBentsSeaLettuce = new CreatureBeach(SeaLettuce, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsSeaLettuce);
+
+        CreatureBeach GullaneBentsChannelWrack = new CreatureBeach(ChannelWrack, GullaneBents);
+        creatureBeachRepository.save(GullaneBentsChannelWrack);
+
+        //East-Lothian - Gullane Bents - CreatureBeaches - Others
 
 
 
