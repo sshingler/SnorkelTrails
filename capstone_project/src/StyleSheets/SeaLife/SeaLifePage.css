@@ -1,5 +1,9 @@
-.container {
+.scrolling-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+    /* white-space: nowrap; */
     
 }
+

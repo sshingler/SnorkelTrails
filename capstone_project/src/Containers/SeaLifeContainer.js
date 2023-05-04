@@ -27,7 +27,7 @@ const SeaLifeContainer = () => {
 
     return (
         <>
-        <div className="container">
+        <div className="scrolling-wrapper">
             {entityNodes}
         </div>
         </>
