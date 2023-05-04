@@ -42,9 +42,9 @@ public class Beach {
     private List<CreatureBeach> creatureBeaches;
 
     @Column (name="amenities")
-    private List<Integer> amenities;
+    private List<String> amenities;
 
-    public Beach(String location, String image, String name, String map_cords, String w3w, String longLat, String nearestVillage, String description) {
+    public Beach(String location, String image, String name, String map_cords, String w3w, String longLat, String nearestVillage, String description, List<String> amenities) {
         this.location = location;
         this.image = image;
         this.name = name;
@@ -54,7 +54,7 @@ public class Beach {
         this.nearestVillage = nearestVillage;
         this.description = description;
         this.creatureBeaches = new ArrayList<>();
-        this.amenities = new ArrayList<>();
+        this.amenities = amenities;
     }
 
     public Beach() {
@@ -144,11 +144,11 @@ public class Beach {
         this.creatureBeaches.add(creatureBeach);
     }
 
-    public List<Integer> getAmenities() {
+    public List<String> getAmenities() {
         return amenities;
     }
 
-    public void setAmenities(List<Integer> amenities) {
+    public void setAmenities(List<String> amenities) {
         this.amenities = amenities;
     }
 }

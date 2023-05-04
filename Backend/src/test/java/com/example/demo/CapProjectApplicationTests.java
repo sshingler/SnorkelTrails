@@ -12,6 +12,8 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -40,15 +42,19 @@ class CapProjectApplicationTests {
 
 	@Test
 	public void canCreateBeach() {
-		Beach beachTom = new Beach("Arran", "image", "Beach Tom", "-123.4, 567", "Tom, Is, Cool", "", "Tomvile", "The best beach in the world" );
+
+		List<String> amenitiesClauchlandsFarm = Arrays.asList("Parking");
+		Beach beachTom = new Beach("Arran", "image", "Beach Tom", "-123.4, 567", "Tom, Is, Cool", "", "Tomvile", "The best beach in the world", amenitiesClauchlandsFarm );
 		beachRepository.save(beachTom);
 	}
 
 	@Test
 	public void canCreateCreatureBeach() {
+
 		Creature whelk = new Creature ("Snail", "Dogwhelk", "DogWhelk.jpeg", "3 - 6cm", "Found on the lower shore", "Common");
 		creatureRepository.save(whelk);
-		Beach beachTom = new Beach("Arran", "image", "Beach Tom", "-123.4, 567", "Tom, Is, Cool", "", "Tomvile", "The best beach in the world" );
+		List<String> amenitiesClauchlandsFarm = Arrays.asList("Parking");
+		Beach beachTom = new Beach("Arran", "image", "Beach Tom", "-123.4, 567", "Tom, Is, Cool", "", "Tomvile", "The best beach in the world", amenitiesClauchlandsFarm );
 		beachRepository.save(beachTom);
 		CreatureBeach example1 = new CreatureBeach(whelk, beachTom);
 		creatureBeachRepository.save(example1);
