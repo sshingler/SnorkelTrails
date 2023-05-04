@@ -21,16 +21,7 @@ const SeaLifeCard = ({ creature }) => {
                         <p className="creature-habitat"> {creature.habitat}</p>
                         <p className="creature-notes"> {creature.notes}</p>
                     </div>
-
-
-
                 </div>
-                {/* <p> Type: '{creature.type}' </p>
-                <p> Name: {creature.name}</p>
-                <img className="img-size" src = {require("../../Images/Creatures/" + creature.img)} alt = {`A picture of a ${creature.name}`}></img>
-                <p> Size: {creature.size}</p>
-                <p> Habitat: {creature.habitat}</p>
-                <p> Notes: {creature.notes}</p> */}
             </div>
         </>
     );

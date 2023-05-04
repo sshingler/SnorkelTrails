@@ -1,7 +1,8 @@
 #map { 
     height: 600px;
-    width: 70%;
+    width: 50%;
     margin: auto;
+    border-style: solid;
 }
 
 .leaflet-container {

@@ -1,9 +1,5 @@
 .navbar-wrapper {
     background-color: blue;
-    /* height: 10vh;
-    width: 100vw; */
-    /* display: flex;
-    position: fixed; */
     overflow:hidden
 }
 
@@ -35,4 +31,5 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
+    margin: 10px;
   }

@@ -10,13 +10,12 @@ const HomeContainer = () => {
     return (
         <>
         
-        <div>
-            <h2>Home Page 123</h2>
-            <h2>test</h2>
-            <HomeMap />
+        <div className="banner">
+            <h2>SnorkelTrails</h2>
         </div>
+        <HomeMap />
+       
 
-        
         </>
     );
 };

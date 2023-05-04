@@ -4,8 +4,6 @@
     height: 550px;
     background-image: radial-gradient(circle, rgba(2,0,36,1) 18%, rgba(10,168,4,1) 57%, rgba(0,48,255,1) 96%);
     border-radius: 25px;
-    /* display: flex;
-    align-items: center; */
     box-shadow: 10px 10px 10px #0000008d;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -17,7 +15,6 @@
     background-color: black;
     border-radius: 20px;
     color: white;
-    /* margin-left: 10px; */
     align-content: center;
 }
 
@@ -27,9 +24,6 @@
     display: block;
     margin-left: 25px;
     margin-right: auto;
-    /* width: 10%; */
-    
-    /* background-image: radial-gradient(circle, white, white, white, rgb(0, 175, 0), black, black); */
 }
 
 .creature-type {
@@ -45,15 +39,6 @@
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 5px;
-    text-align: center;
-  }
-
-  .creature-size {
-
-    font-size: 1.25em;
-    font-weight: bold;
-    margin: 0;
-    margin-top: 10px;
     text-align: center;
   }
 

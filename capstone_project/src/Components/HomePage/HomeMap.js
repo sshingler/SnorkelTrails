@@ -36,7 +36,7 @@ const HomeMap = () => {
 
     return (
         <>
-            <div id="map">
+            <div id="map" >
                 <MapContainer center={[56.9722529,-4.4786009]} zoom={7}>
                     <TileLayer 
                         attribution= '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>contributors'
