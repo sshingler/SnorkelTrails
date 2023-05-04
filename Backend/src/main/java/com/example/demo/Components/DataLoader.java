@@ -1647,6 +1647,111 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //East-Lothian - Scottish Seabird Centre - CreatureBeaches - Fish
+
+        CreatureBeach ScottishSeabirdCentreBallanWrasse = new CreatureBeach(BallanWrasse, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreBallanWrasse);
+
+        CreatureBeach ScottishSeabirdCentreButterfish = new CreatureBeach(Butterfish, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreButterfish);
+
+        CreatureBeach ScottishSeabirdCentreScorpionfish = new CreatureBeach(Scorpionfish, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreScorpionfish);
+
+        CreatureBeach ScottishSeabirdCentreWeaverFish = new CreatureBeach(WeaverFish, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreWeaverFish);
+
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Crustaceans
+
+        CreatureBeach ScottishSeabirdCentreShoreCrab = new CreatureBeach(ShoreCrab, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreShoreCrab);
+
+        CreatureBeach ScottishSeabirdCentreVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreVelvetSwimmingCrab);
+
+        CreatureBeach ScottishSeabirdCentreEdibleCrab = new CreatureBeach(EdibleCrab, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreEdibleCrab);
+
+        CreatureBeach ScottishSeabirdCentreHermitCrab = new CreatureBeach(HermitCrab, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreHermitCrab);
+
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Snails
+
+        CreatureBeach ScottishSeabirdCentreTopshell = new CreatureBeach(Topshell, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreTopshell);
+
+        CreatureBeach ScottishSeabirdCentreDogwhelk = new CreatureBeach(Dogwhelk, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreDogwhelk);
+
+        CreatureBeach ScottishSeabirdCentrePeriwinkle = new CreatureBeach(Periwinkle, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentrePeriwinkle);
+
+        CreatureBeach ScottishSeabirdCentreLimpet = new CreatureBeach(Limpet, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreLimpet);
+
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach ScottishSeabirdCentreCommonStarfish = new CreatureBeach(CommonStarfish, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreCommonStarfish);
+
+        CreatureBeach ScottishSeabirdCentreBrittlestar = new CreatureBeach(Brittlestar, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreBrittlestar);
+
+        CreatureBeach ScottishSeabirdCentreBloodyHenryStarfish = new CreatureBeach(BloodyHenryStarfish, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreBloodyHenryStarfish);
+
+        CreatureBeach ScottishSeabirdCentreDeadMansFingers = new CreatureBeach(DeadMansFingers, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreDeadMansFingers);
+
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Seabirds
+
+        CreatureBeach ScottishSeabirdCentreEider = new CreatureBeach(Eider, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreEider);
+
+        CreatureBeach ScottishSeabirdCentreArcticTern = new CreatureBeach(ArcticTern, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreArcticTern);
+
+        CreatureBeach ScottishSeabirdCentreGannet = new CreatureBeach(Gannet, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreGannet);
+
+        CreatureBeach ScottishSeabirdCentreShag = new CreatureBeach(Shag, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreShag);
+
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Jellyfish
+
+        CreatureBeach ScottishSeabirdCentreLionsMane = new CreatureBeach(LionsMane, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreLionsMane);
+
+        CreatureBeach ScottishSeabirdCentreMoon = new CreatureBeach(Moon, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreMoon);
+
+        CreatureBeach ScottishSeabirdCentreBarrel = new CreatureBeach(Barrel, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreBarrel);
+
+        CreatureBeach ScottishSeabirdCentreComb = new CreatureBeach(Comb, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreComb);
+
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Algae
+
+        CreatureBeach ScottishSeabirdCentreBladderWrack = new CreatureBeach(BladderWrack, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreBladderWrack);
+
+        CreatureBeach ScottishSeabirdCentreKelp = new CreatureBeach(Kelp, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreKelp);
+
+        CreatureBeach ScottishSeabirdCentreSeaLettuce = new CreatureBeach(SeaLettuce, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreSeaLettuce);
+
+        CreatureBeach ScottishSeabirdCentreChannelWrack = new CreatureBeach(ChannelWrack, ScottishSeabirdCentre);
+        creatureBeachRepository.save(ScottishSeabirdCentreChannelWrack);
+
+        //East-Lothian - ScottishSeabirdCentre - CreatureBeaches - Others
+
+
+
+
+
+
 
 
 
