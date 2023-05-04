@@ -59,6 +59,9 @@ public class DataLoader implements ApplicationRunner {
         Creature Scorpionfish = new Creature("Fish","Scorpionfish","Scorpionfish.jpeg","Up to 20cm","Inhabits shallow coastal waters, bottom dwelling. It is capable of mimicking the colours of its surrounding environment which can make it difficult to spot.","Common");
         creatureRepository.save(Scorpionfish);
 
+        Creature WeaverFish = new Creature( "Fish","Weaver Fish","WeaverFish.jpeg","Up to 15cm long","Some of the only venomous fish in UK waters, they spend most of their lives buried in the sand but are often seen from June - October.","Common");
+        creatureRepository.save(WeaverFish);
+
 
 
 
@@ -154,12 +157,15 @@ public class DataLoader implements ApplicationRunner {
         Creature Brittlestar = new Creature("Starfish & Urchins","Brittlestar","Brittlestar.jpeg","Up to 2cm","Found in rockpools around much of the UK throughout the year. Be gentle - its arms are very brittle and will break off if disturbed.","Common");
         creatureRepository.save(Brittlestar);
 
+        Creature BloodyHenryStarfish = new Creature( "Starfish & Urchins","Bloody Henry Starfish","BloodyHenryStarfish.jpeg","10cm diameter","Sometimes found in rockpools at very low tides, usually on the seabed to depths of over 100m.","Common");
+        creatureRepository.save(BloodyHenryStarfish);
+
         //Plants & Algae
 
         Creature Kelp = new Creature("Plants & Algae", "Kelp","Kelp.jpeg", "Up to 5m length", "Grows attached to rocky seabeds.","Common");
         creatureRepository.save(Kelp);
 
-        Creature Seagrass = new Creature("Plants & Algae", "Seagrass","Seagrass.jpeg", "Varies - can form large 'sea meadows'.", "Found around the UK coast in sheltered areas such as harbours, estuaries, lagoons and bays.","Threatened");
+        Creature Seagrass = new Creature("Plants & Algae", "Seagrass","Seagrass.jpeg", "Varies - can form large 'sea meadows'", "Found around the UK coast in sheltered areas such as harbours, estuaries, lagoons and bays.","Threatened");
         creatureRepository.save(Seagrass);
 
         Creature BladderWrack = new Creature("Plants & Algae", "Bladder Wrack","BladderWrack.jpeg", "15-100cm length", "The seaweed most associated with the sea shore! Grows between high and low water marks on rocky shores.","Common");
@@ -173,6 +179,20 @@ public class DataLoader implements ApplicationRunner {
 
         Creature SeaLettuce = new Creature("Plants & Algae","Sea Lettuce","SeaLettuce.jpeg","Up to 20cm length","Unmistakable and found on all UK coasts - most often bright green and always translucent.","Common");
         creatureRepository.save(SeaLettuce);
+
+        //Seabird
+
+        Creature Eider = new Creature( "Seabird","Eider","Eider.jpeg","55-60cm length, 94cm wingspan","Large sea ducks that nest in colonies around the coast of northern UK","Amber status under the Birds of Conservation Concern");
+        creatureRepository.save(Eider);
+
+        Creature ArcticTern = new Creature( "Seabird","Arctic Tern","ArcticTern.jpeg","33-35cm length, 75-85cm wingspan","Nests in colonies on sand and shingle beaches along the coast.","Amber status under the Birds of Conservation Concern");
+        creatureRepository.save(ArcticTern);
+
+        Creature Gannet = new Creature( "Seabird","Gannet","Gannets.jpeg","87-100cm length, 165-180cm wingspan","One of our largest seabirds. Nests on coastal cliffs, easily identified due to its size and distinctive markings.","Amber status under the Birds of Conservation Concern");
+        creatureRepository.save(Gannet);
+
+        Creature Shag = new Creature( "Seabird","Shag","Shag.jpeg","72-80cm length, 90-105cm wingspan","Nests on cliffs, but rarely seen inland. Often spotted perched on a rock or bank with their wings held out.","Red status under the Birds of Conservation Concern");
+        creatureRepository.save(Shag);
 
         //Other
 
