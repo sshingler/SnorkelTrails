@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import '../StyleSheets/SeaLife/SeaLifePage.css'
-import '../StyleSheets/Constants.css'
+// import '../StyleSheets/Constants.css'
 import SeaLifeCard from "../Components/SeaLife/SeaLifeCard";
 
 const SeaLifeContainer = () => {
