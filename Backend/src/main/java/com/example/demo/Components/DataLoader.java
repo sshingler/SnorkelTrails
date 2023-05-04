@@ -1542,6 +1542,110 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //East-Lothian - Yellowcraig - CreatureBeaches - Fish
+
+        CreatureBeach YellowcraigBallanWrasse = new CreatureBeach(BallanWrasse, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigBallanWrasse);
+
+        CreatureBeach YellowcraigButterfish = new CreatureBeach(Butterfish, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigButterfish);
+
+        CreatureBeach YellowcraigScorpionfish = new CreatureBeach(Scorpionfish, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigScorpionfish);
+
+        CreatureBeach YellowcraigWeaverFish = new CreatureBeach(WeaverFish, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigWeaverFish);
+
+        //East-Lothian - Yellowcraig - CreatureBeaches - Crustaceans
+
+        CreatureBeach YellowcraigShoreCrab = new CreatureBeach(ShoreCrab, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigShoreCrab);
+
+        CreatureBeach YellowcraigVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigVelvetSwimmingCrab);
+
+        CreatureBeach YellowcraigEdibleCrab = new CreatureBeach(EdibleCrab, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigEdibleCrab);
+
+        CreatureBeach YellowcraigHermitCrab = new CreatureBeach(HermitCrab, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigHermitCrab);
+
+        //East-Lothian - Yellowcraig - CreatureBeaches - Snails
+
+        CreatureBeach YellowcraigTopshell = new CreatureBeach(Topshell, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigTopshell);
+
+        CreatureBeach YellowcraigDogwhelk = new CreatureBeach(Dogwhelk, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigDogwhelk);
+
+        CreatureBeach YellowcraigPeriwinkle = new CreatureBeach(Periwinkle, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigPeriwinkle);
+
+        CreatureBeach YellowcraigLimpet = new CreatureBeach(Limpet, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigLimpet);
+
+        //East-Lothian - Yellowcraig - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach YellowcraigCommonStarfish = new CreatureBeach(CommonStarfish, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigCommonStarfish);
+
+        CreatureBeach YellowcraigBrittlestar = new CreatureBeach(Brittlestar, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigBrittlestar);
+
+        CreatureBeach YellowcraigBloodyHenryStarfish = new CreatureBeach(BloodyHenryStarfish, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigBloodyHenryStarfish);
+
+        CreatureBeach YellowcraigDeadMansFingers = new CreatureBeach(DeadMansFingers, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigDeadMansFingers);
+
+        //East-Lothian - Yellowcraig - CreatureBeaches - Seabirds
+
+        CreatureBeach YellowcraigEider = new CreatureBeach(Eider, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigEider);
+
+        CreatureBeach YellowcraigArcticTern = new CreatureBeach(ArcticTern, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigArcticTern);
+
+        CreatureBeach YellowcraigGannet = new CreatureBeach(Gannet, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigGannet);
+
+        CreatureBeach YellowcraigShag = new CreatureBeach(Shag, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigShag);
+
+        //East-Lothian - Yellowcraig - CreatureBeaches - Jellyfish
+
+        CreatureBeach YellowcraigLionsMane = new CreatureBeach(LionsMane, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigLionsMane);
+
+        CreatureBeach YellowcraigMoon = new CreatureBeach(Moon, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigMoon);
+
+        CreatureBeach YellowcraigBarrel = new CreatureBeach(Barrel, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigBarrel);
+
+        CreatureBeach YellowcraigComb = new CreatureBeach(Comb, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigComb);
+
+        //East-Lothian - Yellowcraig - CreatureBeaches - Algae
+
+        CreatureBeach YellowcraigBladderWrack = new CreatureBeach(BladderWrack, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigBladderWrack);
+
+        CreatureBeach YellowcraigKelp = new CreatureBeach(Kelp, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigKelp);
+
+        CreatureBeach YellowcraigSeaLettuce = new CreatureBeach(SeaLettuce, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigSeaLettuce);
+
+        CreatureBeach YellowcraigChannelWrack = new CreatureBeach(ChannelWrack, Yellowcraig);
+        creatureBeachRepository.save(YellowcraigChannelWrack);
+
+        //East-Lothian - Yellowcraig - CreatureBeaches - Others
+
+
+
+
+
 
 
 
