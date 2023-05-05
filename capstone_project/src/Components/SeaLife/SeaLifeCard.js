@@ -4,10 +4,6 @@ import '../../StyleSheets/SeaLife/SeaLife.css'
 
 const SeaLifeCard = ({ creature }) => {
 
-
-    console.log(creature.img);
-
-
     return (
         <>
             <div className="sea-life-card">
