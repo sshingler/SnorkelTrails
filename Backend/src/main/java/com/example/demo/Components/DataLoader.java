@@ -272,6 +272,32 @@ public class DataLoader implements ApplicationRunner {
         Beach Dunbar = new Beach("East-Lothian","East-Lothian_Dunbar.png","Dunbar","OS Explorer 361, NT676791","///second.wash.teardrop","56.003733,-2.521099","Dunbar","This sheltered, rocky bay, overlooked by Dunbar Castle, is a haven for marine life amongst the kelp and rocky crevices. More experienced snorkelers can head towards deeper parts but be sure to keep away from the harbour entrance. Access is via steps descending from the coastal path, west of Dunbar Leisure Pool. Parking and public toilets are available. Be cautious of metal piles present from old pool infrastructure.", amenitiesDunbar);
         beachRepository.save (Dunbar);
 
+        //Lochaber - Beaches
+
+        List<String> amenitiesCamusdarachBeach = Arrays.asList("Parking", "Campsite");
+        Beach CamusdarachBeach = new Beach("Lochaber","Lochaber_CamusdarachBeach.png","Camusdarach Beach","OS Landranger 40, NM661918","///fights.pounds.student","56.958104,-5.84868","Mallaig","This beautiful white sand beach provides stunning views of the Cuillins on Skye, as well as several other islands. The short walk from the car park brings you to the north end of the bay, and beginners can easily learn directly off the beach. More experienced snorkelers can explore the rocky outcrops where juvenile fish and crabs take shelter amongst the kelp.", amenitiesCamusdarachBeach);
+        beachRepository.save (CamusdarachBeach);
+
+        List<String> amenitiesPrincesCairn = Arrays.asList("Parking");
+        Beach PrincesCairn = new Beach("Lochaber","Lochaber_PrincesCairn.png","Prince's Cairn","OS Landranger 40, NM719844","///royal.hesitate.coil","56.894661,-5.746865","Arasaig","Said to be the site where Bonnie Prince Charlie left Scotland, this advanced site involves a slight scramble through trees and bushes to the shore. Here, the rocky kelp grounds are home to many species of fish and shellfish, and seals watch from the nearby island. Parking is in a shoreside layby just to the west of the site on the main road to Mallaig.", amenitiesPrincesCairn);
+        beachRepository.save (PrincesCairn);
+
+        List<String> amenitiesArdnastang = Arrays.asList("Parking", "Cafe");
+        Beach Ardnastang = new Beach("Lochaber","Lochaber_Ardnastang.png","Ardnastang","OS Landranger 40, NM799611","///claw.scavenger.minute","56.689643,-5.595774","Sunart","Beginner snorkelers can take to the water straight off the beach, whilst the rocky headland to the south east is suitable for those with more experience. The beach itself hosts a number of species – if you dig into the sand and gravel you may well unearth a number of critters such as lugworms and small crabs.", amenitiesArdnastang);
+        beachRepository.save (Ardnastang);
+
+        List<String> amenitiesLochaline = Arrays.asList("Parking", "Cafe");
+        Beach Lochaline = new Beach("Lochaber","Lochaber_Lochaline.png","Lochaline","OS Landranger 49, NM675443","///padding.calculate.rehearsal","56.533029,-5.782644","Lochaline","A quiet beach offering a beginner area just off the sand. More advanced snorkelers can follow the edge of the rocky reef, which is submerged at high water and exposed at low water, to explore the seaweed habitat where a host of other species can be found. Parking is in an off-road gravel car park and there is a nearby café at the ferry terminal.", amenitiesLochaline);
+        beachRepository.save (Lochaline);
+
+        List<String> amenitiesLochLinnhePicnicArea = Arrays.asList("Parking", "Campsite");
+        Beach LochLinnhePicnicArea = new Beach("Lochaber","Lochaber_LochLinnhePicnicArea.png","Loch Linnhe Picnic Area","OS Landranger 41, NN039656","///wrist.barman.tractor","56.74182,-5.206736","Corran","Around seven miles south of Fort William, this picnic area offers parking, picnic benches and free camping. The beach to the south side is suitable for beginners and the headland area to the west will allow advanced snorkelers to explore the deeper habitat and environment. A great place for families and groups.", amenitiesLochLinnhePicnicArea);
+        beachRepository.save (LochLinnhePicnicArea);
+
+        List<String> amenitiesBishopsBay = Arrays.asList("Parking");
+        Beach BishopsBay = new Beach("Lochaber","Lochaber_BishopsBay.png","Bishop's Bay","OS Landranger 41, NN056600","///itself.mural.attaching","56.691152,-5.176016","Ballachulish","Just north of Ballachulish Bridge, park near the old jetty and walk through the woods to a great beach inside of moorings where you can explore the beach and headland. Avoid any boats that are approaching or leaving moorings and enjoy this sheltered bay with its multitude of life.", amenitiesBishopsBay);
+        beachRepository.save (BishopsBay);
+
 
 
 
