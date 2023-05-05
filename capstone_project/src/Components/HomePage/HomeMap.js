@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 
 import '../../StyleSheets/HomePage/HomeMap.css'
@@ -8,22 +8,7 @@ import MarkerClusterGroup from "react-leaflet-cluster";
 
 import BeachMarker from "./BeachMarker";
 
-const HomeMap = () => {
-    const [beaches, setBeaches] = useState([])
-
-    async function fetchBeaches() {
-        const res = await fetch('http://localhost:8080/beaches');
-        const beaches = await res.json();
-        setBeaches(beaches);
-    }
-
-    useEffect(() => {
-        fetchBeaches();
-    }, [])
-
-    if (!beaches.length){
-        return "Loading"
-    }
+const HomeMap = ({ beaches }) => {
 
     const customIcon = new Icon({
         iconUrl: require("../../Images/MapIcons/redIcon.png"),
