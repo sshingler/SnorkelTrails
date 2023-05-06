@@ -2566,6 +2566,116 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Lochaber - BishopsBay - CreatureBeaches - Fish
+
+        CreatureBeach BishopsBayLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, BishopsBay);
+        creatureBeachRepository.save(BishopsBayLesserSpottedDogfish);
+
+        CreatureBeach BishopsBayBallanWrasse = new CreatureBeach(BallanWrasse, BishopsBay);
+        creatureBeachRepository.save(BishopsBayBallanWrasse);
+
+        CreatureBeach BishopsBaySandeel = new CreatureBeach(Sandeel, BishopsBay);
+        creatureBeachRepository.save(BishopsBaySandeel);
+
+        CreatureBeach BishopsBayPollock = new CreatureBeach(Pollock, BishopsBay);
+        creatureBeachRepository.save(BishopsBayPollock);
+
+        //Lochaber - BishopsBay - CreatureBeaches - Crustaceans
+
+        CreatureBeach BishopsBayShoreCrab = new CreatureBeach(ShoreCrab, BishopsBay);
+        creatureBeachRepository.save(BishopsBayShoreCrab);
+
+        CreatureBeach BishopsBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, BishopsBay);
+        creatureBeachRepository.save(BishopsBayVelvetSwimmingCrab);
+
+        CreatureBeach BishopsBayHermitCrab = new CreatureBeach(HermitCrab, BishopsBay);
+        creatureBeachRepository.save(BishopsBayHermitCrab);
+
+        CreatureBeach BishopsBayEdibleCrab = new CreatureBeach(EdibleCrab, BishopsBay);
+        creatureBeachRepository.save(BishopsBayEdibleCrab);
+
+        //Lochaber - BishopsBay - CreatureBeaches - Snails
+
+        CreatureBeach BishopsBayTopshell = new CreatureBeach(Topshell, BishopsBay);
+        creatureBeachRepository.save(BishopsBayTopshell);
+
+        CreatureBeach BishopsBayDogwhelk = new CreatureBeach(Dogwhelk, BishopsBay);
+        creatureBeachRepository.save(BishopsBayDogwhelk);
+
+        CreatureBeach BishopsBayPeriwinkle = new CreatureBeach(Periwinkle, BishopsBay);
+        creatureBeachRepository.save(BishopsBayPeriwinkle);
+
+        CreatureBeach BishopsBayLimpet = new CreatureBeach(Limpet, BishopsBay);
+        creatureBeachRepository.save(BishopsBayLimpet);
+
+        //Lochaber - BishopsBay - CreatureBeaches - Other invertebrates
+
+        CreatureBeach BishopsBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, BishopsBay);
+        creatureBeachRepository.save(BishopsBaySnakelocksAnemone);
+
+        CreatureBeach BishopsBayBeadletAnemone = new CreatureBeach(BeadletAnemone, BishopsBay);
+        creatureBeachRepository.save(BishopsBayBeadletAnemone);
+
+        CreatureBeach BishopsBayBreadcrumbSponge = new CreatureBeach(BreadcrumbSponge, BishopsBay);
+        creatureBeachRepository.save(BishopsBayBreadcrumbSponge);
+
+        CreatureBeach BishopsBayCuttlefish = new CreatureBeach(Cuttlefish, BishopsBay);
+        creatureBeachRepository.save(BishopsBayCuttlefish);
+
+        //Lochaber - BishopsBay - CreatureBeaches - Jellyfish
+
+        CreatureBeach BishopsBayLionsMane = new CreatureBeach(LionsMane, BishopsBay);
+        creatureBeachRepository.save(BishopsBayLionsMane);
+
+        CreatureBeach BishopsBayMoon = new CreatureBeach(Moon, BishopsBay);
+        creatureBeachRepository.save(BishopsBayMoon);
+
+        CreatureBeach BishopsBayBarrel = new CreatureBeach(Barrel, BishopsBay);
+        creatureBeachRepository.save(BishopsBayBarrel);
+
+        CreatureBeach BishopsBayStalked = new CreatureBeach(Stalked, BishopsBay);
+        creatureBeachRepository.save(BishopsBayStalked);
+
+        //Lochaber - BishopsBay - CreatureBeaches - Starfish and urchins
+
+        CreatureBeach BishopsBayCommonStarfish = new CreatureBeach(CommonStarfish, BishopsBay);
+        creatureBeachRepository.save(BishopsBayCommonStarfish);
+
+        CreatureBeach BishopsBayBrittlestar = new CreatureBeach(Brittlestar, BishopsBay);
+        creatureBeachRepository.save(BishopsBayBrittlestar);
+
+        CreatureBeach BishopsBaySunstar = new CreatureBeach(Sunstar, BishopsBay);
+        creatureBeachRepository.save(BishopsBaySunstar);
+
+        CreatureBeach BishopsBayCommonUrchin = new CreatureBeach(CommonUrchin, BishopsBay);
+        creatureBeachRepository.save(BishopsBayCommonUrchin);
+
+        //Lochaber - BishopsBay - CreatureBeaches - Plants and algae
+
+        CreatureBeach BishopsBayKelp = new CreatureBeach(Kelp, BishopsBay);
+        creatureBeachRepository.save(BishopsBayKelp);
+
+        CreatureBeach BishopsBayMaerl = new CreatureBeach(Maerl, BishopsBay);
+        creatureBeachRepository.save(BishopsBayMaerl);
+
+        CreatureBeach BishopsBayEelgrass = new CreatureBeach(Eelgrass, BishopsBay);
+        creatureBeachRepository.save(BishopsBayEelgrass);
+
+        CreatureBeach BishopsBayBladderWrack = new CreatureBeach(BladderWrack, BishopsBay);
+        creatureBeachRepository.save(BishopsBayBladderWrack);
+
+        //Lochaber - BishopsBay - CreatureBeaches - Other
+
+        CreatureBeach BishopsBayWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, BishopsBay);
+        creatureBeachRepository.save(BishopsBayWhiteTailedEagle);
+
+
+
+
+
+
+
+
 
 
 
