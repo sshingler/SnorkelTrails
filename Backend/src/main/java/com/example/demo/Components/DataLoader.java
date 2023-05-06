@@ -2123,6 +2123,125 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Lochaber - PrincesCairn - CreatureBeaches - Fish
+
+        CreatureBeach PrincesCairnLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnLesserSpottedDogfish);
+
+        CreatureBeach PrincesCairnBallanWrasse = new CreatureBeach(BallanWrasse, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnBallanWrasse);
+
+        CreatureBeach PrincesCairnSandeel = new CreatureBeach(Sandeel, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnSandeel);
+
+        CreatureBeach PrincesCairnPollock = new CreatureBeach(Pollock, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnPollock);
+
+        //Lochaber - PrincesCairn - CreatureBeaches - Crustaceans
+
+        CreatureBeach PrincesCairnShoreCrab = new CreatureBeach(ShoreCrab, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnShoreCrab);
+
+        CreatureBeach PrincesCairnVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnVelvetSwimmingCrab);
+
+        CreatureBeach PrincesCairnHermitCrab = new CreatureBeach(HermitCrab, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnHermitCrab);
+
+        CreatureBeach PrincesCairnEdibleCrab = new CreatureBeach(EdibleCrab, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnEdibleCrab);
+
+        //Lochaber - PrincesCairn - CreatureBeaches - Snails
+
+        CreatureBeach PrincesCairnTopshell = new CreatureBeach(Topshell, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnTopshell);
+
+        CreatureBeach PrincesCairnDogwhelk = new CreatureBeach(Dogwhelk, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnDogwhelk);
+
+        CreatureBeach PrincesCairnPeriwinkle = new CreatureBeach(Periwinkle, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnPeriwinkle);
+
+        CreatureBeach PrincesCairnLimpet = new CreatureBeach(Limpet, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnLimpet);
+
+        //Lochaber - PrincesCairn - CreatureBeaches - Other invertebrates
+
+        CreatureBeach PrincesCairnSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnSnakelocksAnemone);
+
+        CreatureBeach PrincesCairnBeadletAnemone = new CreatureBeach(BeadletAnemone, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnBeadletAnemone);
+
+        CreatureBeach PrincesCairnBreadcrumbSponge = new CreatureBeach(BreadcrumbSponge, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnBreadcrumbSponge);
+
+        CreatureBeach PrincesCairnCuttlefish = new CreatureBeach(Cuttlefish, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnCuttlefish);
+
+        //Lochaber - PrincesCairn - CreatureBeaches - Jellyfish
+
+        CreatureBeach PrincesCairnLionsMane = new CreatureBeach(LionsMane, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnLionsMane);
+
+        CreatureBeach PrincesCairnMoon = new CreatureBeach(Moon, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnMoon);
+
+        CreatureBeach PrincesCairnBarrel = new CreatureBeach(Barrel, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnBarrel);
+
+        CreatureBeach PrincesCairnStalked = new CreatureBeach(Stalked, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnStalked);
+
+        //Lochaber - PrincesCairn - CreatureBeaches - Starfish and urchins
+
+        CreatureBeach PrincesCairnCommonStarfish = new CreatureBeach(CommonStarfish, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnCommonStarfish);
+
+        CreatureBeach PrincesCairnBrittlestar = new CreatureBeach(Brittlestar, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnBrittlestar);
+
+        CreatureBeach PrincesCairnSunstar = new CreatureBeach(Sunstar, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnSunstar);
+
+        CreatureBeach PrincesCairnCommonUrchin = new CreatureBeach(CommonUrchin, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnCommonUrchin);
+
+        //Lochaber - PrincesCairn - CreatureBeaches - Plants and algae
+
+        CreatureBeach PrincesCairnKelp = new CreatureBeach(Kelp, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnKelp);
+
+        CreatureBeach PrincesCairnMaerl = new CreatureBeach(Maerl, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnMaerl);
+
+        CreatureBeach PrincesCairnEelgrass = new CreatureBeach(Eelgrass, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnEelgrass);
+
+        CreatureBeach PrincesCairnBladderWrack = new CreatureBeach(BladderWrack, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnBladderWrack);
+
+        //Lochaber - PrincesCairn - CreatureBeaches - Other
+
+        CreatureBeach PrincesCairnWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, PrincesCairn);
+        creatureBeachRepository.save(PrincesCairnWhiteTailedEagle);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
