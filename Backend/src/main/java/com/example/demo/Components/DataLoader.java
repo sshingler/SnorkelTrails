@@ -62,6 +62,15 @@ public class DataLoader implements ApplicationRunner {
         Creature WeaverFish = new Creature( "Fish","Weever Fish","WeaverFish.jpeg","Up to 15cm long","Some of the only venomous fish in UK waters, they spend most of their lives buried in the sand but are often seen from June - October.","Common");
         creatureRepository.save(WeaverFish);
 
+        Creature LesserSpottedDogfish = new Creature( "Fish","Lesser-Spotted Dogfish","Lesser-SpottedDogfish.jpeg","Up to 75cm","Our most commonly seen shark, their egg cases (known as 'Mermaids purses') are often found washed up onshore.","Common");
+        creatureRepository.save(LesserSpottedDogfish);
+
+        Creature Sandeel = new Creature( "Fish","Sandeel","Sandeel.jpeg","Up to 20cm","Best seen between April - September, swimming in large shoals close to the seabed. They will burrow into the sand to escape predators.","Common, priority species");
+        creatureRepository.save(Sandeel);
+
+        Creature Pollock = new Creature( "Fish","Pollock","Pollock.jpeg","A few cm, up to 105cm when mature","Usually found sheltered close to the seabed, venturing into deeper waters as size increases.","Common");
+        creatureRepository.save(Pollock);
+
 
 
 
@@ -123,6 +132,9 @@ public class DataLoader implements ApplicationRunner {
         Creature DeadMansFingers = new Creature("Other Invertebrate","Dead Man's Fingers","DeadMansFingers.jpeg","Up to 20cm height","A type of soft coral, growing on hard surfaces beneath the sea down to about 50m. They can cover large areas of rocky outcrops and gullies.","Common");
         creatureRepository.save(DeadMansFingers);
 
+        Creature BreadcrumbSponge = new Creature( "Other Invertebrate","Breadcrumb Sponge","BreadcrumbSponge.jpeg","Up to 1m wide, normally in patches of 10 - 20cm","Found on rocky shores, rocky seabeds or cobbles beneath the low water mark. Lots of different colours and grows in a variety of shapes!","Common");
+        creatureRepository.save(BreadcrumbSponge);
+
 
 
         //Jellyfish
@@ -138,6 +150,9 @@ public class DataLoader implements ApplicationRunner {
 
         Creature Comb = new Creature("Jellyfish","Comb", "CombJellyfish.jpeg", "A few mm up to 1.5m long", "Actually made up of a group called 'Ctenophores', found in coastal and oceanic waters worldwide.","Common");
         creatureRepository.save(Comb);
+
+        Creature Stalked = new Creature("Jellyfish","Stalked", "StalkedJellyfish.png", "Up to 4.5cm", "Lower shore and rocky coasts, sometimes found on macroalgae and seagrasses.","Rare. Global red list");
+        creatureRepository.save(Stalked);
 
 
         //Starfish & Urchins
@@ -180,6 +195,11 @@ public class DataLoader implements ApplicationRunner {
         Creature SeaLettuce = new Creature("Plants & Algae","Sea Lettuce","SeaLettuce.jpeg","Up to 20cm length","Unmistakable and found on all UK coasts - most often bright green and always translucent.","Common");
         creatureRepository.save(SeaLettuce);
 
+        Creature Eelgrass = new Creature( "Plants & Algae","Eelgrass","Eelgrass.jpeg","Usually 20 - 50cm long","Found on the very low shore down to 10m deep, can form dense seagrass meadows and provide shelter for many species.","Threatened");
+        creatureRepository.save(Eelgrass);
+
+
+
         //Seabird
 
         Creature Eider = new Creature( "Seabird","Eider","Eider.jpeg","55-60cm length, 94cm wingspan","Large sea ducks that nest in colonies around the coast of northern UK","Amber status under the Birds of Conservation Concern");
@@ -193,6 +213,9 @@ public class DataLoader implements ApplicationRunner {
 
         Creature Shag = new Creature( "Seabird","Shag","Shag.jpeg","72-80cm length, 90-105cm wingspan","Nests on cliffs, but rarely seen inland. Often spotted perched on a rock or bank with their wings held out.","Red status under the Birds of Conservation Concern");
         creatureRepository.save(Shag);
+
+        Creature WhiteTailedEagle = new Creature( "Seabird","White-Tailed Eagle","WhiteTailedEagle.jpeg","80-90cm length, 2.2m wingspan","Our largest bird of prey, sometimes known as the 'Sea-Eagle'. Their territory may be up to 70 square kilometres! ","Amber status under the Birds of Conservation Concern");
+        creatureRepository.save(WhiteTailedEagle);
 
         //Other
 
@@ -1983,6 +2006,121 @@ public class DataLoader implements ApplicationRunner {
         creatureBeachRepository.save(DunbarChannelWrack);
 
         //East-Lothian - Dunbar - CreatureBeaches - Others
+
+
+
+
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Fish
+
+        CreatureBeach CamusdarachBeachLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachLesserSpottedDogfish);
+
+        CreatureBeach CamusdarachBeachBallanWrasse = new CreatureBeach(BallanWrasse, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachBallanWrasse);
+
+        CreatureBeach CamusdarachBeachSandeel = new CreatureBeach(Sandeel, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachSandeel);
+
+        CreatureBeach CamusdarachBeachPollock = new CreatureBeach(Pollock, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachPollock);
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Crustaceans
+
+        CreatureBeach CamusdarachBeachShoreCrab = new CreatureBeach(ShoreCrab, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachShoreCrab);
+
+        CreatureBeach CamusdarachBeachVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachVelvetSwimmingCrab);
+
+        CreatureBeach CamusdarachBeachHermitCrab = new CreatureBeach(HermitCrab, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachHermitCrab);
+
+        CreatureBeach CamusdarachBeachEdibleCrab = new CreatureBeach(EdibleCrab, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachEdibleCrab);
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Snails
+
+        CreatureBeach CamusdarachBeachTopshell = new CreatureBeach(Topshell, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachTopshell);
+
+        CreatureBeach CamusdarachBeachDogwhelk = new CreatureBeach(Dogwhelk, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachDogwhelk);
+
+        CreatureBeach CamusdarachBeachPeriwinkle = new CreatureBeach(Periwinkle, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachPeriwinkle);
+
+        CreatureBeach CamusdarachBeachLimpet = new CreatureBeach(Limpet, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachLimpet);
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Other invertebrates
+
+        CreatureBeach CamusdarachBeachSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachSnakelocksAnemone);
+
+        CreatureBeach CamusdarachBeachBeadletAnemone = new CreatureBeach(BeadletAnemone, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachBeadletAnemone);
+
+        CreatureBeach CamusdarachBeachBreadcrumbSponge = new CreatureBeach(BreadcrumbSponge, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachBreadcrumbSponge);
+
+        CreatureBeach CamusdarachBeachCuttlefish = new CreatureBeach(Cuttlefish, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachCuttlefish);
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Jellyfish
+
+        CreatureBeach CamusdarachBeachLionsMane = new CreatureBeach(LionsMane, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachLionsMane);
+
+        CreatureBeach CamusdarachBeachMoon = new CreatureBeach(Moon, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachMoon);
+
+        CreatureBeach CamusdarachBeachBarrel = new CreatureBeach(Barrel, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachBarrel);
+
+        CreatureBeach CamusdarachBeachStalked = new CreatureBeach(Stalked, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachStalked);
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Starfish and urchins
+
+        CreatureBeach CamusdarachBeachCommonStarfish = new CreatureBeach(CommonStarfish, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachCommonStarfish);
+
+        CreatureBeach CamusdarachBeachBrittlestar = new CreatureBeach(Brittlestar, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachBrittlestar);
+
+        CreatureBeach CamusdarachBeachSunstar = new CreatureBeach(Sunstar, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachSunstar);
+
+        CreatureBeach CamusdarachBeachCommonUrchin = new CreatureBeach(CommonUrchin, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachCommonUrchin);
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Plants and algae
+
+        CreatureBeach CamusdarachBeachKelp = new CreatureBeach(Kelp, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachKelp);
+
+        CreatureBeach CamusdarachBeachMaerl = new CreatureBeach(Maerl, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachMaerl);
+
+        CreatureBeach CamusdarachBeachEelgrass = new CreatureBeach(Eelgrass, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachEelgrass);
+
+        CreatureBeach CamusdarachBeachBladderWrack = new CreatureBeach(BladderWrack, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachBladderWrack);
+
+        //Lochaber - CamusdarachBeach - CreatureBeaches - Other
+
+        CreatureBeach CamusdarachBeachWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, CamusdarachBeach);
+        creatureBeachRepository.save(CamusdarachBeachWhiteTailedEagle);
+
+
+
+
+
+
+
+
 
 
 
