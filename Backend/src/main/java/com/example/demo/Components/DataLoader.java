@@ -2237,6 +2237,108 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Lochaber - Ardnastang - CreatureBeaches - Fish
+
+        CreatureBeach ArdnastangLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, Ardnastang);
+        creatureBeachRepository.save(ArdnastangLesserSpottedDogfish);
+
+        CreatureBeach ArdnastangBallanWrasse = new CreatureBeach(BallanWrasse, Ardnastang);
+        creatureBeachRepository.save(ArdnastangBallanWrasse);
+
+        CreatureBeach ArdnastangSandeel = new CreatureBeach(Sandeel, Ardnastang);
+        creatureBeachRepository.save(ArdnastangSandeel);
+
+        CreatureBeach ArdnastangPollock = new CreatureBeach(Pollock, Ardnastang);
+        creatureBeachRepository.save(ArdnastangPollock);
+
+        //Lochaber - Ardnastang - CreatureBeaches - Crustaceans
+
+        CreatureBeach ArdnastangShoreCrab = new CreatureBeach(ShoreCrab, Ardnastang);
+        creatureBeachRepository.save(ArdnastangShoreCrab);
+
+        CreatureBeach ArdnastangVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, Ardnastang);
+        creatureBeachRepository.save(ArdnastangVelvetSwimmingCrab);
+
+        CreatureBeach ArdnastangHermitCrab = new CreatureBeach(HermitCrab, Ardnastang);
+        creatureBeachRepository.save(ArdnastangHermitCrab);
+
+        CreatureBeach ArdnastangEdibleCrab = new CreatureBeach(EdibleCrab, Ardnastang);
+        creatureBeachRepository.save(ArdnastangEdibleCrab);
+
+        //Lochaber - Ardnastang - CreatureBeaches - Snails
+
+        CreatureBeach ArdnastangTopshell = new CreatureBeach(Topshell, Ardnastang);
+        creatureBeachRepository.save(ArdnastangTopshell);
+
+        CreatureBeach ArdnastangDogwhelk = new CreatureBeach(Dogwhelk, Ardnastang);
+        creatureBeachRepository.save(ArdnastangDogwhelk);
+
+        CreatureBeach ArdnastangPeriwinkle = new CreatureBeach(Periwinkle, Ardnastang);
+        creatureBeachRepository.save(ArdnastangPeriwinkle);
+
+        CreatureBeach ArdnastangLimpet = new CreatureBeach(Limpet, Ardnastang);
+        creatureBeachRepository.save(ArdnastangLimpet);
+
+        //Lochaber - Ardnastang - CreatureBeaches - Other invertebrates
+
+        CreatureBeach ArdnastangSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, Ardnastang);
+        creatureBeachRepository.save(ArdnastangSnakelocksAnemone);
+
+        CreatureBeach ArdnastangBeadletAnemone = new CreatureBeach(BeadletAnemone, Ardnastang);
+        creatureBeachRepository.save(ArdnastangBeadletAnemone);
+
+        CreatureBeach ArdnastangBreadcrumbSponge = new CreatureBeach(BreadcrumbSponge, Ardnastang);
+        creatureBeachRepository.save(ArdnastangBreadcrumbSponge);
+
+        CreatureBeach ArdnastangCuttlefish = new CreatureBeach(Cuttlefish, Ardnastang);
+        creatureBeachRepository.save(ArdnastangCuttlefish);
+
+        //Lochaber - Ardnastang - CreatureBeaches - Jellyfish
+
+        CreatureBeach ArdnastangLionsMane = new CreatureBeach(LionsMane, Ardnastang);
+        creatureBeachRepository.save(ArdnastangLionsMane);
+
+        CreatureBeach ArdnastangMoon = new CreatureBeach(Moon, Ardnastang);
+        creatureBeachRepository.save(ArdnastangMoon);
+
+        CreatureBeach ArdnastangBarrel = new CreatureBeach(Barrel, Ardnastang);
+        creatureBeachRepository.save(ArdnastangBarrel);
+
+        CreatureBeach ArdnastangStalked = new CreatureBeach(Stalked, Ardnastang);
+        creatureBeachRepository.save(ArdnastangStalked);
+
+        //Lochaber - Ardnastang - CreatureBeaches - Starfish and urchins
+
+        CreatureBeach ArdnastangCommonStarfish = new CreatureBeach(CommonStarfish, Ardnastang);
+        creatureBeachRepository.save(ArdnastangCommonStarfish);
+
+        CreatureBeach ArdnastangBrittlestar = new CreatureBeach(Brittlestar, Ardnastang);
+        creatureBeachRepository.save(ArdnastangBrittlestar);
+
+        CreatureBeach ArdnastangSunstar = new CreatureBeach(Sunstar, Ardnastang);
+        creatureBeachRepository.save(ArdnastangSunstar);
+
+        CreatureBeach ArdnastangCommonUrchin = new CreatureBeach(CommonUrchin, Ardnastang);
+        creatureBeachRepository.save(ArdnastangCommonUrchin);
+
+        //Lochaber - Ardnastang - CreatureBeaches - Plants and algae
+
+        CreatureBeach ArdnastangKelp = new CreatureBeach(Kelp, Ardnastang);
+        creatureBeachRepository.save(ArdnastangKelp);
+
+        CreatureBeach ArdnastangMaerl = new CreatureBeach(Maerl, Ardnastang);
+        creatureBeachRepository.save(ArdnastangMaerl);
+
+        CreatureBeach ArdnastangEelgrass = new CreatureBeach(Eelgrass, Ardnastang);
+        creatureBeachRepository.save(ArdnastangEelgrass);
+
+        CreatureBeach ArdnastangBladderWrack = new CreatureBeach(BladderWrack, Ardnastang);
+        creatureBeachRepository.save(ArdnastangBladderWrack);
+
+        //Lochaber - Ardnastang - CreatureBeaches - Other
+
+        CreatureBeach ArdnastangWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, Ardnastang);
+        creatureBeachRepository.save(ArdnastangWhiteTailedEagle);
 
 
 
