@@ -2459,6 +2459,117 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Fish
+
+        CreatureBeach LochLinnhePicnicAreaLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaLesserSpottedDogfish);
+
+        CreatureBeach LochLinnhePicnicAreaBallanWrasse = new CreatureBeach(BallanWrasse, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaBallanWrasse);
+
+        CreatureBeach LochLinnhePicnicAreaSandeel = new CreatureBeach(Sandeel, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaSandeel);
+
+        CreatureBeach LochLinnhePicnicAreaPollock = new CreatureBeach(Pollock, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaPollock);
+
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Crustaceans
+
+        CreatureBeach LochLinnhePicnicAreaShoreCrab = new CreatureBeach(ShoreCrab, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaShoreCrab);
+
+        CreatureBeach LochLinnhePicnicAreaVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaVelvetSwimmingCrab);
+
+        CreatureBeach LochLinnhePicnicAreaHermitCrab = new CreatureBeach(HermitCrab, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaHermitCrab);
+
+        CreatureBeach LochLinnhePicnicAreaEdibleCrab = new CreatureBeach(EdibleCrab, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaEdibleCrab);
+
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Snails
+
+        CreatureBeach LochLinnhePicnicAreaTopshell = new CreatureBeach(Topshell, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaTopshell);
+
+        CreatureBeach LochLinnhePicnicAreaDogwhelk = new CreatureBeach(Dogwhelk, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaDogwhelk);
+
+        CreatureBeach LochLinnhePicnicAreaPeriwinkle = new CreatureBeach(Periwinkle, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaPeriwinkle);
+
+        CreatureBeach LochLinnhePicnicAreaLimpet = new CreatureBeach(Limpet, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaLimpet);
+
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Other invertebrates
+
+        CreatureBeach LochLinnhePicnicAreaSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaSnakelocksAnemone);
+
+        CreatureBeach LochLinnhePicnicAreaBeadletAnemone = new CreatureBeach(BeadletAnemone, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaBeadletAnemone);
+
+        CreatureBeach LochLinnhePicnicAreaBreadcrumbSponge = new CreatureBeach(BreadcrumbSponge, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaBreadcrumbSponge);
+
+        CreatureBeach LochLinnhePicnicAreaCuttlefish = new CreatureBeach(Cuttlefish, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaCuttlefish);
+
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Jellyfish
+
+        CreatureBeach LochLinnhePicnicAreaLionsMane = new CreatureBeach(LionsMane, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaLionsMane);
+
+        CreatureBeach LochLinnhePicnicAreaMoon = new CreatureBeach(Moon, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaMoon);
+
+        CreatureBeach LochLinnhePicnicAreaBarrel = new CreatureBeach(Barrel, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaBarrel);
+
+        CreatureBeach LochLinnhePicnicAreaStalked = new CreatureBeach(Stalked, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaStalked);
+
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Starfish and urchins
+
+        CreatureBeach LochLinnhePicnicAreaCommonStarfish = new CreatureBeach(CommonStarfish, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaCommonStarfish);
+
+        CreatureBeach LochLinnhePicnicAreaBrittlestar = new CreatureBeach(Brittlestar, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaBrittlestar);
+
+        CreatureBeach LochLinnhePicnicAreaSunstar = new CreatureBeach(Sunstar, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaSunstar);
+
+        CreatureBeach LochLinnhePicnicAreaCommonUrchin = new CreatureBeach(CommonUrchin, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaCommonUrchin);
+
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Plants and algae
+
+        CreatureBeach LochLinnhePicnicAreaKelp = new CreatureBeach(Kelp, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaKelp);
+
+        CreatureBeach LochLinnhePicnicAreaMaerl = new CreatureBeach(Maerl, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaMaerl);
+
+        CreatureBeach LochLinnhePicnicAreaEelgrass = new CreatureBeach(Eelgrass, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaEelgrass);
+
+        CreatureBeach LochLinnhePicnicAreaBladderWrack = new CreatureBeach(BladderWrack, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaBladderWrack);
+
+        //Lochaber - LochLinnhePicnicArea - CreatureBeaches - Other
+
+        CreatureBeach LochLinnhePicnicAreaWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, LochLinnhePicnicArea);
+        creatureBeachRepository.save(LochLinnhePicnicAreaWhiteTailedEagle);
+
+
+
+
+
+
+
+
+
 
 
 
