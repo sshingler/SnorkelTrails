@@ -321,7 +321,35 @@ public class DataLoader implements ApplicationRunner {
         Beach BishopsBay = new Beach("Lochaber","Lochaber_BishopsBay.png","Bishop's Bay","OS Landranger 41, NN056600","///itself.mural.attaching","56.691152,-5.176016","Ballachulish","Just north of Ballachulish Bridge, park near the old jetty and walk through the woods to a great beach inside of moorings where you can explore the beach and headland. Avoid any boats that are approaching or leaving moorings and enjoy this sheltered bay with its multitude of life.", amenitiesBishopsBay);
         beachRepository.save (BishopsBay);
 
+        //North Argyll - Beaches
 
+        List<String> amenitiesVillageBay = Arrays.asList("Parking", "Cafe");
+        Beach VillageBay = new Beach("North Argyll","VillageBay.png","Village Bay","OS Explorer 361, NM813050","///clusters.pigtails.gone","56.187244,-5.525993","Ardfern","Part of Seawilding's seagrass and native oyster restoration work, providing safe habitats that sequester carbon. Enter the water directly opposite the village hall. A great site for beginners, with lots to see in the seagrass bed close to shore.", amenitiesVillageBay);
+        beachRepository.save (VillageBay);
+
+        List<String> amenitiesAsknishBay = Arrays.asList("Parking", "Cafe");
+        Beach AsknishBay = new Beach("North Argyll","AsknishBay.png","Asknish Bay","OS Explorer 361, NM801099","///reliving.goodnight.graceful","56.230636,-5.549355","Kilmelford","A wide bay with views of Shuna and Luing. An accessible path leads from the hotel to a boathouse, enter the water here or at the shore/steps of Arduaine jetty. Be aware of boat traffic.", amenitiesAsknishBay);
+        beachRepository.save (AsknishBay);
+
+        List<String> amenitiesGanavanSands = Arrays.asList("Parking", "Toilet", "Wheelchair");
+        Beach GanavanSands = new Beach("North Argyll","GanavanSands.png","Ganavan Sands","OS Explorer 361, NM861326","///herbs.unhappy.situates","56.436947,-5.471238","Oban","A beautiful, popular bay, easily accessible by ramp. Search for well-camoflaged species amongst rocky outcrops and explore lush seagrass meadows. 10 minute cycle/bus journey from Oban. Public toilets with accessible access are on site.", amenitiesGanavanSands);
+        beachRepository.save (GanavanSands);
+
+        List<String> amenitiesWeeGanavan = Arrays.asList("Parking");
+        Beach WeeGanavan = new Beach("North Argyll","WeeGanavan.png","Wee Ganavan"," OS Explorer 361, NM853320","///washroom.extensive.frown","56.431207,-5.48368","Oban","At high tide look for crabs, butterfish and common blenny emerging from seaweed. At low tide look for juvenile wrasse, gobies and scorpionfish amongst the kelp. Be aware - this is an overflow pipe that feeds into the bay after heavy rain.", amenitiesWeeGanavan);
+        beachRepository.save (WeeGanavan);
+
+        List<String> amenitiesSAMSBeach = Arrays.asList("Parking", "Cafe");
+        Beach SAMSBeach = new Beach("North Argyll","SAMSBeach.png","SAMS Beach"," OS Explorer 361, NM879342","///digital.uncle.whistling","56.452094,-5.443379","Dunbeg","This scenic bay is sheltered by rock formations on either side and stunning kelp forests lie beneath. On weekdays, visit the Ocean Explorer Centre to dive deeper into marine science. 30 minute cycle from Oban, or 10 minutes from Ganavan sands.", amenitiesSAMSBeach);
+        beachRepository.save (SAMSBeach);
+
+        List<String> amenitiesQueenieReef = Arrays.asList("Parking", "Cafe", "Steps");
+        Beach QueenieReef = new Beach("North Argyll","QueenieReef.png","Queenie Reef","OS Explorer 361, NM986439","///conductor.butter.endings","56.543809,-5.27759","Benderloch","This sheltered bay is on the south shore of Loch Creran, 0.6 miles east of the A828 bridge. From the second layby east of the bridge, follow the paved path to the protruding headland. Steps lead to the shore, take care as these may be slippery. Look for brittlestars that cover the ground in a dense mat at certain times of year. Layby parking possible. 45 minute cycle from North Connel. The Creagan Inn is 1.7 miles away.", amenitiesQueenieReef);
+        beachRepository.save (QueenieReef);
+
+        List<String> amenitiesCreagan = Arrays.asList("Parking", "Cafe");
+        Beach Creagan = new Beach("North Argyll","Creagan.png","Creagan","OS Explorer 361, NM973445","///unicorns.orange.pizza","56.548607,-5.299133","Appin","Loch Creran is one of only two known sites globally where serpulid worms form reefs, creating habitats for many other species. Here on the Loch’s north shore, look for urchins, crabs and otters. 30 minute bus from Oban. 45 minute cycle from North Connel. Parking available at the Creagan Inn, which serves local produce in beautiful surroundings. Showers are available for a small charge.", amenitiesCreagan);
+        beachRepository.save (Creagan);
 
 
 
