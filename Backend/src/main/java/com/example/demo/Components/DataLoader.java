@@ -2348,6 +2348,117 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //Lochaber - Lochaline - CreatureBeaches - Fish
+
+        CreatureBeach LochalineLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, Lochaline);
+        creatureBeachRepository.save(LochalineLesserSpottedDogfish);
+
+        CreatureBeach LochalineBallanWrasse = new CreatureBeach(BallanWrasse, Lochaline);
+        creatureBeachRepository.save(LochalineBallanWrasse);
+
+        CreatureBeach LochalineSandeel = new CreatureBeach(Sandeel, Lochaline);
+        creatureBeachRepository.save(LochalineSandeel);
+
+        CreatureBeach LochalinePollock = new CreatureBeach(Pollock, Lochaline);
+        creatureBeachRepository.save(LochalinePollock);
+
+        //Lochaber - Lochaline - CreatureBeaches - Crustaceans
+
+        CreatureBeach LochalineShoreCrab = new CreatureBeach(ShoreCrab, Lochaline);
+        creatureBeachRepository.save(LochalineShoreCrab);
+
+        CreatureBeach LochalineVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, Lochaline);
+        creatureBeachRepository.save(LochalineVelvetSwimmingCrab);
+
+        CreatureBeach LochalineHermitCrab = new CreatureBeach(HermitCrab, Lochaline);
+        creatureBeachRepository.save(LochalineHermitCrab);
+
+        CreatureBeach LochalineEdibleCrab = new CreatureBeach(EdibleCrab, Lochaline);
+        creatureBeachRepository.save(LochalineEdibleCrab);
+
+        //Lochaber - Lochaline - CreatureBeaches - Snails
+
+        CreatureBeach LochalineTopshell = new CreatureBeach(Topshell, Lochaline);
+        creatureBeachRepository.save(LochalineTopshell);
+
+        CreatureBeach LochalineDogwhelk = new CreatureBeach(Dogwhelk, Lochaline);
+        creatureBeachRepository.save(LochalineDogwhelk);
+
+        CreatureBeach LochalinePeriwinkle = new CreatureBeach(Periwinkle, Lochaline);
+        creatureBeachRepository.save(LochalinePeriwinkle);
+
+        CreatureBeach LochalineLimpet = new CreatureBeach(Limpet, Lochaline);
+        creatureBeachRepository.save(LochalineLimpet);
+
+        //Lochaber - Lochaline - CreatureBeaches - Other invertebrates
+
+        CreatureBeach LochalineSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, Lochaline);
+        creatureBeachRepository.save(LochalineSnakelocksAnemone);
+
+        CreatureBeach LochalineBeadletAnemone = new CreatureBeach(BeadletAnemone, Lochaline);
+        creatureBeachRepository.save(LochalineBeadletAnemone);
+
+        CreatureBeach LochalineBreadcrumbSponge = new CreatureBeach(BreadcrumbSponge, Lochaline);
+        creatureBeachRepository.save(LochalineBreadcrumbSponge);
+
+        CreatureBeach LochalineCuttlefish = new CreatureBeach(Cuttlefish, Lochaline);
+        creatureBeachRepository.save(LochalineCuttlefish);
+
+        //Lochaber - Lochaline - CreatureBeaches - Jellyfish
+
+        CreatureBeach LochalineLionsMane = new CreatureBeach(LionsMane, Lochaline);
+        creatureBeachRepository.save(LochalineLionsMane);
+
+        CreatureBeach LochalineMoon = new CreatureBeach(Moon, Lochaline);
+        creatureBeachRepository.save(LochalineMoon);
+
+        CreatureBeach LochalineBarrel = new CreatureBeach(Barrel, Lochaline);
+        creatureBeachRepository.save(LochalineBarrel);
+
+        CreatureBeach LochalineStalked = new CreatureBeach(Stalked, Lochaline);
+        creatureBeachRepository.save(LochalineStalked);
+
+        //Lochaber - Lochaline - CreatureBeaches - Starfish and urchins
+
+        CreatureBeach LochalineCommonStarfish = new CreatureBeach(CommonStarfish, Lochaline);
+        creatureBeachRepository.save(LochalineCommonStarfish);
+
+        CreatureBeach LochalineBrittlestar = new CreatureBeach(Brittlestar, Lochaline);
+        creatureBeachRepository.save(LochalineBrittlestar);
+
+        CreatureBeach LochalineSunstar = new CreatureBeach(Sunstar, Lochaline);
+        creatureBeachRepository.save(LochalineSunstar);
+
+        CreatureBeach LochalineCommonUrchin = new CreatureBeach(CommonUrchin, Lochaline);
+        creatureBeachRepository.save(LochalineCommonUrchin);
+
+        //Lochaber - Lochaline - CreatureBeaches - Plants and algae
+
+        CreatureBeach LochalineKelp = new CreatureBeach(Kelp, Lochaline);
+        creatureBeachRepository.save(LochalineKelp);
+
+        CreatureBeach LochalineMaerl = new CreatureBeach(Maerl, Lochaline);
+        creatureBeachRepository.save(LochalineMaerl);
+
+        CreatureBeach LochalineEelgrass = new CreatureBeach(Eelgrass, Lochaline);
+        creatureBeachRepository.save(LochalineEelgrass);
+
+        CreatureBeach LochalineBladderWrack = new CreatureBeach(BladderWrack, Lochaline);
+        creatureBeachRepository.save(LochalineBladderWrack);
+
+        //Lochaber - Lochaline - CreatureBeaches - Other
+
+        CreatureBeach LochalineWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, Lochaline);
+        creatureBeachRepository.save(LochalineWhiteTailedEagle);
+
+
+
+
+
+
+
+
+
 
 
 
