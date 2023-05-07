@@ -18,7 +18,7 @@ const BeachSearchCard = ({beach}) => {
                     <div className="beachsearch-front">
                         <p className="beachsearch-location"> {beach.location} </p>
                         <div className="beachsearchcard-image">
-                        <img src = {require("../../Images/Beaches/" + beach.image)} alt = {`A picture of a ${beach.name}`} height="280" width="350" style={{ objectFit: "fill" }}></img>
+                        <img src = {require("../../Images/Beaches/" + beach.beach_image)} alt = {`A picture of a ${beach.name}`} height="280" width="350" style={{ objectFit: "fill" }}></img>
                         </div>
                         <div className="beachsearch-name">
                         <Link  to='/BeachContainer' state={beach} > {beach.name} </Link>

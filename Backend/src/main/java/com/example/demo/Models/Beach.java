@@ -19,6 +19,9 @@ public class Beach {
     @Column ( name= "image")
     private String image;
 
+    @Column (name="beach_image")
+    private String beach_image;
+
     @Column(name = "name")
     private String name;
 
@@ -44,9 +47,10 @@ public class Beach {
     @Column (name="amenities")
     private List<String> amenities;
 
-    public Beach(String location, String image, String name, String map_cords, String w3w, String longLat, String nearestVillage, String description, List<String> amenities) {
+    public Beach(String location, String image, String beach_image, String name, String map_cords, String w3w, String longLat, String nearestVillage, String description, List<String> amenities) {
         this.location = location;
         this.image = image;
+        this.beach_image = beach_image;
         this.name = name;
         this.map_cords = map_cords;
         this.w3w = w3w;
@@ -74,6 +78,14 @@ public class Beach {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getBeach_image() {
+        return beach_image;
+    }
+
+    public void setBeach_image(String beach_image) {
+        this.beach_image = beach_image;
     }
 
     public Long getId(){
