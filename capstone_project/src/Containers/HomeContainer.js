@@ -29,7 +29,12 @@ const HomeContainer = () => {
             <h2>SnorkelTrails</h2>
         </div>
         <BeachSearch beaches={beaches}/>
+        <br></br>
+        <br></br>
         <HomeMap beaches={beaches}/>
+        <br></br>
+        <br></br>
+        <br></br>
         
 
         </>

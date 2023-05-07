@@ -25,17 +25,21 @@ const BeachSearch = ({ beaches }) => {
 
     return(
         <>
-            <select onChange={setFilter}>
-                <option value={""}>All</option>
-                <option value="Arran">Arran</option>
-                <option value="Berwickshire">Berwickshire</option>
-                <option value="East-Lothian">East-Lothian</option>
-                <option value="Lochaber">Lochaber</option>
-            </select>
+            <div className="beachsearch-selector">
+                <select onChange={setFilter}>
+                    <option value={""}>All</option>
+                    <option value="Arran">Arran</option>
+                    <option value="Berwickshire">Berwickshire</option>
+                    <option value="East-Lothian">East-Lothian</option>
+                    <option value="Lochaber">Lochaber</option>
+                    <option value="North Argyll">North-Argyll</option>
+                </select>
+            </div>
 
             {/* <button onClick={() => {filterBeach(location)}}>Search</button> */}
-
+            <div className="beach-scroll-card">
             {filterNodes}
+            </div>
         </>
     );
 };
