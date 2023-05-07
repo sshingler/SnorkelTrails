@@ -52,14 +52,14 @@ const BeachAmenities = ({ beachAmenities }) => {
     return (
         <>
             <div className="amenitiesicons">
-                <img hidden={parking} src={parkImg} height="70" width="70"/>
-                <img hidden={toilets} src={toiletImg} height="70" width="70"/>
-                <img hidden={shop} src={shopImg} height="70" width="70"/>
-                <img hidden={campsite} src={campsiteImg} height="70" width="70"/>
-                <img hidden={steps} src={stepsImg} height="70" width="70"/>
-                <img hidden={beachWheelchairs} src={beachWheelchairsImg} height="70" width="70"/>
-                <img hidden={busStop} src={busStopImg} height="70" width="70"/>
-                <img hidden={cafe} src={cafeImg} height="70" width="70"/>
+                <img hidden={parking} src={parkImg} height="50" width="50"/>
+                <img hidden={toilets} src={toiletImg} height="50" width="50"/>
+                <img hidden={shop} src={shopImg} height="50" width="50"/>
+                <img hidden={campsite} src={campsiteImg} height="50" width="50"/>
+                <img hidden={steps} src={stepsImg} height="50" width="50"/>
+                <img hidden={beachWheelchairs} src={beachWheelchairsImg} height="50" width="50"/>
+                <img hidden={busStop} src={busStopImg} height="50" width="50"/>
+                <img hidden={cafe} src={cafeImg} height="50" width="50"/>
             </div>
         </>
     );
