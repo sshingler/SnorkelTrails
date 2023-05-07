@@ -328,7 +328,7 @@ public class DataLoader implements ApplicationRunner {
         beachRepository.save (VillageBay);
 
         List<String> amenitiesAsknishBay = Arrays.asList("Parking", "Cafe");
-        Beach AsknishBay = new Beach("North Argyll","NorthArgyll_AsknishBay.png","NorthArgyll_VillageBayBeach.jpeg","Asknish Bay","OS Explorer 361, NM801099","///reliving.goodnight.graceful","56.230636,-5.549355","Kilmelford","A wide bay with views of Shuna and Luing. An accessible path leads from the hotel to a boathouse, enter the water here or at the shore/steps of Arduaine jetty. Be aware of boat traffic.", amenitiesAsknishBay);
+        Beach AsknishBay = new Beach("North Argyll","NorthArgyll_AsknishBay.png","NorthArgyll_AsknishBayBeach.jpeg","Asknish Bay","OS Explorer 361, NM801099","///reliving.goodnight.graceful","56.230636,-5.549355","Kilmelford","A wide bay with views of Shuna and Luing. An accessible path leads from the hotel to a boathouse, enter the water here or at the shore/steps of Arduaine jetty. Be aware of boat traffic.", amenitiesAsknishBay);
         beachRepository.save (AsknishBay);
 
         List<String> amenitiesGanavanSands = Arrays.asList("Parking", "Toilet", "Wheelchair");
