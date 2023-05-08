@@ -3375,6 +3375,121 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        // North Argyll - Creagan- CreatureBeaches - Fish
+
+        CreatureBeach CreaganButterfish = new CreatureBeach(Butterfish, Creagan);
+        creatureBeachRepository.save(CreaganButterfish);
+
+        CreatureBeach CreaganGreaterPipeFish = new CreatureBeach(GreaterPipeFish, Creagan);
+        creatureBeachRepository.save(CreaganGreaterPipeFish);
+
+        CreatureBeach CreaganLongSpinedSeaScorpion = new CreatureBeach(LongSpinedSeaScorpion, Creagan);
+        creatureBeachRepository.save(CreaganLongSpinedSeaScorpion);
+
+        CreatureBeach CreaganCommonBlenny = new CreatureBeach(CommonBlenny, Creagan);
+        creatureBeachRepository.save(CreaganCommonBlenny);
+
+        //North Argyll - Creagan - CreatureBeaches - Crustaceans
+
+        CreatureBeach CreaganShoreCrab = new CreatureBeach(ShoreCrab, Creagan);
+        creatureBeachRepository.save(CreaganShoreCrab);
+
+        CreatureBeach CreaganVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, Creagan);
+        creatureBeachRepository.save(CreaganVelvetSwimmingCrab);
+
+        CreatureBeach CreaganEdibleCrab = new CreatureBeach(EdibleCrab, Creagan);
+        creatureBeachRepository.save(CreaganEdibleCrab);
+
+        CreatureBeach CreaganHermitCrab = new CreatureBeach(HermitCrab, Creagan);
+        creatureBeachRepository.save(CreaganHermitCrab);
+
+        //North Argyll - Creagan - CreatureBeaches - Molluscs
+
+        CreatureBeach CreaganBlueMussel = new CreatureBeach(BlueMussel, Creagan);
+        creatureBeachRepository.save(CreaganBlueMussel);
+
+        CreatureBeach CreaganQueenScallop = new CreatureBeach(QueenScallop, Creagan);
+        creatureBeachRepository.save(CreaganQueenScallop);
+
+        CreatureBeach CreaganNativeOyster = new CreatureBeach(NativeOyster, Creagan);
+        creatureBeachRepository.save(CreaganNativeOyster);
+
+        CreatureBeach CreaganLimpet = new CreatureBeach(Limpet, Creagan);
+        creatureBeachRepository.save(CreaganLimpet);
+
+        //North Argyll - Creagan - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach CreaganStrawberryAnemone = new CreatureBeach(StrawberryAnemone, Creagan);
+        creatureBeachRepository.save(CreaganStrawberryAnemone);
+
+        CreatureBeach CreaganSerpulidWorm = new CreatureBeach(SerpulidWorm, Creagan);
+        creatureBeachRepository.save(CreaganSerpulidWorm);
+
+        CreatureBeach CreaganSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, Creagan);
+        creatureBeachRepository.save(CreaganSnakelocksAnemone);
+
+        CreatureBeach CreaganBeadletAnemone = new CreatureBeach(BeadletAnemone, Creagan);
+        creatureBeachRepository.save(CreaganBeadletAnemone);
+
+        //North Argyll - Creagan - CreatureBeaches - Jellyfish
+
+        CreatureBeach CreaganLionsMane = new CreatureBeach(LionsMane, Creagan);
+        creatureBeachRepository.save(CreaganLionsMane);
+
+        CreatureBeach CreaganMoon = new CreatureBeach(Moon, Creagan);
+        creatureBeachRepository.save(CreaganMoon);
+
+        CreatureBeach CreaganBarrel = new CreatureBeach(Barrel, Creagan);
+        creatureBeachRepository.save(CreaganBarrel);
+
+        CreatureBeach CreaganComb = new CreatureBeach(Comb, Creagan);
+        creatureBeachRepository.save(CreaganComb);
+
+        //North Argyll - Creagan - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach CreaganCommonStarfish = new CreatureBeach(CommonStarfish, Creagan);
+        creatureBeachRepository.save(CreaganCommonStarfish);
+
+        CreatureBeach CreaganBrittlestar = new CreatureBeach(Brittlestar, Creagan);
+        creatureBeachRepository.save(CreaganBrittlestar);
+
+        CreatureBeach CreaganSunstar = new CreatureBeach(Sunstar, Creagan);
+        creatureBeachRepository.save(CreaganSunstar);
+
+        CreatureBeach CreaganCommonUrchin = new CreatureBeach(CommonUrchin, Creagan);
+        creatureBeachRepository.save(CreaganCommonUrchin);
+
+        //North Argyll - Creagan - CreatureBeaches - Plants & Algae
+
+        CreatureBeach CreaganKelp = new CreatureBeach(Kelp, Creagan);
+        creatureBeachRepository.save(CreaganKelp);
+
+        CreatureBeach CreaganBladderWrack = new CreatureBeach(BladderWrack, Creagan);
+        creatureBeachRepository.save(CreaganBladderWrack);
+
+        CreatureBeach CreaganSeagrass = new CreatureBeach(Seagrass, Creagan);
+        creatureBeachRepository.save(CreaganSeagrass);
+
+        CreatureBeach CreaganChannelWrack = new CreatureBeach(ChannelWrack, Creagan);
+        creatureBeachRepository.save(CreaganChannelWrack);
+
+
+        //North Argyll - Creagan - CreatureBeaches - Other
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
