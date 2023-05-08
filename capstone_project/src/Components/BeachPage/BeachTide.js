@@ -4,10 +4,10 @@ const BeachTide = ({ beach }) => {
   const [tideData, setTideData] = useState(null);
 
   useEffect(() => {
-    const longlat = beach.longLat.split(',')
+    const latlong = beach.longLat.split(',')
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&lat=${longlat[0]}&lon=${longlat[1]}&product=water_level&datum=MLLW&units=english&time_zone=lst_ldt&format=json`);
+        const response = await fetch(`https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=9432780&product=water_level&datum=MLLW&units=english&time_zone=lst_ldt&format=json&latitude=${latlong[0]}&longitude=${latlong[1]}`);
         const data = await response.json();
         setTideData(data);
       } catch (error) {
