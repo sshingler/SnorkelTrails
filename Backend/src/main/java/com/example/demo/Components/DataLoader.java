@@ -3158,6 +3158,112 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //North Argyll - SAMSBeach- CreatureBeaches - Fish
+
+        CreatureBeach SAMSBeachButterfish = new CreatureBeach(Butterfish, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachButterfish);
+
+        CreatureBeach SAMSBeachGreaterPipeFish = new CreatureBeach(GreaterPipeFish, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachGreaterPipeFish);
+
+        CreatureBeach SAMSBeachLongSpinedSeaScorpion = new CreatureBeach(LongSpinedSeaScorpion, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachLongSpinedSeaScorpion);
+
+        CreatureBeach SAMSBeachCommonBlenny = new CreatureBeach(CommonBlenny, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachCommonBlenny);
+
+        //North Argyll - SAMSBeach - CreatureBeaches - Crustaceans
+
+        CreatureBeach SAMSBeachShoreCrab = new CreatureBeach(ShoreCrab, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachShoreCrab);
+
+        CreatureBeach SAMSBeachVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachVelvetSwimmingCrab);
+
+        CreatureBeach SAMSBeachEdibleCrab = new CreatureBeach(EdibleCrab, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachEdibleCrab);
+
+        CreatureBeach SAMSBeachHermitCrab = new CreatureBeach(HermitCrab, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachHermitCrab);
+
+        //North Argyll - SAMSBeach - CreatureBeaches - Molluscs
+
+        CreatureBeach SAMSBeachBlueMussel = new CreatureBeach(BlueMussel, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachBlueMussel);
+
+        CreatureBeach SAMSBeachQueenScallop = new CreatureBeach(QueenScallop, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachQueenScallop);
+
+        CreatureBeach SAMSBeachNativeOyster = new CreatureBeach(NativeOyster, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachNativeOyster);
+
+        CreatureBeach SAMSBeachLimpet = new CreatureBeach(Limpet, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachLimpet);
+
+        //North Argyll - SAMSBeach - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach SAMSBeachStrawberryAnemone = new CreatureBeach(StrawberryAnemone, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachStrawberryAnemone);
+
+        CreatureBeach SAMSBeachSerpulidWorm = new CreatureBeach(SerpulidWorm, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachSerpulidWorm);
+
+        CreatureBeach SAMSBeachSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachSnakelocksAnemone);
+
+        CreatureBeach SAMSBeachBeadletAnemone = new CreatureBeach(BeadletAnemone, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachBeadletAnemone);
+
+        //North Argyll - SAMSBeach - CreatureBeaches - Jellyfish
+
+        CreatureBeach SAMSBeachLionsMane = new CreatureBeach(LionsMane, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachLionsMane);
+
+        CreatureBeach SAMSBeachMoon = new CreatureBeach(Moon, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachMoon);
+
+        CreatureBeach SAMSBeachBarrel = new CreatureBeach(Barrel, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachBarrel);
+
+        CreatureBeach SAMSBeachComb = new CreatureBeach(Comb, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachComb);
+
+        //North Argyll - SAMSBeach - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach SAMSBeachCommonStarfish = new CreatureBeach(CommonStarfish, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachCommonStarfish);
+
+        CreatureBeach SAMSBeachBrittlestar = new CreatureBeach(Brittlestar, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachBrittlestar);
+
+        CreatureBeach SAMSBeachSunstar = new CreatureBeach(Sunstar, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachSunstar);
+
+        CreatureBeach SAMSBeachCommonUrchin = new CreatureBeach(CommonUrchin, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachCommonUrchin);
+
+        //North Argyll - SAMSBeach - CreatureBeaches - Plants & Algae
+
+        CreatureBeach SAMSBeachKelp = new CreatureBeach(Kelp, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachKelp);
+
+        CreatureBeach SAMSBeachBladderWrack = new CreatureBeach(BladderWrack, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachBladderWrack);
+
+        CreatureBeach SAMSBeachSeagrass = new CreatureBeach(Seagrass, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachSeagrass);
+
+        CreatureBeach SAMSBeachChannelWrack = new CreatureBeach(ChannelWrack, SAMSBeach);
+        creatureBeachRepository.save(SAMSBeachChannelWrack);
+
+
+        //North Argyll - SAMSBeach - CreatureBeaches - Other
+
+
+
+
+
+
 
 
 
