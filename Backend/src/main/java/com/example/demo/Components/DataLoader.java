@@ -71,7 +71,7 @@ public class DataLoader implements ApplicationRunner {
         Creature Pollock = new Creature( "Fish","Pollock","Pollock.jpeg","A few cm, up to 105cm when mature","Usually found sheltered close to the seabed, venturing into deeper waters as size increases.","Common");
         creatureRepository.save(Pollock);
 
-        Creature GreaterPipeFish = new Creature( "Fish","GreaterPipeFish","GreaterPipeFish.jpeg","Up to 45cm long","The Pipefish lives amongst seaweed and seagrass, feeding on small prawns and shrimp.","Common");
+        Creature GreaterPipeFish = new Creature( "Fish","GreaterPipeFish","GreaterPipefish.jpeg","Up to 45cm long","The Pipefish lives amongst seaweed and seagrass, feeding on small prawns and shrimp.","Common");
         creatureRepository.save(GreaterPipeFish);
 
         Creature LongSpinedSeaScorpion = new Creature( "Fish","Long Spined Sea Scorpion","LongSpinedSeaScorpion.jpeg","Up to 20cm long","This species can adapt and blend in perfectly with surrounding algae and encrusting organisms. Usually seen April - October.","Common");
