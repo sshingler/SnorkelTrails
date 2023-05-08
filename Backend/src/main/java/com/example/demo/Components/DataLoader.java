@@ -155,7 +155,7 @@ public class DataLoader implements ApplicationRunner {
         Creature StrawberryAnemone = new Creature( "Other Invertebrate","Strawberry Anemone","StrawberryAnemone.jpeg","Up to 10cm diameter","Strawberry Anemones live attached to rocks on the lower shore.","Common");
         creatureRepository.save(StrawberryAnemone);
 
-        Creature SerpulidWorm = new Creature( "Other Invertebrate","Serpulid Worm","SerpulidWorm.jpeg","5mm wide and up to 15cm long, joining together to form large reefs","Serpulid reefs grow at depths of 6 to 10m and form a high-rise home for many other organisms.","Priority species");
+        Creature SerpulidWorm = new Creature( "Other Invertebrate","Serpulid Worm","SerpulidWorm.jpeg","5mm wide and up to 15cm long","Serpulid reefs grow at depths of 6 to 10m and form a high-rise home for many other organisms.","Priority species");
         creatureRepository.save(SerpulidWorm);
 
 
