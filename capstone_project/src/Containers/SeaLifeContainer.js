@@ -30,6 +30,8 @@ const SeaLifeContainer = () => {
         <div className="scrolling-wrapper">
             {entityNodes}
         </div>
+        <br/>
+        <br/>
         </>
     );
 };
