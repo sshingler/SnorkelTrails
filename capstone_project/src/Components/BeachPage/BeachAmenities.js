@@ -41,7 +41,7 @@ const BeachAmenities = ({ beachAmenities }) => {
     if(amenities.includes("Steps")){
         steps = false;
     }
-    if(amenities.includes("Beach Wheelchair")){
+    if(amenities.includes("Wheelchair")){
         beachWheelchairs = false;
     }
     if(amenities.includes("Bus Stop")){
