@@ -1,0 +1,63 @@
+h3 {
+    text-align: center;
+}
+
+.form-container{
+    border-radius: 5px;
+    background-color: #d0e0f0;
+    padding: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 80px;
+}
+
+.form-name{
+    text-align: center;
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form-contact{
+    text-align: center;
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+.form-subject{
+    text-align: center;
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form-content{
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-submit{
+    padding-top: 20px;
+    text-align: center;
+}

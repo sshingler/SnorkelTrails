@@ -4,6 +4,7 @@ import '../StyleSheets/BeachPage/BeachContainer.css'
 import SeaLifeCard from "../Components/SeaLife/SeaLifeCard";
 import BeachWeather from "../Components/BeachPage/BeachWeather";
 import BeachAmenities from "../Components/BeachPage/BeachAmenities";
+import BeachTide from "../Components/BeachPage/BeachTide";
 
 const BeachContainer = () => {
 
@@ -21,13 +22,20 @@ const BeachContainer = () => {
         <>
             <div className="beach-container">
 
+              
+
+                <div className="beach-title">
+                    <h1>{beach.name}</h1>
+                </div>
+
                 <div className="beach-img">
-                    <img src={`../Images/Beaches/${beach.image}`} alt="Image of a beach" />
+                    <img src={require("../Images/Beaches/" + beach.image)} alt="Image of a beach" />
                 </div>
 
                 <div className="beach-weather-info">
                     <div className="beach-weather">
                         <BeachWeather beach = {beach}/>
+                        <BeachTide beach={beach}/>
                     </div>
 
                     <div className="beach-tide">
