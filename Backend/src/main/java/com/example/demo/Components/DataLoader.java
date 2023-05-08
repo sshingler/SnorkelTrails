@@ -2832,6 +2832,112 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //North Argyll - AsknishBay - CreatureBeaches - Fish
+
+        CreatureBeach AsknishBayButterfish = new CreatureBeach(Butterfish, AsknishBay);
+        creatureBeachRepository.save(AsknishBayButterfish);
+
+        CreatureBeach AsknishBayGreaterPipeFish = new CreatureBeach(GreaterPipeFish, AsknishBay);
+        creatureBeachRepository.save(AsknishBayGreaterPipeFish);
+
+        CreatureBeach AsknishBayLongSpinedSeaScorpion = new CreatureBeach(LongSpinedSeaScorpion, AsknishBay);
+        creatureBeachRepository.save(AsknishBayLongSpinedSeaScorpion);
+
+        CreatureBeach AsknishBayCommonBlenny = new CreatureBeach(CommonBlenny, AsknishBay);
+        creatureBeachRepository.save(AsknishBayCommonBlenny);
+
+        //North Argyll - AsknishBay - CreatureBeaches - Crustaceans
+
+        CreatureBeach AsknishBayShoreCrab = new CreatureBeach(ShoreCrab, AsknishBay);
+        creatureBeachRepository.save(AsknishBayShoreCrab);
+
+        CreatureBeach AsknishBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, AsknishBay);
+        creatureBeachRepository.save(AsknishBayVelvetSwimmingCrab);
+
+        CreatureBeach AsknishBayEdibleCrab = new CreatureBeach(EdibleCrab, AsknishBay);
+        creatureBeachRepository.save(AsknishBayEdibleCrab);
+
+        CreatureBeach AsknishBayHermitCrab = new CreatureBeach(HermitCrab, AsknishBay);
+        creatureBeachRepository.save(AsknishBayHermitCrab);
+
+        //North Argyll - AsknishBay - CreatureBeaches - Molluscs
+
+        CreatureBeach AsknishBayBlueMussel = new CreatureBeach(BlueMussel, AsknishBay);
+        creatureBeachRepository.save(AsknishBayBlueMussel);
+
+        CreatureBeach AsknishBayQueenScallop = new CreatureBeach(QueenScallop, AsknishBay);
+        creatureBeachRepository.save(AsknishBayQueenScallop);
+
+        CreatureBeach AsknishBayNativeOyster = new CreatureBeach(NativeOyster, AsknishBay);
+        creatureBeachRepository.save(AsknishBayNativeOyster);
+
+        CreatureBeach AsknishBayLimpet = new CreatureBeach(Limpet, AsknishBay);
+        creatureBeachRepository.save(AsknishBayLimpet);
+
+        //North Argyll - Village Bay - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach AsknishBayStrawberryAnemone = new CreatureBeach(StrawberryAnemone, AsknishBay);
+        creatureBeachRepository.save(AsknishBayStrawberryAnemone);
+
+        CreatureBeach AsknishBaySerpulidWorm = new CreatureBeach(SerpulidWorm, AsknishBay);
+        creatureBeachRepository.save(AsknishBaySerpulidWorm);
+
+        CreatureBeach AsknishBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, AsknishBay);
+        creatureBeachRepository.save(AsknishBaySnakelocksAnemone);
+
+        CreatureBeach AsknishBayBeadletAnemone = new CreatureBeach(BeadletAnemone, AsknishBay);
+        creatureBeachRepository.save(AsknishBayBeadletAnemone);
+
+        //North Argyll - Village Bay - CreatureBeaches - Jellyfish
+
+        CreatureBeach AsknishBayLionsMane = new CreatureBeach(LionsMane, AsknishBay);
+        creatureBeachRepository.save(AsknishBayLionsMane);
+
+        CreatureBeach AsknishBayMoon = new CreatureBeach(Moon, AsknishBay);
+        creatureBeachRepository.save(AsknishBayMoon);
+
+        CreatureBeach AsknishBayBarrel = new CreatureBeach(Barrel, AsknishBay);
+        creatureBeachRepository.save(AsknishBayBarrel);
+
+        CreatureBeach AsknishBayComb = new CreatureBeach(Comb, AsknishBay);
+        creatureBeachRepository.save(AsknishBayComb);
+
+        //North Argyll - Village Bay - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach AsknishBayCommonStarfish = new CreatureBeach(CommonStarfish, AsknishBay);
+        creatureBeachRepository.save(AsknishBayCommonStarfish);
+
+        CreatureBeach AsknishBayBrittlestar = new CreatureBeach(Brittlestar, AsknishBay);
+        creatureBeachRepository.save(AsknishBayBrittlestar);
+
+        CreatureBeach AsknishBaySunstar = new CreatureBeach(Sunstar, AsknishBay);
+        creatureBeachRepository.save(AsknishBaySunstar);
+
+        CreatureBeach AsknishBayCommonUrchin = new CreatureBeach(CommonUrchin, AsknishBay);
+        creatureBeachRepository.save(AsknishBayCommonUrchin);
+
+        //North Argyll - Village Bay - CreatureBeaches - Plants & Algae
+
+        CreatureBeach AsknishBayKelp = new CreatureBeach(Kelp, AsknishBay);
+        creatureBeachRepository.save(AsknishBayKelp);
+
+        CreatureBeach AsknishBayBladderWrack = new CreatureBeach(BladderWrack, AsknishBay);
+        creatureBeachRepository.save(AsknishBayBladderWrack);
+
+        CreatureBeach AsknishBaySeagrass = new CreatureBeach(Seagrass, AsknishBay);
+        creatureBeachRepository.save(AsknishBaySeagrass);
+
+        CreatureBeach AsknishBayChannelWrack = new CreatureBeach(ChannelWrack, AsknishBay);
+        creatureBeachRepository.save(AsknishBayChannelWrack);
+
+
+        //North Argyll - AsknishBay - CreatureBeaches - Other
+
+
+
+
+
+
 
 
 
