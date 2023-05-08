@@ -71,6 +71,12 @@ public class DataLoader implements ApplicationRunner {
         Creature Pollock = new Creature( "Fish","Pollock","Pollock.jpeg","A few cm, up to 105cm when mature","Usually found sheltered close to the seabed, venturing into deeper waters as size increases.","Common");
         creatureRepository.save(Pollock);
 
+        Creature GreaterPipeFish = new Creature( "Fish","GreaterPipeFish","GreaterPipeFish.jpeg","Up to 45cm long","The Pipefish lives amongst seaweed and seagrass, feeding on small prawns and shrimp.","Common");
+        creatureRepository.save(GreaterPipeFish);
+
+        Creature LongSpinedSeaScorpion = new Creature( "Fish","Long Spined Sea Scorpion","LongSpinedSeaScorpion.jpeg","Up to 20cm long","This species can adapt and blend in perfectly with surrounding algae and encrusting organisms. Usually seen April - October.","Common");
+        creatureRepository.save(LongSpinedSeaScorpion);
+
 
 
 
@@ -108,6 +114,17 @@ public class DataLoader implements ApplicationRunner {
         Creature Topshell = new Creature("Snail", "Topshell", "Topshell.jpeg", "1-2cm height, 2cm across", "One of the most common and colourful sea snails you're likely to see in rock pools around the UK throughout the year.", "Common");
         creatureRepository.save(Topshell);
 
+        //Mollusc
+
+        Creature BlueMussel = new Creature( "Mollusc","Blue Mussel","BlueMussel.jpeg","3-10cm","Rocky, sandy or muddy shores from the low tide mark.","Common");
+        creatureRepository.save(BlueMussel);
+
+        Creature QueenScallop = new Creature( "Mollusc","Queen Scallop","QueenScallop.jpeg","Up to 9cm diameter","Found between tidemarks to depths of around 100m, and on sand or gravel.","Common");
+        creatureRepository.save(QueenScallop);
+
+        Creature NativeOyster = new Creature( "Mollusc","Native Oyster","NativeOyster.jpeg","Up to 11cm","Live on the seabed in shallow coastal waters and estuaries, forming dense beds where conditions are favourable.","Priority species");
+        creatureRepository.save(NativeOyster);
+
 
         //Other Invertebrates
 
@@ -134,6 +151,12 @@ public class DataLoader implements ApplicationRunner {
 
         Creature BreadcrumbSponge = new Creature( "Other Invertebrate","Breadcrumb Sponge","BreadcrumbSponge.jpeg","Up to 1m wide, normally in patches of 10 - 20cm","Found on rocky shores, rocky seabeds or cobbles beneath the low water mark. Lots of different colours and grows in a variety of shapes!","Common");
         creatureRepository.save(BreadcrumbSponge);
+
+        Creature StrawberryAnemone = new Creature( "Other Invertebrate","Strawberry Anemone","StrawberryAnemone.jpeg","Up to 10cm diameter","Strawberry Anemones live attached to rocks on the lower shore.","Common");
+        creatureRepository.save(StrawberryAnemone);
+
+        Creature SerpulidWorm = new Creature( "Other Invertebrate","Serpulid Worm","SerpulidWorm.jpeg","Each worm is about 5mm wide and up to 15cm long, joining together to form large reefs","Serpulid reefs grow at depths of 6 to 10m and form a high-rise home for many other organisms.","Priority species");
+        creatureRepository.save(SerpulidWorm);
 
 
 

@@ -10,7 +10,8 @@ return (
         <div>
             <ul className="navbar-links no-decoration">
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Home </Link>
+                
             </li>
             <li>
                 <Link to="/sealife">Sea Life</Link>
