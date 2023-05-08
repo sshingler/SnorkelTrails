@@ -3266,6 +3266,115 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //North Argyll - QueenieReef- CreatureBeaches - Fish
+
+        CreatureBeach QueenieReefButterfish = new CreatureBeach(Butterfish, QueenieReef);
+        creatureBeachRepository.save(QueenieReefButterfish);
+
+        CreatureBeach QueenieReefGreaterPipeFish = new CreatureBeach(GreaterPipeFish, QueenieReef);
+        creatureBeachRepository.save(QueenieReefGreaterPipeFish);
+
+        CreatureBeach QueenieReefLongSpinedSeaScorpion = new CreatureBeach(LongSpinedSeaScorpion, QueenieReef);
+        creatureBeachRepository.save(QueenieReefLongSpinedSeaScorpion);
+
+        CreatureBeach QueenieReefCommonBlenny = new CreatureBeach(CommonBlenny, QueenieReef);
+        creatureBeachRepository.save(QueenieReefCommonBlenny);
+
+        //North Argyll - QueenieReef - CreatureBeaches - Crustaceans
+
+        CreatureBeach QueenieReefShoreCrab = new CreatureBeach(ShoreCrab, QueenieReef);
+        creatureBeachRepository.save(QueenieReefShoreCrab);
+
+        CreatureBeach QueenieReefVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, QueenieReef);
+        creatureBeachRepository.save(QueenieReefVelvetSwimmingCrab);
+
+        CreatureBeach QueenieReefEdibleCrab = new CreatureBeach(EdibleCrab, QueenieReef);
+        creatureBeachRepository.save(QueenieReefEdibleCrab);
+
+        CreatureBeach QueenieReefHermitCrab = new CreatureBeach(HermitCrab, QueenieReef);
+        creatureBeachRepository.save(QueenieReefHermitCrab);
+
+        //North Argyll - QueenieReef - CreatureBeaches - Molluscs
+
+        CreatureBeach QueenieReefBlueMussel = new CreatureBeach(BlueMussel, QueenieReef);
+        creatureBeachRepository.save(QueenieReefBlueMussel);
+
+        CreatureBeach QueenieReefQueenScallop = new CreatureBeach(QueenScallop, QueenieReef);
+        creatureBeachRepository.save(QueenieReefQueenScallop);
+
+        CreatureBeach QueenieReefNativeOyster = new CreatureBeach(NativeOyster, QueenieReef);
+        creatureBeachRepository.save(QueenieReefNativeOyster);
+
+        CreatureBeach QueenieReefLimpet = new CreatureBeach(Limpet, QueenieReef);
+        creatureBeachRepository.save(QueenieReefLimpet);
+
+        //North Argyll - QueenieReef - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach QueenieReefStrawberryAnemone = new CreatureBeach(StrawberryAnemone, QueenieReef);
+        creatureBeachRepository.save(QueenieReefStrawberryAnemone);
+
+        CreatureBeach QueenieReefSerpulidWorm = new CreatureBeach(SerpulidWorm, QueenieReef);
+        creatureBeachRepository.save(QueenieReefSerpulidWorm);
+
+        CreatureBeach QueenieReefSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, QueenieReef);
+        creatureBeachRepository.save(QueenieReefSnakelocksAnemone);
+
+        CreatureBeach QueenieReefBeadletAnemone = new CreatureBeach(BeadletAnemone, QueenieReef);
+        creatureBeachRepository.save(QueenieReefBeadletAnemone);
+
+        //North Argyll - QueenieReef - CreatureBeaches - Jellyfish
+
+        CreatureBeach QueenieReefLionsMane = new CreatureBeach(LionsMane, QueenieReef);
+        creatureBeachRepository.save(QueenieReefLionsMane);
+
+        CreatureBeach QueenieReefMoon = new CreatureBeach(Moon, QueenieReef);
+        creatureBeachRepository.save(QueenieReefMoon);
+
+        CreatureBeach QueenieReefBarrel = new CreatureBeach(Barrel, QueenieReef);
+        creatureBeachRepository.save(QueenieReefBarrel);
+
+        CreatureBeach QueenieReefComb = new CreatureBeach(Comb, QueenieReef);
+        creatureBeachRepository.save(QueenieReefComb);
+
+        //North Argyll - QueenieReef - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach QueenieReefCommonStarfish = new CreatureBeach(CommonStarfish, QueenieReef);
+        creatureBeachRepository.save(QueenieReefCommonStarfish);
+
+        CreatureBeach QueenieReefBrittlestar = new CreatureBeach(Brittlestar, QueenieReef);
+        creatureBeachRepository.save(QueenieReefBrittlestar);
+
+        CreatureBeach QueenieReefSunstar = new CreatureBeach(Sunstar, QueenieReef);
+        creatureBeachRepository.save(QueenieReefSunstar);
+
+        CreatureBeach QueenieReefCommonUrchin = new CreatureBeach(CommonUrchin, QueenieReef);
+        creatureBeachRepository.save(QueenieReefCommonUrchin);
+
+        //North Argyll - QueenieReef - CreatureBeaches - Plants & Algae
+
+        CreatureBeach QueenieReefKelp = new CreatureBeach(Kelp, QueenieReef);
+        creatureBeachRepository.save(QueenieReefKelp);
+
+        CreatureBeach QueenieReefBladderWrack = new CreatureBeach(BladderWrack, QueenieReef);
+        creatureBeachRepository.save(QueenieReefBladderWrack);
+
+        CreatureBeach QueenieReefSeagrass = new CreatureBeach(Seagrass, QueenieReef);
+        creatureBeachRepository.save(QueenieReefSeagrass);
+
+        CreatureBeach QueenieReefChannelWrack = new CreatureBeach(ChannelWrack, QueenieReef);
+        creatureBeachRepository.save(QueenieReefChannelWrack);
+
+
+        //North Argyll - QueenieReef - CreatureBeaches - Other
+
+
+
+
+
+
+
+
+
 
 
 
