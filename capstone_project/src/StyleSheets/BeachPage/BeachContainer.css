@@ -1,6 +1,74 @@
 .beach-container {
     color: white;
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
 }
+
+.beach-img {
+    border: 1px solid white;
+    width: 75%;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+.beach-weather {
+    border: 1px solid white;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.beach-weather-info {
+    border: 1px solid white;
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    background-color: rgba(84, 171, 246, 0.607);
+    color: black;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.beach-description {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    gap: 2em;
+    font-size: 1.5em;
+    margin-top: 2em;
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgba(84, 171, 246, 0.607);
+    height: auto;
+}
+
+.amenitiesicons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    gap: 1em;
+}
+
+.beach-creatures {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1em;
+    border: 1px solid white;
+    justify-content: space-between;
+    gap: 1.5em;
+    border-radius: 10px;
+}
+
+.beach-tide {
+    width: 60%;
+}
+
+.amenities {
+}
+

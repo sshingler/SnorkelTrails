@@ -34,8 +34,8 @@ const BeachWeather = ({ beach }) => {
                         <p className="weather-precipitationsum">Total precipitation: {weather.daily.precipitation_sum}mm</p>
                         <p className="weather-precipitation">Precipitation probability: {weather.daily.precipitation_probability_max}</p>
                         <p className="weather-temprature">Minimum temprature: {weather.daily.temperature_2m_min}'C</p>
-                    </div>    
-                    
+                    </div>
+
                 </div>
             </div>
         </>
