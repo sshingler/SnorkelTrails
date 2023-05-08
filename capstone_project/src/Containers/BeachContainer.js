@@ -12,31 +12,43 @@ const BeachContainer = () => {
 
 
     const creatureNodes = beach.creatureBeaches.map((creature) => {
-        return <SeaLifeCard creature = {creature.creature}/>
+        return <SeaLifeCard key={creature.id} creature = {creature.creature}/>
     })
 
+    console.log(beach.image);
 
     return (
         <>
             <div className="beach-container">
-                <div className="beach-card">
-                    <p>Location: {beach.location}</p>
-                    <p>Name: {beach.name}</p>
-                    <img src={require("../Images/Beaches/" + beach.image)}></img>
-                    <p>What Three Words: {beach.w3w}</p>
-                    <p>Co-ordinates: {beach.map_cords}</p>
-                    <p>Nearest village: {beach.nearestVillage}</p>
-                    <p>Description: {beach.description}</p>
+
+                <div className="beach-img">
+                    <img src={`../Images/Beaches/${beach.image}`} alt="Image of a beach" />
                 </div>
-                <br></br>
-                <br></br>
-                <BeachAmenities beachAmenities={beach.amenities}/>
-                <br></br>
-                <br></br>
-                <div>
-                    <BeachWeather beach = {beach}/>
+
+                <div className="beach-weather-info">
+                    <div className="beach-weather">
+                        <BeachWeather beach = {beach}/>
+                    </div>
+
+                    <div className="beach-tide">
+                        
+                    </div>
                 </div>
+
+                <div className="beach-description">
+                    <div className="amenities">
+                        <BeachAmenities beachAmenities={beach.amenities}/>
+                    </div>
+
+                    <div className="description">
+                        {beach.description}
+                    </div>
+                </div>
+
+
+                <div className="beach-creatures">
                     {creatureNodes}
+                </div>
             </div>
         </>
     );
