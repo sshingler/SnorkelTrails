@@ -35,7 +35,7 @@ const BeachContainer = () => {
                 <div className="beach-weather-info">
                     <div className="beach-weather">
                         <BeachWeather beach = {beach}/>
-                        <BeachTide/>
+                        <BeachTide beach={beach}/>
                     </div>
 
                     <div className="beach-tide">
