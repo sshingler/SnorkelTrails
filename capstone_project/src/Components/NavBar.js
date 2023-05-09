@@ -7,19 +7,19 @@ const NavBar = () => {
 
 return (
     <div className="navbar-wrapper">
-        <div>
+        <div className="inner-wrapper">
             <ul className="navbar-links no-decoration">
-            <li>
+            <li className="link">
                 <Link to="/">Home </Link>
                 
             </li>
-            <li>
+            <li className="link">
                 <Link to="/sealife">Sea Life</Link>
             </li>
-            <li>
+            <li className="link">
                 <Link to="/beachetiquette">Beach Etiquette</Link>
             </li>
-            <li>
+            <li className="link">
                 <Link to="/contact">Contact</Link>
             </li>
             </ul>
