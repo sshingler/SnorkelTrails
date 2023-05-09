@@ -158,6 +158,9 @@ public class DataLoader implements ApplicationRunner {
         Creature SerpulidWorm = new Creature( "Other Invertebrate","Serpulid Worm","SerpulidWorm.jpeg","5mm wide and up to 15cm long","Serpulid reefs grow at depths of 6 to 10m and form a high-rise home for many other organisms.","Priority species");
         creatureRepository.save(SerpulidWorm);
 
+        Creature SeaSquirt = new Creature( "Other Invertebrate","Sea Squirt","SeaSquirt.jpeg","Up to 2cm tall","As adults, they live permanently attached to rocks under the sea. However, before settling down, they start life as a tadpole-like larvae.","Common");
+        creatureRepository.save(SeaSquirt);
+
 
 
         //Jellyfish
@@ -3520,6 +3523,118 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+
+
+
+
+
+
+
+
+
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Fish
+
+        CreatureBeach BayofClachtollLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollLesserSpottedDogfish);
+
+        CreatureBeach BayofClachtollBallanWrasse = new CreatureBeach(BallanWrasse, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollBallanWrasse);
+
+        CreatureBeach BayofClachtollJuvenileCod = new CreatureBeach(JuvenileCod, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollJuvenileCod);
+
+        CreatureBeach BayofClachtollButterfish = new CreatureBeach(Butterfish, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollButterfish);
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Crustaceans
+
+        CreatureBeach BayofClachtollShoreCrab = new CreatureBeach(ShoreCrab, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollShoreCrab);
+
+        CreatureBeach BayofClachtollVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollVelvetSwimmingCrab);
+
+        CreatureBeach BayofClachtollHermitCrab = new CreatureBeach(HermitCrab, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollHermitCrab);
+
+        CreatureBeach BayofClachtollEdibleCrab = new CreatureBeach(EdibleCrab, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollEdibleCrab);
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Snails
+
+        CreatureBeach BayofClachtollTopshell = new CreatureBeach(Topshell, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollTopshell);
+
+        CreatureBeach BayofClachtollDogwhelk = new CreatureBeach(Dogwhelk, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollDogwhelk);
+
+        CreatureBeach BayofClachtollPeriwinkle = new CreatureBeach(Periwinkle, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollPeriwinkle);
+
+        CreatureBeach BayofClachtollLimpet = new CreatureBeach(Limpet, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollLimpet);
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach BayofClachtollSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollSnakelocksAnemone);
+
+        CreatureBeach BayofClachtollCuttlefish = new CreatureBeach(Cuttlefish, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollCuttlefish);
+
+        CreatureBeach BayofClachtollDeadMansFingers = new CreatureBeach(DeadMansFingers, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollDeadMansFingers);
+
+        CreatureBeach BayofClachtollSeaSquirt = new CreatureBeach(SeaSquirt, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollSeaSquirt);
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Jellyfish
+
+        CreatureBeach BayofClachtollLionsMane = new CreatureBeach(LionsMane, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollLionsMane);
+
+        CreatureBeach BayofClachtollMoon = new CreatureBeach(Moon, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollMoon);
+
+        CreatureBeach BayofClachtollBarrel = new CreatureBeach(Barrel, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollBarrel);
+
+        CreatureBeach BayofClachtollStalked = new CreatureBeach(Stalked, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollStalked);
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach BayofClachtollCommonStarfish = new CreatureBeach(CommonStarfish, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollCommonStarfish);
+
+        CreatureBeach BayofClachtollBrittlestar = new CreatureBeach(Brittlestar, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollBrittlestar);
+
+        CreatureBeach BayofClachtollSunstar = new CreatureBeach(Sunstar, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollSunstar);
+
+        CreatureBeach BayofClachtollCommonUrchin = new CreatureBeach(CommonUrchin, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollCommonUrchin);
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Plants & algae
+
+        CreatureBeach BayofClachtollKelp = new CreatureBeach(Kelp, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollKelp);
+
+        CreatureBeach BayofClachtollMaerl = new CreatureBeach(Maerl, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollMaerl);
+
+        CreatureBeach BayofClachtollEelgrass = new CreatureBeach(Eelgrass, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollEelgrass);
+
+        CreatureBeach BayofClachtollBladderWrack = new CreatureBeach(BladderWrack, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollBladderWrack);
+
+        //North West Highlands - BayofClachtoll - CreatureBeaches - Others
+
+        CreatureBeach BayofClachtollWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, BayofClachtoll);
+        creatureBeachRepository.save(BayofClachtollWhiteTailedEagle);
 
 
 
