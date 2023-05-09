@@ -4,6 +4,12 @@
     box-shadow: 10px 10px 10px #0000008d;
     margin-bottom: 10px;
     margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.card-border:hover {
+  border: 1px solid white;
 }
 
 .card-front {

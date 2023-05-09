@@ -1,6 +1,6 @@
 .navbar-wrapper {
-    background-color: blue;
-    overflow:hidden
+    background-color: #d0e0f0;
+    overflow:hidden;
 }
 
 .no-decoration{
@@ -8,17 +8,18 @@
 }
 
 .navbar-wrapper a{
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-
+    font-size: 1.59em;
+    background-color: #d0e0f0;
 }
 
 .navbar-wrapper a:hover {
-  background-color: #d0e0f0;
+  background-color: #0001ff;
   color: black;
+  color: white;
 }
 
 .navbar-wrapper a.active {
@@ -26,10 +27,16 @@
   color: white;
 }
 
+
 .navbar-links {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 10px;
+}
+
+.inner-wrapper {
+  margin-left: 5em;
+  margin-right: 5em;
 }
