@@ -183,7 +183,7 @@ public class DataLoader implements ApplicationRunner {
 
         //Starfish & Urchins
 
-        Creature CommonStarfish = new Creature("Starfish & Urchins","CommonStarfish", "CommonStarfish.jpeg", "10 - 30cm", "Highly common in UK seas and rock pools.","Common");
+        Creature CommonStarfish = new Creature("Starfish & Urchins","Common Starfish", "CommonStarfish.jpeg", "10 - 30cm", "Highly common in UK seas and rock pools.","Common");
         creatureRepository.save(CommonStarfish);
 
         Creature Sunstar= new Creature("Starfish & Urchins","Sunstar", "Sunstar.jpeg", "Up to 35cm", "Lives on the seabed in shallow waters, small Sunstars are sometimes found in rock pools.","Common");
