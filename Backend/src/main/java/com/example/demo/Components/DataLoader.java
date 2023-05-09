@@ -374,6 +374,48 @@ public class DataLoader implements ApplicationRunner {
         Beach Creagan = new Beach("North Argyll","NorthArgyll_Creagan.png","NorthArgyll_CreaganBeach.jpeg","Creagan","OS Explorer 361, NM973445","///unicorns.orange.pizza","56.548607,-5.299133","Appin","Loch Creran is one of only two known sites globally where serpulid worms form reefs, creating habitats for many other species. Here on the Loch’s north shore, look for urchins, crabs and otters. 30 minute bus from Oban. 45 minute cycle from North Connel. Parking available at the Creagan Inn, which serves local produce in beautiful surroundings. Showers are available for a small charge.", amenitiesCreagan);
         beachRepository.save (Creagan);
 
+        //North West Highlands
+
+        List<String> amenitiesBayofClachtoll = Arrays.asList("Parking", "Campsite", "Toilet", "Shop");
+        Beach BayofClachtoll = new Beach("North West Highlands","NorthWestHighlands_BayOfClachtoll.png","NorthWestHighlands_BayOfClachtollBeach.jpeg","Bay of Clachtoll","OS Landranger 15, NC040270","///engulfing.football.face","58.188133,-5.335816","Lochinver","A beautiful beach with rocky outcrops and lots of marine life. The headlands provide the bay with some shelter so in calm conditions this can be a good spot for beginners. Watch out for seabirds and marine mammals from the beach and once in the water, look for juvenile fish and shellfish amongst the kelp.", amenitiesBayofClachtoll);
+        beachRepository.save (BayofClachtoll);
+
+        List<String> amenitiesAchmelvichBay = Arrays.asList("Parking", "Campsite", "Toilet", "Shop");
+        Beach AchmelvichBay = new Beach("North West Highlands","NorthWestHighlands_AchmelvichBay.png","NorthWestHighlands_AchmelvichBayBeach.jpeg","Achmelvich Bay","OS Landranger 15, NC056249","///listening.remover.animal","58.170022,-5.306895","Lochinver","A stunning sandy beach with rocky outcrops on both sides, providing lots of habitat to explore whilst snorkelling. A perfect beginner location, this site has plenty of fish, shellfish and kelp beds. The headland to the north leads to another, more secluded beach.", amenitiesAchmelvichBay);
+        beachRepository.save (AchmelvichBay);
+
+        List<String> amenitiesAchnahairdBay = Arrays.asList("Parking");
+        Beach AchnahairdBay = new Beach("North West Highlands","NorthWestHighlands_AchnahairdBay.png","NorthWestHighlands_AchnahairdBayBeach.jpeg","Achnahaird Bay","OS Landranger 15, NC019139","///outlined.modem.casually","58.069763,-5.360389","Achiltibuie","A largely sheltered bay which is flanked by rocky outcrops. Underwater, kelp beds provide cover for juvenile fish such as pollock and coley. Be aware of tides as the gently sloping beach means that it recedes a long way which can lead to big walks in and/or back.", amenitiesAchnahairdBay);
+        beachRepository.save (AchnahairdBay);
+
+        List<String> amenitiesArdmair = Arrays.asList("Parking", "Cafe", "Campsite");
+        Beach Ardmair = new Beach("North West Highlands","NorthWestHighlands_Ardmair.png","NorthWestHighlands_ArdmairBeach.jpeg","Ardmair","OS Landranger 19, NH108982","///weaved.thinkers.responses","57.932851,-5.19718","Ullapool","With views across to Isle Martin, this rocky beach offers something for everyone. The northern kelp- covered headland provides shelter for juvenile fish, while the south is a good place to find crabs and urchins. A shallow gradient makes the area directly out from the beach good for beginners. Keep an eye out for seals, seabirds and porpoise in the bay.", amenitiesArdmair);
+        beachRepository.save (Ardmair);
+
+        List<String> amenitiesCamusnagaul = Arrays.asList("Parking");
+        Beach Camusnagaul = new Beach("North West Highlands","NorthWestHighlands_Camusnagaul.png","NorthWestHighlands_CamusnagaulBeach.jpeg","Camusnagaul","OS Landranger 19, NH067892","///globe.magazine.mows","57.85038,-5.258997","Camusnagaul","A cleared shore leads out to a sandy bottomed area with rocky coastline to the west. Kelp and numerous rock pools provide perfect habitat for juvenile fish and crabs. Access is from the croft field via a gate to the beach. Please watch for livestock in the field and boats using the beach.", amenitiesCamusnagaul);
+        beachRepository.save (Camusnagaul);
+
+        List<String> amenitiesGruinardBay = Arrays.asList("Parking");
+        Beach GruinardBay = new Beach("North West Highlands","NorthWestHighlands_GruinardBay.png","NorthWestHighlands_GruinardBayBeach.jpeg","Gruinard Bay","OS Landranger 19, NG950905","///funny.general.hindered","57.856821,-5.456838","Laide","The headland at the north end of this picturesque beach offers great low tide exploration. Where the sand turns to rocky shore, seagrass and kelp provide shelter for numerous fish, shellfish and other marine life. Rare and fragile maerl can also be seen here. Be aware that the small northern headland becomes cut off at high tide.", amenitiesGruinardBay);
+        beachRepository.save (GruinardBay);
+
+        List<String> amenitiesMellonCharles = Arrays.asList("Parking");
+        Beach MellonCharles = new Beach("North West Highlands","NorthWestHighlands_MellonCharles.png","NorthWestHighlands_MellonCharlesBeach.jpeg","Mellon Charles","OS Landranger 19, NG845910","///outfitter.wants.racing","57.856363,-5.633896","Mellon Charles", "A sheltered beach once owned and used by the Ministry of Defence. The old WW2 pier is a fantastic place to explore - urchins, anemones and wrasse can be seen beneath the waves and n the summer, look out for arctic terns. Kelp along the rocky shoreline also provides habitat for juvenile fish.", amenitiesMellonCharles);
+        beachRepository.save (MellonCharles);
+
+        List<String> amenitiesBigSandCarnDearg = Arrays.asList("Parking", "Cafe", "Campsite", "Shop");
+        Beach BigSandCarnDearg = new Beach("North West Highlands","NorthWestHighlands_BigSandCarnDearg.png","NorthWestHighlands_BigSandCarnDeargBeach.jpeg","Big Sand Carn Dearg","OS Landranger 19, NG760777","///unfounded.booms.panicking","57.73298,-5.764369","Gairloch","The headland south of Big Sand has a nice sandy beach and is a great area for beginners. Further offshore, a reef with kelp forests, colourful rock dwellers and lots of fish is excellent for the more advanced snorkeller (100m swim required at low tide). Best explored when seas are calm.", amenitiesBigSandCarnDearg);
+        beachRepository.save (BigSandCarnDearg);
+
+        List<String> amenitiesAnDun = Arrays.asList("Parking", "Cafe", "Toilet", "Shop");
+        Beach AnDun = new Beach("North West Highlands","NorthWestHighlands_AnDun.png","NorthWestHighlands_AnDunBeach.jpeg","An Dun","OS Landranger 19, NG802753","///heads.figs.thud","57.713548,-5.691793","Gairloch","The An Dun headland offers a sheltered lagoon at low tide where juvenile fish and other small marine creatures congregate. The advanced trail on the outer side of the headland offers kelp forests, fish and shellfish (requires scramble over slippery boulders). The headland can be reached via a path from the Gairloch Golf Course car park.", amenitiesAnDun);
+        beachRepository.save (AnDun);
+
+
+
+
+
 
 
 
