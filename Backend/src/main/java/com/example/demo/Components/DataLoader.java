@@ -3639,6 +3639,327 @@ public class DataLoader implements ApplicationRunner {
 
 
 
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Fish
+
+        CreatureBeach AchmelvichBayLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayLesserSpottedDogfish);
+
+        CreatureBeach AchmelvichBayBallanWrasse = new CreatureBeach(BallanWrasse, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayBallanWrasse);
+
+        CreatureBeach AchmelvichBayJuvenileCod = new CreatureBeach(JuvenileCod, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayJuvenileCod);
+
+        CreatureBeach AchmelvichBayButterfish = new CreatureBeach(Butterfish, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayButterfish);
+
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Crustaceans
+
+        CreatureBeach AchmelvichBayShoreCrab = new CreatureBeach(ShoreCrab, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayShoreCrab);
+
+        CreatureBeach AchmelvichBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayVelvetSwimmingCrab);
+
+        CreatureBeach AchmelvichBayHermitCrab = new CreatureBeach(HermitCrab, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayHermitCrab);
+
+        CreatureBeach AchmelvichBayEdibleCrab = new CreatureBeach(EdibleCrab, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayEdibleCrab);
+
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Snails
+
+        CreatureBeach AchmelvichBayTopshell = new CreatureBeach(Topshell, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayTopshell);
+
+        CreatureBeach AchmelvichBayDogwhelk = new CreatureBeach(Dogwhelk, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayDogwhelk);
+
+        CreatureBeach AchmelvichBayPeriwinkle = new CreatureBeach(Periwinkle, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayPeriwinkle);
+
+        CreatureBeach AchmelvichBayLimpet = new CreatureBeach(Limpet, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayLimpet);
+
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach AchmelvichBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBaySnakelocksAnemone);
+
+        CreatureBeach AchmelvichBayCuttlefish = new CreatureBeach(Cuttlefish, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayCuttlefish);
+
+        CreatureBeach AchmelvichBayDeadMansFingers = new CreatureBeach(DeadMansFingers, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayDeadMansFingers);
+
+        CreatureBeach AchmelvichBaySeaSquirt = new CreatureBeach(SeaSquirt, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBaySeaSquirt);
+
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Jellyfish
+
+        CreatureBeach AchmelvichBayLionsMane = new CreatureBeach(LionsMane, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayLionsMane);
+
+        CreatureBeach AchmelvichBayMoon = new CreatureBeach(Moon, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayMoon);
+
+        CreatureBeach AchmelvichBayBarrel = new CreatureBeach(Barrel, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayBarrel);
+
+        CreatureBeach AchmelvichBayStalked = new CreatureBeach(Stalked, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayStalked);
+
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach AchmelvichBayCommonStarfish = new CreatureBeach(CommonStarfish, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayCommonStarfish);
+
+        CreatureBeach AchmelvichBayBrittlestar = new CreatureBeach(Brittlestar, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayBrittlestar);
+
+        CreatureBeach AchmelvichBaySunstar = new CreatureBeach(Sunstar, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBaySunstar);
+
+        CreatureBeach AchmelvichBayCommonUrchin = new CreatureBeach(CommonUrchin, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayCommonUrchin);
+
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Plants & algae
+
+        CreatureBeach AchmelvichBayKelp = new CreatureBeach(Kelp, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayKelp);
+
+        CreatureBeach AchmelvichBayMaerl = new CreatureBeach(Maerl, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayMaerl);
+
+        CreatureBeach AchmelvichBayEelgrass = new CreatureBeach(Eelgrass, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayEelgrass);
+
+        CreatureBeach AchmelvichBayBladderWrack = new CreatureBeach(BladderWrack, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayBladderWrack);
+
+        //North West Highlands - AchmelvichBay - CreatureBeaches - Others
+
+        CreatureBeach AchmelvichBayWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, AchmelvichBay);
+        creatureBeachRepository.save(AchmelvichBayWhiteTailedEagle);
+
+
+
+
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Fish
+
+        CreatureBeach AchnahairdBayLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayLesserSpottedDogfish);
+
+        CreatureBeach AchnahairdBayBallanWrasse = new CreatureBeach(BallanWrasse, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayBallanWrasse);
+
+        CreatureBeach AchnahairdBayJuvenileCod = new CreatureBeach(JuvenileCod, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayJuvenileCod);
+
+        CreatureBeach AchnahairdBayButterfish = new CreatureBeach(Butterfish, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayButterfish);
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Crustaceans
+
+        CreatureBeach AchnahairdBayShoreCrab = new CreatureBeach(ShoreCrab, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayShoreCrab);
+
+        CreatureBeach AchnahairdBayVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayVelvetSwimmingCrab);
+
+        CreatureBeach AchnahairdBayHermitCrab = new CreatureBeach(HermitCrab, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayHermitCrab);
+
+        CreatureBeach AchnahairdBayEdibleCrab = new CreatureBeach(EdibleCrab, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayEdibleCrab);
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Snails
+
+        CreatureBeach AchnahairdBayTopshell = new CreatureBeach(Topshell, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayTopshell);
+
+        CreatureBeach AchnahairdBayDogwhelk = new CreatureBeach(Dogwhelk, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayDogwhelk);
+
+        CreatureBeach AchnahairdBayPeriwinkle = new CreatureBeach(Periwinkle, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayPeriwinkle);
+
+        CreatureBeach AchnahairdBayLimpet = new CreatureBeach(Limpet, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayLimpet);
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach AchnahairdBaySnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBaySnakelocksAnemone);
+
+        CreatureBeach AchnahairdBayCuttlefish = new CreatureBeach(Cuttlefish, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayCuttlefish);
+
+        CreatureBeach AchnahairdBayDeadMansFingers = new CreatureBeach(DeadMansFingers, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayDeadMansFingers);
+
+        CreatureBeach AchnahairdBaySeaSquirt = new CreatureBeach(SeaSquirt, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBaySeaSquirt);
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Jellyfish
+
+        CreatureBeach AchnahairdBayLionsMane = new CreatureBeach(LionsMane, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayLionsMane);
+
+        CreatureBeach AchnahairdBayMoon = new CreatureBeach(Moon, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayMoon);
+
+        CreatureBeach AchnahairdBayBarrel = new CreatureBeach(Barrel, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayBarrel);
+
+        CreatureBeach AchnahairdBayStalked = new CreatureBeach(Stalked, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayStalked);
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach AchnahairdBayCommonStarfish = new CreatureBeach(CommonStarfish, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayCommonStarfish);
+
+        CreatureBeach AchnahairdBayBrittlestar = new CreatureBeach(Brittlestar, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayBrittlestar);
+
+        CreatureBeach AchnahairdBaySunstar = new CreatureBeach(Sunstar, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBaySunstar);
+
+        CreatureBeach AchnahairdBayCommonUrchin = new CreatureBeach(CommonUrchin, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayCommonUrchin);
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Plants & algae
+
+        CreatureBeach AchnahairdBayKelp = new CreatureBeach(Kelp, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayKelp);
+
+        CreatureBeach AchnahairdBayMaerl = new CreatureBeach(Maerl, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayMaerl);
+
+        CreatureBeach AchnahairdBayEelgrass = new CreatureBeach(Eelgrass, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayEelgrass);
+
+        CreatureBeach AchnahairdBayBladderWrack = new CreatureBeach(BladderWrack, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayBladderWrack);
+
+        //North West Highlands - AchnahairdBay - CreatureBeaches - Others
+
+        CreatureBeach AchnahairdBayWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, AchnahairdBay);
+        creatureBeachRepository.save(AchnahairdBayWhiteTailedEagle);
+
+
+
+
+
+
+        //North West Highlands - Ardmair - CreatureBeaches - Fish
+
+        CreatureBeach ArdmairLesserSpottedDogfish = new CreatureBeach(LesserSpottedDogfish, Ardmair);
+        creatureBeachRepository.save(ArdmairLesserSpottedDogfish);
+
+        CreatureBeach ArdmairBallanWrasse = new CreatureBeach(BallanWrasse, Ardmair);
+        creatureBeachRepository.save(ArdmairBallanWrasse);
+
+        CreatureBeach ArdmairJuvenileCod = new CreatureBeach(JuvenileCod, Ardmair);
+        creatureBeachRepository.save(ArdmairJuvenileCod);
+
+        CreatureBeach ArdmairButterfish = new CreatureBeach(Butterfish, Ardmair);
+        creatureBeachRepository.save(ArdmairButterfish);
+
+        //North West Highlands - Ardmair - CreatureBeaches - Crustaceans
+
+        CreatureBeach ArdmairShoreCrab = new CreatureBeach(ShoreCrab, Ardmair);
+        creatureBeachRepository.save(ArdmairShoreCrab);
+
+        CreatureBeach ArdmairVelvetSwimmingCrab = new CreatureBeach(VelvetSwimmingCrab, Ardmair);
+        creatureBeachRepository.save(ArdmairVelvetSwimmingCrab);
+
+        CreatureBeach ArdmairHermitCrab = new CreatureBeach(HermitCrab, Ardmair);
+        creatureBeachRepository.save(ArdmairHermitCrab);
+
+        CreatureBeach ArdmairEdibleCrab = new CreatureBeach(EdibleCrab, Ardmair);
+        creatureBeachRepository.save(ArdmairEdibleCrab);
+
+        //North West Highlands - Ardmair - CreatureBeaches - Snails
+
+        CreatureBeach ArdmairTopshell = new CreatureBeach(Topshell, Ardmair);
+        creatureBeachRepository.save(ArdmairTopshell);
+
+        CreatureBeach ArdmairDogwhelk = new CreatureBeach(Dogwhelk, Ardmair);
+        creatureBeachRepository.save(ArdmairDogwhelk);
+
+        CreatureBeach ArdmairPeriwinkle = new CreatureBeach(Periwinkle, Ardmair);
+        creatureBeachRepository.save(ArdmairPeriwinkle);
+
+        CreatureBeach ArdmairLimpet = new CreatureBeach(Limpet, Ardmair);
+        creatureBeachRepository.save(ArdmairLimpet);
+
+        //North West Highlands - Ardmair - CreatureBeaches - Other Invertebrates
+
+        CreatureBeach ArdmairSnakelocksAnemone = new CreatureBeach(SnakelocksAnemone, Ardmair);
+        creatureBeachRepository.save(ArdmairSnakelocksAnemone);
+
+        CreatureBeach ArdmairCuttlefish = new CreatureBeach(Cuttlefish, Ardmair);
+        creatureBeachRepository.save(ArdmairCuttlefish);
+
+        CreatureBeach ArdmairDeadMansFingers = new CreatureBeach(DeadMansFingers, Ardmair);
+        creatureBeachRepository.save(ArdmairDeadMansFingers);
+
+        CreatureBeach ArdmairSeaSquirt = new CreatureBeach(SeaSquirt, Ardmair);
+        creatureBeachRepository.save(ArdmairSeaSquirt);
+
+        //North West Highlands - Ardmair - CreatureBeaches - Jellyfish
+
+        CreatureBeach ArdmairLionsMane = new CreatureBeach(LionsMane, Ardmair);
+        creatureBeachRepository.save(ArdmairLionsMane);
+
+        CreatureBeach ArdmairMoon = new CreatureBeach(Moon, Ardmair);
+        creatureBeachRepository.save(ArdmairMoon);
+
+        CreatureBeach ArdmairBarrel = new CreatureBeach(Barrel, Ardmair);
+        creatureBeachRepository.save(ArdmairBarrel);
+
+        CreatureBeach ArdmairStalked = new CreatureBeach(Stalked, Ardmair);
+        creatureBeachRepository.save(ArdmairStalked);
+
+        //North West Highlands - Ardmair - CreatureBeaches - Starfish & Urchins
+
+        CreatureBeach ArdmairCommonStarfish = new CreatureBeach(CommonStarfish, Ardmair);
+        creatureBeachRepository.save(ArdmairCommonStarfish);
+
+        CreatureBeach ArdmairBrittlestar = new CreatureBeach(Brittlestar, Ardmair);
+        creatureBeachRepository.save(ArdmairBrittlestar);
+
+        CreatureBeach ArdmairSunstar = new CreatureBeach(Sunstar, Ardmair);
+        creatureBeachRepository.save(ArdmairSunstar);
+
+        CreatureBeach ArdmairCommonUrchin = new CreatureBeach(CommonUrchin, Ardmair);
+        creatureBeachRepository.save(ArdmairCommonUrchin);
+
+        //North West Highlands - Ardmair - CreatureBeaches - Plants & algae
+
+        CreatureBeach ArdmairKelp = new CreatureBeach(Kelp, Ardmair);
+        creatureBeachRepository.save(ArdmairKelp);
+
+        CreatureBeach ArdmairMaerl = new CreatureBeach(Maerl, Ardmair);
+        creatureBeachRepository.save(ArdmairMaerl);
+
+        CreatureBeach ArdmairEelgrass = new CreatureBeach(Eelgrass, Ardmair);
+        creatureBeachRepository.save(ArdmairEelgrass);
+
+        CreatureBeach ArdmairBladderWrack = new CreatureBeach(BladderWrack, Ardmair);
+        creatureBeachRepository.save(ArdmairBladderWrack);
+
+        //North West Highlands - Ardmair - CreatureBeaches - Others
+
+        CreatureBeach ArdmairWhiteTailedEagle = new CreatureBeach(WhiteTailedEagle, Ardmair);
+        creatureBeachRepository.save(ArdmairWhiteTailedEagle);
+
+
+
+
 
 
 
