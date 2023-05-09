@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import logo from '../Images/logo.png';
 
 import '../StyleSheets/SeaLife/SeaLifePage.css'
 // import '../StyleSheets/Constants.css'
@@ -27,11 +28,18 @@ const SeaLifeContainer = () => {
 
     return (
         <>
-        <div className="scrolling-wrapper">
-            {entityNodes}
-        </div>
-        <br/>
-        <br/>
+
+            <div className="logo-div">
+                <img className="logo" src={logo} />
+            </div>
+
+            <br/>
+        
+            <div className="scrolling-wrapper">
+                {entityNodes}
+            </div>
+            <br/>
+            <br/>
         </>
     );
 };

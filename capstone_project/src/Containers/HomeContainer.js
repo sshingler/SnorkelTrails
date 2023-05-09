@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import '../StyleSheets/HomePage/HomePage.css'
 import HomeMap from "../Components/HomePage/HomeMap";
 import BeachSearch from "../Components/HomePage/BeachSearch";
+import logo from '../Images/logo.png'
 
 const HomeContainer = () => {
 
@@ -24,18 +25,20 @@ const HomeContainer = () => {
 
     return (
         <>
-        <div className="banner">
-            <h2>SnorkelTrails</h2>
-        </div>
-        <BeachSearch beaches={beaches}/>
-        <br></br>
-        <br></br>
-        <HomeMap beaches={beaches}/>
-        <br></br>
-        <br></br>
-        <br></br>
-        
 
+            <div className="logo-div">
+                <img className="logo" src={logo} />
+            </div>
+
+        <div className="page-body">
+            <div className="search">
+                <BeachSearch beaches={beaches}/>
+            </div>
+
+            <div className="map">
+                <HomeMap beaches={beaches}/>
+            </div>
+        </div>
         </>
     );
 };

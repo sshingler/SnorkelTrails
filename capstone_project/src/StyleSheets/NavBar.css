@@ -17,19 +17,19 @@
 }
 
 .navbar-wrapper a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  background-color: #d0e0f0;
+  color: black;
+}
 
-  /* .navbar-wrapper a.active {
-    background-color: #04AA6D;
-    color: white;
-  } */
+.navbar-wrapper a.active {
+  background-color: #d0e0f0;
+  color: white;
+}
 
-  .navbar-links {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    margin: 10px;
-  }
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 10px;
+}

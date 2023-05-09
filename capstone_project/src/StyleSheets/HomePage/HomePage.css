@@ -1,6 +1,24 @@
 .banner {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-align: center;  
+    background-color: #d0e0f0;
+    text-align: center;
+    font-size: 2.4em;
+}
 
+.page-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 20em;
+    height: 5.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 0 0 10px 10px;
+}
+
+.logo div {
+    display: flex;
+    justify-content: space-between;
 }

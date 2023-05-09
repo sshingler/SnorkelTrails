@@ -1,5 +1,6 @@
 import React from "react";
-import '../StyleSheets/ContactPage/ContactPage.css'
+import '../StyleSheets/ContactPage/ContactPage.css';
+import logo from '../Images/logo.png';
 
 const ContactContainer = () => {
 
@@ -9,6 +10,12 @@ const ContactContainer = () => {
     return(
         
         <>
+
+
+            <div className="logo-div">
+                <img className="logo" src={logo} />
+            </div>
+
             <div className="form-container">
                     <h3> Contact Us! </h3>
                     <form action="/">
