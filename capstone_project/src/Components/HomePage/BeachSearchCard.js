@@ -12,7 +12,7 @@ const BeachSearchCard = ({beach}) => {
 
     return(
         <>
-            
+            <Link  to='/BeachContainer' state={beach} >
             <div className="beach-search-card">
                 <div className="beachsearch-border">
                     <div className="beachsearch-front">
@@ -21,7 +21,7 @@ const BeachSearchCard = ({beach}) => {
                         </div>
                         <p className="beachsearch-location"> {beach.location} </p>
                         <div className="beachsearch-name">
-                        <Link  to='/BeachContainer' state={beach} > {beach.name} </Link>
+                        {beach.name} 
                         </div>
                         <div className="beachsearch-amenities">
                         <BeachAmenities beachAmenities={beach.amenities}/>
@@ -29,6 +29,7 @@ const BeachSearchCard = ({beach}) => {
                     </div>
                 </div>
             </div>
+            </Link>
            
         </>
     );

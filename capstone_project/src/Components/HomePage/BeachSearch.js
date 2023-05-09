@@ -119,7 +119,7 @@ const BeachSearch = ({ beaches }) => {
         <div className="beach-search-card">
             <div className="beachsearch-selector">
                 <select className="classic" onChange={setFilter}>
-                    <option value={""}>All</option>
+                    <option value={""}>All Locations</option>
                     <option value="Arran">Arran</option>
                     <option value="Berwickshire">Berwickshire</option>
                     <option value="East-Lothian">East-Lothian</option>
