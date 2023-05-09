@@ -63,7 +63,11 @@ const BeachContainer = () => {
                 <div className="beach-creatures">
                     {creatureNodes}
                 </div>
+
+                <br/>
+                <br/>
             </div>
+          
         </>
     );
 };
