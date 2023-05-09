@@ -5,6 +5,7 @@ import SeaLifeCard from "../Components/SeaLife/SeaLifeCard";
 import BeachWeather from "../Components/BeachPage/BeachWeather";
 import BeachAmenities from "../Components/BeachPage/BeachAmenities";
 import BeachTide from "../Components/BeachPage/BeachTide";
+import logo from '../Images/logo.png';
 
 const BeachContainer = () => {
 
@@ -20,6 +21,11 @@ const BeachContainer = () => {
 
     return (
         <>
+
+            <div className="logo-div">
+                <img className="logo" src={logo} />
+            </div>
+
             <div className="beach-container">
 
               
@@ -57,7 +63,11 @@ const BeachContainer = () => {
                 <div className="beach-creatures">
                     {creatureNodes}
                 </div>
+
+                <br/>
+                <br/>
             </div>
+          
         </>
     );
 };

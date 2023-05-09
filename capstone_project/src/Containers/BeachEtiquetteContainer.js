@@ -5,6 +5,7 @@ import AtTheBeach from "../Images/Backgrounds/AtTheBeach.png";
 import InTheWater from "../Images/Backgrounds/InTheWater.png";
 import Warning from "../Images/Backgrounds/Warning.png";
 import RiskStatement from "../Images/Backgrounds/RiskStatement.png";
+import logo from '../Images/logo.png';
 
 
 const BeachEtiquetteContainer = () => {
@@ -13,12 +14,13 @@ const BeachEtiquetteContainer = () => {
 
     return (
         <>
+
+            <div className="logo-div">
+                <img className="logo" src={logo} />
+            </div>
             <div className="beach-etiquette-container">
                 <br/>
                 <div className ="beach-etiquette-container-title">
-                    <h1> Be a safe and responsible snorkeler!</h1>
-                    <br/>
-                    <br/>
                     <img src={BeforeYouGo} alt="Before you go information"/>
                     <br/>
                     <br/>

@@ -1,5 +1,16 @@
 import React, { useEffect, useState } from "react";
 import BeachSearchCard from "./BeachSearchCard";
+import Toilet from '../../Images/Amenities/toilet.png';
+import Cafe from '../../Images/Amenities/coffee.png';
+import Store from '../../Images/Amenities/store.png';
+import Campsite from '../../Images/Amenities/campsite.png';
+import Steps from '../../Images/Amenities/stairs.png';
+import WheelChair from '../../Images/Amenities/disabled.png';
+import BusStop from '../../Images/Amenities/bus-station.png';
+
+import '../../StyleSheets/BeachPage/BeachSearchCard.css'
+
+
 
 const BeachSearch = ({ beaches }) => {
     const [location, setLocation] = useState("");
@@ -105,42 +116,61 @@ const BeachSearch = ({ beaches }) => {
 
     return(
         <>
+        <div className="beach-search-card">
             <div className="beachsearch-selector">
-                <select onChange={setFilter}>
+                <select className="classic" onChange={setFilter}>
                     <option value={""}>All</option>
                     <option value="Arran">Arran</option>
                     <option value="Berwickshire">Berwickshire</option>
                     <option value="East-Lothian">East-Lothian</option>
                     <option value="Lochaber">Lochaber</option>
                     <option value="North Argyll">North-Argyll</option>
+                    <option value="North West Highlands">North-West Highlands</option>
                 </select>
             </div>
 
-            <label htmlFor="toilets">Toilets</label>
-            <input onChange={filterAmenities} type="checkbox" id="toilets" name="toilets" value="Toilet"/>
+            <div className="search-amenities">
+                <div className="icon">
+                <label htmlFor="toilets"><img src={Toilet} style={{height: 50 + 'px', width: 50 + 'px'}} alt="Toilet icon"/></label>
+                <input onChange={filterAmenities} type="checkbox" id="toilets" name="toilets" value="Toilet"/>
+                </div>
 
-            <label htmlFor="cafe">Cafe</label>
-            <input onChange={filterAmenities} type="checkbox" id="cafe" name="cafe" value="Cafe"/>
+                <div className="icon">
+                <label htmlFor="cafe"><img src={Cafe} style={{height: 50 + 'px', width: 50 + 'px'}} alt="Cafe icon"/></label>
+                <input onChange={filterAmenities} type="checkbox" id="cafe" name="cafe" value="Cafe"/>
+                </div>
 
-            <label htmlFor="shop">Shop</label>
-            <input onChange={filterAmenities} type="checkbox" id="shop" name="shop" value="Shop"/>
+                <div className="icon">
+                <label htmlFor="shop"><img src={Store} style={{height: 50 + 'px', width: 50 + 'px'}} alt="Store icon"/></label>
+                <input onChange={filterAmenities} type="checkbox" id="shop" name="shop" value="Shop"/>
+                </div>
 
-            <label htmlFor="campsite">Campsite</label>
-            <input onChange={filterAmenities} type="checkbox" id="campsite" name="campsite" value="Campsite"/>
+                <div className="icon">
+                <label htmlFor="campsite"><img src={Campsite} style={{height: 50 + 'px', width: 50 + 'px'}} alt="Campsite icon"/></label>
+                <input onChange={filterAmenities} type="checkbox" id="campsite" name="campsite" value="Campsite"/>
+                </div>
 
-            <label htmlFor="steps">Steps</label>
-            <input onChange={filterAmenities} type="checkbox" id="steps" name="steps" value="Steps"/>
+                <div className="icon">
+                <label htmlFor="steps"><img src={Steps} style={{height: 50 + 'px', width: 50 + 'px'}} alt="Steps icon"/></label>
+                <input onChange={filterAmenities} type="checkbox" id="steps" name="steps" value="Steps"/>
+                </div>
 
-            <label htmlFor="wheelcahir">Wheelchair Access</label>
-            <input onChange={filterAmenities} type="checkbox" id="wheelcahir" name="wheelchair" value="Wheelchair"/>
+                <div className="icon">
+                <label htmlFor="wheelcahir"><img src={WheelChair} style={{height: 50 + 'px', width: 50 + 'px'}} alt="WheelChair icon"/></label>
+                <input onChange={filterAmenities} type="checkbox" id="wheelcahir" name="wheelchair" value="Wheelchair"/>
+                </div>
 
-            <label htmlFor="busStop">Bus Stop</label>
-            <input onChange={filterAmenities} type="checkbox" id="busStop" name="busStop" value="Bus Stop"/>
+                <div className="icon">
+                <label htmlFor="busStop"><img src={BusStop} style={{height: 50 + 'px', width: 50 + 'px'}} alt="Bus Stop icon"/></label>
+                <input onChange={filterAmenities} type="checkbox" id="busStop" name="busStop" value="Bus Stop"/>
+                </div>
+            </div>
 
             {/* <button onClick={() => {filterBeach(location)}}>Search</button> */}
             <div className="beach-scroll-card">
             {filterNodes}
             </div>
+        </div>
         </>
     );
 };
