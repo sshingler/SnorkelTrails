@@ -55,20 +55,28 @@ const BeachContainer = () => {
                     </div>
                 </div>
 
-                <div className="beach-weather-info">
-                    <div className="beach-weather">
-                        <BeachWeather beach = {beach}/>
-                        <BeachTide beach={beach}/>
+                <div className="conditions">
+                    <div className="beach-weather-info">
+                        <h2 style={{textAlign: 'center', textDecoration: 'underline', fontSize: '2em', marginBottom: '1em'}}>Weather</h2>
+                        <div className="beach-weather">
+                            <BeachWeather beach = {beach}/>
+                            
+                        </div>
                     </div>
 
-                    <div className="beach-tide">
-                        
+                    <div className="beach-tide-info">
+                        <h2 style={{textAlign: 'center', textDecoration: 'underline', fontSize: '2em', marginBottom: '1em'}}>Tides</h2>
+                        <div className="beach-tide">
+                            <BeachTide beach={beach}/>
+                        </div>
                     </div>
                 </div>
 
 
 
-
+                <div className="sea-life-title">
+                    <h1>Sea Life at this Location</h1>
+                </div>
                 <div className="beach-creatures">
                     {creatureNodes}
                 </div>
