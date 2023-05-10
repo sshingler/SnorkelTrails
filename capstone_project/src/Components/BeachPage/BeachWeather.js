@@ -31,11 +31,15 @@ const BeachWeather = ({ beach }) => {
             <div className="weather-display">
                 <div className="weather-border">
                     <div className="weather-front">
-                        <p className="weather-time">Date: {reversedDate}</p>
-                        <p className="weather-windspeed">Max windspeed: {weather.daily.windspeed_10m_max} Km/h</p>
-                        <p className="weather-precipitationsum">Total precipitation 24hr: {weather.daily.precipitation_sum}mm</p>
-                        <p className="weather-precipitation">Precipitation probability: {weather.daily.precipitation_probability_max}%</p>
-                        <p className="weather-temprature">Minimum temprature: {weather.daily.temperature_2m_min}{'\u2103'}</p>
+                        <p className="weather-time"><span style={{fontWeight:'bold'}}>Date:</span> {reversedDate}</p>
+                        <br/>
+                        <p className="weather-windspeed"><span style={{fontWeight:'bold'}}>Max windspeed:</span> {weather.daily.windspeed_10m_max} Km/h</p>
+                        <br/>
+                        <p className="weather-precipitationsum"><span style={{fontWeight:'bold'}}>Total precipitation 24hr:</span> {weather.daily.precipitation_sum}mm</p>
+                        <br/>
+                        <p className="weather-precipitation"><span style={{fontWeight:'bold'}}>Precipitation probability:</span> {weather.daily.precipitation_probability_max}%</p>
+                        <br/>
+                        <p className="weather-temprature"><span style={{fontWeight:'bold'}}>Minimum temprature:</span> {weather.daily.temperature_2m_min}{'\u2103'}</p>
                     </div>
 
                 </div>

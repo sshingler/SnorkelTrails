@@ -35,6 +35,7 @@
 }
 
 .beach-description {
+    text-align: center;
     border: 1px solid white;
     display: flex;
     justify-content: space-between;
@@ -60,8 +61,7 @@
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    margin-top: 1em;
+    margin: 1em;
     justify-content: space-between;
     gap: 1.5em;
     border-radius: 10px;
