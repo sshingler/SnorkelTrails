@@ -22,10 +22,9 @@ const BeachMarker = ({ beach }) => {
         <>
             <Marker position={[beachLong[0], beachLong[1]]} icon={customIcon}>
                 <Popup >
-                    {beach.name} <br />
-                    <ul>
-                        <li>
-                            <Link to='/BeachContainer' state={beach} > {beach.name} </Link>
+                    <ul style={{listStyle: 'none'}}>
+                        <li style={{textDecoration: 'underline'}}>
+                            <Link style={{color: 'black'}} to='/BeachContainer' state={beach} > {beach.name} </Link>
                         </li>
                     </ul>
                 </Popup>
