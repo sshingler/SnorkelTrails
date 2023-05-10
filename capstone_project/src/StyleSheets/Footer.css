@@ -8,5 +8,11 @@
   color: white;
   text-align: center;
   z-index: 100000;
+  display:flex;
+  justify-content: center;
+}
+
+.snorkeltrails {
+  width:250px;
 }
 

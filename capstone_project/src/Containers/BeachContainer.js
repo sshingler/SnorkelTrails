@@ -6,11 +6,14 @@ import BeachWeather from "../Components/BeachPage/BeachWeather";
 import BeachAmenities from "../Components/BeachPage/BeachAmenities";
 import BeachTide from "../Components/BeachPage/BeachTide";
 import logo from '../Images/logo.png';
+import BeachMap from "../Components/BeachPage/BeachMap";
 
 const BeachContainer = () => {
 
     const location = useLocation();
     const beach = location.state;
+
+    
 
 
     const creatureNodes = beach.creatureBeaches.map((creature) => {
@@ -28,14 +31,28 @@ const BeachContainer = () => {
 
             <div className="beach-container">
 
-              
-
-                <div className="beach-title">
-                    <h1>{beach.name}</h1>
+                <div className="header">
+                    <div className="beach-title">
+                        <h1>{beach.name}</h1>
+                    </div>
+                    <div className="title-amenities">
+                        <BeachAmenities beachAmenities={beach.amenities}/>
+                    </div>
                 </div>
 
                 <div className="beach-img">
-                    <img src={require("../Images/Beaches/" + beach.image)} alt="Image of a beach" />
+                    <div className="beach-map-img">
+                        <img className="map-img" src={require("../Images/Beaches/" + beach.image)} alt="Image of a beach" />
+                    </div>
+                    <div className="beach-map">
+                        <BeachMap beach = {beach}/>
+                    </div>
+                </div>
+
+                <div className="beach-description">
+                    <div className="description">
+                        {beach.description}
+                    </div>
                 </div>
 
                 <div className="beach-weather-info">
@@ -49,15 +66,7 @@ const BeachContainer = () => {
                     </div>
                 </div>
 
-                <div className="beach-description">
-                    <div className="amenities">
-                        <BeachAmenities beachAmenities={beach.amenities}/>
-                    </div>
 
-                    <div className="description">
-                        {beach.description}
-                    </div>
-                </div>
 
 
                 <div className="beach-creatures">

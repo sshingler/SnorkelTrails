@@ -6,22 +6,26 @@
 }
 
 .beach-img {
-    border: 1px solid white;
-    width: 75%;
+    height: 30em;
+    width: 70%;
     margin: auto;
     margin-top: 1em;
     border-radius: 10px;
+    display: flex;
+    gap: 1em;
 }
 
 .beach-weather {
-    border: 1px solid white;
-    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    width: 100%;
     font-size: 1.5em;
 }
 
 .beach-weather-info {
     border: 1px solid white;
-    width: 50%;
+    width: 35%;
     margin: auto;
     margin-top: 2em;
     background-color: #d0e0f0;
@@ -44,6 +48,7 @@
     align-items: center;
     background-color: #d0e0f0;
     height: auto;
+    padding: 15px;
 }
 
 .amenitiesicons{
@@ -57,7 +62,6 @@
     flex-wrap: wrap;
     margin: auto;
     margin-top: 1em;
-    border: 1px solid white;
     justify-content: space-between;
     gap: 1.5em;
     border-radius: 10px;
@@ -67,9 +71,54 @@
     width: 60%;
 }
 
-.beach-title {
+.header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    background-color: #d0e0f0b0;
+    padding: 0.5em;
+    margin-top: .5em;
+    border-radius: 20px;
+}
+
+.title-amenities {
     display: flex;
     justify-content: center;
-    color: black;
 }
+
+.beach-title {
+    color: black;
+    width: auto;
+    margin: auto;
+    padding: 0.5em;
+    justify-content: center;
+}
+
+.beach-map-img {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.beach-map {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 34px;
+}
+
+.map-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.amenitiesicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
 

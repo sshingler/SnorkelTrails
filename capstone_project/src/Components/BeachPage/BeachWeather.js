@@ -24,16 +24,18 @@ const BeachWeather = ({ beach }) => {
         return "Loading"
     }
 
+    let reversedDate = weather.daily.time[0].split('-').reverse().join("-")
+
     return (
         <>
             <div className="weather-display">
                 <div className="weather-border">
                     <div className="weather-front">
-                        <p className="weather-time">Date: {weather.daily.time}</p>
-                        <p className="weather-windspeed">Max windspeed: {weather.daily.windspeed_10m_max}</p>
-                        <p className="weather-precipitationsum">Total precipitation: {weather.daily.precipitation_sum}mm</p>
-                        <p className="weather-precipitation">Precipitation probability: {weather.daily.precipitation_probability_max}</p>
-                        <p className="weather-temprature">Minimum temprature: {weather.daily.temperature_2m_min}'C</p>
+                        <p className="weather-time">Date: {reversedDate}</p>
+                        <p className="weather-windspeed">Max windspeed: {weather.daily.windspeed_10m_max} Km/h</p>
+                        <p className="weather-precipitationsum">Total precipitation 24hr: {weather.daily.precipitation_sum}mm</p>
+                        <p className="weather-precipitation">Precipitation probability: {weather.daily.precipitation_probability_max}%</p>
+                        <p className="weather-temprature">Minimum temprature: {weather.daily.temperature_2m_min}{'\u2103'}</p>
                     </div>
 
                 </div>

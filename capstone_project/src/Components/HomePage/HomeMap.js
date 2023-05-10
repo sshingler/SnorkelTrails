@@ -1,6 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
-
+import ResetViewControl from '@20tab/react-leaflet-resetview';
 import '../../StyleSheets/HomePage/HomeMap.css'
 import 'leaflet/dist/leaflet.css'
 import { Icon } from "leaflet";
@@ -9,11 +9,6 @@ import MarkerClusterGroup from "react-leaflet-cluster";
 import BeachMarker from "./BeachMarker";
 
 const HomeMap = ({ beaches }) => {
-
-    const customIcon = new Icon({
-        iconUrl: require("../../Images/MapIcons/redIcon.png"),
-        iconSize: [38, 38]
-    })
 
     const beachNodes = beaches.map((beach) => {
         return <BeachMarker key={beach.id} beach = {beach}/>
@@ -30,6 +25,10 @@ const HomeMap = ({ beaches }) => {
                     <MarkerClusterGroup>
                         {beachNodes}
                     </MarkerClusterGroup>
+                    <ResetViewControl
+                        title="Reset view"
+                        icon = {'\&#7360'}
+                    />
                 </MapContainer>
             </div>
 
